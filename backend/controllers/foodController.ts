@@ -7,10 +7,16 @@ import Food from "../models/foodModel";
 // @access Publico
 const getFoods = asyncHandler(async (req: Request, res: Response) => {
     // Typecast
+
     let page: number = Number(req.params.pagina);
 
+    // Se não veio parâmetro, mostre a página um
+    if (!req.params.pagina) {
+        page = 1;
+    }
+
     // basicamente verifica se o parâmetro não é um número
-    if (req.params.pagina != page) {
+    if (req.params.pagina != page && page != 1) {
         throw new Error("Insira um número de página válido");
     }
 
