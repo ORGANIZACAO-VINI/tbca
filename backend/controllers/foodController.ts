@@ -46,7 +46,10 @@ const getFoods = asyncHandler(async (req: Request, res: Response) => {
 // @router GET /api/alimento/
 // @access Publico
 const getFood = asyncHandler(async (req: Request, res: Response) => {
-    const food = await Food.findOne({ codigo: req.params.codigo });
+    const food = await Food.findOne(
+        { codigo: req.params.codigo },
+        { addresses: { $slice: [0, 1] }, _id: false } // ou então tira, pois é irrelevante
+    );
     if (!food) {
         res.status(404);
         throw new Error("Alimento não encontrado");
