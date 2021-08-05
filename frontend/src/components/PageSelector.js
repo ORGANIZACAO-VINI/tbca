@@ -2,31 +2,33 @@ import React from "react";
 import { Pagination, Container, Row, Col } from "react-bootstrap";
 import PageItem from "react-bootstrap/PageItem";
 import { Link } from "react-router-bootstrap";
-const PageSelector = () => {
-    let active = 1;
+const PageSelector = (props) => {
+    let active = props.pagina;
     let items = [];
-
-    const kek = (number) => {
-        //console.log(key);
-        active = number;
-        //console.log(active);
-    };
-
-    for (let number = 1; number <= 15; number++) {
+    for (let number = 1; number <= 10; number++) {
         items.push(
-            <PageItem key={number} active={number === active}>
+            <PageItem key={number} active={number == active}>
                 {number}
             </PageItem>
         );
     }
 
     return (
-        <Container responsive>
+        /* <Container responsive>
             <Pagination>
                 {items}
                 <PageItem>
                     <span>></span>
                 </PageItem>
+            </Pagination>
+        </Container>*/
+        <Container responsive>
+            <Pagination>
+                <Pagination.First />
+                <Pagination.Prev />
+                {items}
+                <Pagination.Next />
+                <Pagination.Last />
             </Pagination>
         </Container>
     );

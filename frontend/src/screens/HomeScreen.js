@@ -6,18 +6,21 @@ import Food from "../components/Food";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import PageSelector from "../components/PageSelector";
+import { useQuery } from "../hooks/useQuery";
 
-const HomeScreen = () => {
+const HomeScreen = (props) => {
+    const query = useQuery();
+    const pagina = query.get("pagina") || 1;
     const [food, setFood] = useState([{}]);
 
     useEffect(() => {
         const getFood = async () => {
-            const { data } = await axios.get("/api/alimentos");
+            const { data } = await axios.get(`/api/alimentos?pagina=${pagina}`);
             setFood(data);
         };
         getFood();
     }, []);
-    console.log(food[0]);
+
     return (
         <>
             <Container>
@@ -56,8 +59,8 @@ const HomeScreen = () => {
                         <Loader />
                     )}
                 </Row>
+                <PageSelector pagina={pagina} />
             </Container>
-            <PageSelector />
         </>
     );
 };

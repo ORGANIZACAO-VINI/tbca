@@ -12,7 +12,7 @@ function App() {
             <>
                 <Header />
                 <main>
-                    <Route path="/" component={HomeScreen} exact />{" "}
+                    <Route path="/alimentos" component={HomeScreen} exact />{" "}
                     <Route path="/id/:codigo" component={FoodScreen} />
                 </main>
 
