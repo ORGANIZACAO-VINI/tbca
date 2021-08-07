@@ -49,4 +49,33 @@ const getFood = asyncHandler(async (req: Request, res: Response) => {
     res.json(food);
 });
 
-export { getFood, getFoods, getApi };
+const getFoodByNameSearch = asyncHandler(
+    async (req: Request, res: Response) => {
+        const kek = req.query;
+        // constroi a string com as queries usando um loop for e +=, depois manda a string toda pra dentro do `` no search
+        const food = await Food.find({
+            $text: {
+                $search: `"${Object.keys(req.query)[0]}","${
+                    Object.keys(req.query)[1]
+                }"`,
+            },
+            //$text: {                $search: `${Object.keys(req.query)[0].toString()},'kek'`,            },
+        });
+        const skip = food.map((obj: any) => {
+            let rObj = {};
+            rObj = {
+                codigo: obj.codigo,
+                nome: obj.nome,
+                nomeIngles: obj.nomeIngles,
+                nomeCientifico: obj.nomeCientifico,
+                grupo: obj.grupo,
+                marca: obj.marca,
+            };
+            return rObj;
+        });
+        res.json(food);
+        //res.json(Object.keys(req.query)[0]);
+    }
+);
+
+export { getFood, getFoods, getFoodByNameSearch, getApi };
