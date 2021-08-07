@@ -1,9 +1,10 @@
 import express from "express";
-import { getFoods, getFood } from "../controllers/foodController";
+import { getFoods, getFood, getApi } from "../controllers/foodController";
 const router = express.Router();
 
-router.route("/").get(getFoods);
-router.route("/:pagina").get(getFoods);
+router.route("/").get(getApi);
+
+router.route("/alimentos").get(getFoods);
 
 router.route("/id/:codigo").get(getFood);
 

@@ -4,6 +4,7 @@ main {
 
 h3 {
     padding: 1rem 0;
+    margin: 0;
 }
 
 h2 {
@@ -18,4 +19,15 @@ h1 {
 
 i {
     margin-right: 5px;
+}
+
+.form-group {
+    margin-top: 0;
+}
+.form-control {
+    border-radius: 50px;
+}
+
+.table {
+    margin-top: 1rem;
 }

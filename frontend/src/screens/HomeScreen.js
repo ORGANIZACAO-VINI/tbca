@@ -6,6 +6,7 @@ import Food from "../components/Food";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import PageSelector from "../components/PageSelector";
+import SearchBar from "../components/SearchBar";
 import { useQuery } from "../hooks/useQuery";
 
 const HomeScreen = (props) => {
@@ -24,7 +25,15 @@ const HomeScreen = (props) => {
     return (
         <>
             <Container>
-                <h1>Alimentos</h1>
+                <Row>
+                    <Col></Col>
+                    <Col>
+                        <h3>Tabela de Alimentos</h3>
+                    </Col>
+                    <Col></Col>
+                </Row>
+                <SearchBar></SearchBar>
+
                 <Row>
                     {food && food[0].codigo ? (
                         <Table striped bordered hover>

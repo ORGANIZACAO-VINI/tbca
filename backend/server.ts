@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Rotas
-app.use("/api/alimentos/", foodRoutes);
+app.use("/api/", foodRoutes);
 
 app.get("/", (req: Request, res: Response) => {
     res.send("API online!");

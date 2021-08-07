@@ -3,12 +3,12 @@ import { Pagination, Container, Row, Col } from "react-bootstrap";
 import PageItem from "react-bootstrap/PageItem";
 import { Link } from "react-router-bootstrap";
 const PageSelector = (props) => {
-    let active = props.pagina;
+    let active = parseInt(props.pagina);
     let items = [];
     for (let number = 1; number <= 10; number++) {
         items.push(
-            <PageItem key={number} active={number == active}>
-                {number}
+            <PageItem key={active} active={number == active}>
+                {number + active}
             </PageItem>
         );
     }
