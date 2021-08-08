@@ -1,16 +1,23 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
 
-const SearchBar = ({ pofilho, count }) => {
+const SearchBar = ({ getSearchTerms, searchTerms }) => {
     const [type, setType] = useState();
     const [search, setSearch] = useState();
 
     const submitHandler = (e) => {
         e.preventDefault();
-
         //console.log(search + " " + type);
-        pofilho(search);
+        getSearchTerms(search);
     };
+
+    const getSearch = async (terms) => {
+        setSearch(terms);
+    };
+
+    useEffect(() => {
+        getSearch();
+    }, []);
 
     return (
         <Form onSubmit={submitHandler}>
@@ -22,7 +29,7 @@ const SearchBar = ({ pofilho, count }) => {
                     value={search}
                     onChange={(e) => {
                         console.log(e.target.value);
-                        setSearch(e.target.value);
+                        getSearch(e.target.value);
                     }}
                 />
             </Form.Group>

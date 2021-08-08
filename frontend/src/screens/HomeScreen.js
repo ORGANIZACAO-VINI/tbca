@@ -12,8 +12,10 @@ const HomeScreen = () => {
     const query = useQuery();
     const pagina = query.get("pagina") || 1;
     const [food, setFood] = useState([{}]);
-    const [count, setCount] = useState("");
+    const [searchTerms, setSearchTerms] = useState();
 
+    // Preciso aprender Redux urgentemente,
+    // isso aqui NÃO TÁ LEGAL
     useEffect(() => {
         const getFood = async () => {
             const { data } = await axios.get(`/api/alimentos?pagina=${pagina}`);
@@ -22,12 +24,12 @@ const HomeScreen = () => {
         getFood();
     }, []); // talvez coloque o página aqui
 
-    const pofilho = async (terms) => {
-        setCount(terms);
-        console.log(count);
+    const getSearchTerms = async (terms) => {
+        setSearchTerms(terms);
+        console.log(terms);
     };
     useEffect(() => {
-        pofilho("");
+        getSearchTerms("");
     }, []);
 
     return (
@@ -40,7 +42,10 @@ const HomeScreen = () => {
                     </Col>
                     <Col></Col>
                 </Row>
-                <SearchBar pofilho={pofilho} count={count}></SearchBar>
+                <SearchBar
+                    getSearchTerms={getSearchTerms}
+                    searchTerms={searchTerms}
+                ></SearchBar>
 
                 <Row>
                     {food && food[0].codigo ? (
