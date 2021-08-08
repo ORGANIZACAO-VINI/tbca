@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Container, Row, Col, Table } from "react-bootstrap";
+import { Container, Row, Table } from "react-bootstrap";
 import Loader from "../components/Loader";
-import { Link } from "react-router-bootstrap";
+import { useQuery } from "../hooks/useQuery";
 
 const FoodScreen = ({ match }) => {
-    //console.log(match.params.codigo);
+    const query = useQuery();
     const [food, setFood] = useState([]);
+    console.log(match.params.codigo);
     food[0] = {};
 
     useEffect(() => {
         const getFood = async () => {
-            const { data } = await axios.get(
-                `/api/alimentos/id/${match.params.codigo}`
-            );
+            const { data } = await axios.get(`/api/id/${match.params.codigo}`);
             setFood(data);
         };
         getFood();

@@ -7,7 +7,7 @@ const PageSelector = (props) => {
     let items = [];
     for (let number = 1; number <= 10; number++) {
         items.push(
-            <PageItem key={active} active={number == active}>
+            <PageItem key={number} active={number == active}>
                 {number + active}
             </PageItem>
         );

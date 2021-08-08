@@ -2,17 +2,17 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Food from "../components/Food";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import PageSelector from "../components/PageSelector";
 import SearchBar from "../components/SearchBar";
 import { useQuery } from "../hooks/useQuery";
 
-const HomeScreen = (props) => {
+const HomeScreen = () => {
     const query = useQuery();
     const pagina = query.get("pagina") || 1;
     const [food, setFood] = useState([{}]);
+    const [count, setCount] = useState("");
 
     useEffect(() => {
         const getFood = async () => {
@@ -20,6 +20,14 @@ const HomeScreen = (props) => {
             setFood(data);
         };
         getFood();
+    }, []); // talvez coloque o página aqui
+
+    const pofilho = async (terms) => {
+        setCount(terms);
+        console.log(count);
+    };
+    useEffect(() => {
+        pofilho("");
     }, []);
 
     return (
@@ -32,7 +40,7 @@ const HomeScreen = (props) => {
                     </Col>
                     <Col></Col>
                 </Row>
-                <SearchBar></SearchBar>
+                <SearchBar pofilho={pofilho} count={count}></SearchBar>
 
                 <Row>
                     {food && food[0].codigo ? (

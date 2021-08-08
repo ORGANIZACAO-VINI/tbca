@@ -1,13 +1,15 @@
 import { React, useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
-const SearchBar = () => {
+const SearchBar = ({ pofilho, count }) => {
     const [type, setType] = useState();
     const [search, setSearch] = useState();
 
     const submitHandler = (e) => {
         e.preventDefault();
-        console.log(search + " " + type);
+
+        //console.log(search + " " + type);
+        pofilho(search);
     };
 
     return (
