@@ -18,8 +18,8 @@ const getFoods = asyncHandler(async (req: Request, res: Response) => {
         .collation({ locale: "pt", strength: 2 })
         .limit(100) // limita o número de objetos retornados na query
         .sort({ nome: 1 }) // ordena por ordem alfabética
-        .skip((pagina - 1) * 100); // mágica pros resultados virem paginados
-    const skip = food.map((obj: any) => {
+        .skip((pagina - 1) * 100); // mágica pros resultados virem paginados e 100 por página
+    const result = food.map((obj: any) => {
         let rObj = {};
         rObj = {
             codigo: obj.codigo,
@@ -31,7 +31,7 @@ const getFoods = asyncHandler(async (req: Request, res: Response) => {
         };
         return rObj;
     });
-    res.json(skip);
+    res.json(result);
 });
 
 // @desc Retorna os dados completos de um alimento específico
@@ -51,17 +51,27 @@ const getFood = asyncHandler(async (req: Request, res: Response) => {
 
 const getFoodByNameSearch = asyncHandler(
     async (req: Request, res: Response) => {
-        const kek = req.query;
-        // constroi a string com as queries usando um loop for e +=, depois manda a string toda pra dentro do `` no search
+        const query: any = req.query.q;
+
+        // constroi a string de query, depois manda a string toda pra dentro do `` no text search do mongodb
+        let mongoQuery: string = "";
+        if (Array.isArray(query)) {
+            for (let i = 0; i < query.length; i++) {
+                mongoQuery += `"${query[i]}"`;
+                if (i < query.length - 1) {
+                    mongoQuery += `,`;
+                }
+            }
+        } else {
+            mongoQuery = `"${query}"`;
+        }
+
         const food = await Food.find({
             $text: {
-                $search: `"${Object.keys(req.query)[0]}","${
-                    Object.keys(req.query)[1]
-                }"`,
+                $search: `${mongoQuery}`,
             },
-            //$text: {                $search: `${Object.keys(req.query)[0].toString()},'kek'`,            },
         });
-        const skip = food.map((obj: any) => {
+        const result = food.map((obj: any) => {
             let rObj = {};
             rObj = {
                 codigo: obj.codigo,
@@ -73,8 +83,7 @@ const getFoodByNameSearch = asyncHandler(
             };
             return rObj;
         });
-        res.json(food);
-        //res.json(Object.keys(req.query)[0]);
+        res.json(result);
     }
 );
 
