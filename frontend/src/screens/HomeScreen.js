@@ -10,23 +10,42 @@ import { useQuery } from "../hooks/useQuery";
 
 const HomeScreen = () => {
     const query = useQuery();
+    let hasSearchQuery = false;
+
+    // Pega as queries caso tenha
     const pagina = query.get("pagina") || 1;
+    const qs = query.getAll("q");
+
+    console.log(qs);
+
     const [food, setFood] = useState([{}]);
     const [searchTerms, setSearchTerms] = useState();
-
+    if (qs.length > 0) {
+        hasSearchQuery = true;
+        console.log(qs);
+    }
     // Preciso aprender Redux urgentemente,
     // isso aqui NÃO TÁ LEGAL
     useEffect(() => {
         const getFood = async () => {
-            const { data } = await axios.get(`/api/alimentos?pagina=${pagina}`);
-            setFood(data);
+            if (hasSearchQuery === false) {
+                const { data } = await axios.get(
+                    `/api/alimentos?pagina=${pagina}`
+                );
+                setFood(data);
+            }
+            if (hasSearchQuery === true) {
+                const { data } = await axios.get(
+                    `/api/alimentos/search?q=${qs[0]}`
+                );
+                setFood(data);
+            }
         };
         getFood();
-    }, []); // talvez coloque o página aqui
+    }, [pagina]); // talvez coloque o página aqui
 
     const getSearchTerms = async (terms) => {
         setSearchTerms(terms);
-        console.log(terms);
     };
     useEffect(() => {
         getSearchTerms("");

@@ -6,6 +6,7 @@ const SearchBar = ({ getSearchTerms, searchTerms }) => {
     const [search, setSearch] = useState();
 
     const submitHandler = (e) => {
+        console.log(`Search: ${search} Group: ${type}`);
         e.preventDefault();
         //console.log(search + " " + type);
         getSearchTerms(search);
@@ -28,7 +29,6 @@ const SearchBar = ({ getSearchTerms, searchTerms }) => {
                     placeholder="Batata, frango, arroz..."
                     value={search}
                     onChange={(e) => {
-                        console.log(e.target.value);
                         getSearch(e.target.value);
                     }}
                 />
@@ -40,7 +40,6 @@ const SearchBar = ({ getSearchTerms, searchTerms }) => {
                     as="select"
                     value={type}
                     onChange={(e) => {
-                        console.log(e.target.value);
                         setType(e.target.value);
                     }}
                 >

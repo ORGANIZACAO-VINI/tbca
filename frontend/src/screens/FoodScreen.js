@@ -7,8 +7,8 @@ import { useQuery } from "../hooks/useQuery";
 const FoodScreen = ({ match }) => {
     const query = useQuery();
     const [food, setFood] = useState([]);
-    console.log(match.params.codigo);
-    food[0] = {};
+
+    //food[0] = {};
 
     useEffect(() => {
         const getFood = async () => {
