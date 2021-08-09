@@ -10,42 +10,43 @@ import { useQuery } from "../hooks/useQuery";
 
 const HomeScreen = () => {
     const query = useQuery();
-    let hasSearchQuery = false;
-
     // Pega as queries caso tenha
-    const pagina = query.get("pagina") || 1;
-    const qs = query.getAll("q");
-
-    console.log(qs);
+    let pagina = query.get("pagina") || 1;
 
     const [food, setFood] = useState([{}]);
     const [searchTerms, setSearchTerms] = useState();
-    if (qs.length > 0) {
-        hasSearchQuery = true;
-        console.log(qs);
-    }
+
     // Preciso aprender Redux urgentemente,
     // isso aqui NÃO TÁ LEGAL
+    const setPagina = (pag) => {
+        pagina = pag;
+        console.log(pagina);
+        setSearchTerms("");
+        getFood(pag);
+    };
+
+    const getFood = async (pagina) => {
+        const { data } = await axios.get(`/api/alimentos?pagina=${pagina}`);
+        setFood(data);
+    };
+
     useEffect(() => {
         const getFood = async () => {
-            if (hasSearchQuery === false) {
-                const { data } = await axios.get(
-                    `/api/alimentos?pagina=${pagina}`
-                );
-                setFood(data);
-            }
-            if (hasSearchQuery === true) {
-                const { data } = await axios.get(
-                    `/api/alimentos/search?q=${qs[0]}`
-                );
-                setFood(data);
-            }
+            const { data } = await axios.get(`/api/alimentos?pagina=${pagina}`);
+            setFood(data);
         };
         getFood();
     }, [pagina]); // talvez coloque o página aqui
 
     const getSearchTerms = async (terms) => {
         setSearchTerms(terms);
+        console.log("Terms é" + terms);
+        if (terms) {
+            const { data } = await axios.get(
+                `/api/alimentos/search?q=${terms}`
+            );
+            setFood(data);
+        }
     };
     useEffect(() => {
         getSearchTerms("");
@@ -100,7 +101,11 @@ const HomeScreen = () => {
                         <Loader />
                     )}
                 </Row>
-                <PageSelector pagina={pagina} />
+                <PageSelector
+                    key={food}
+                    pagina={pagina}
+                    setPagina={setPagina}
+                />
             </Container>
         </>
     );

@@ -10,7 +10,7 @@ const getApi = asyncHandler(async (req: Request, res: Response) => {
 });
 
 const getFoods = asyncHandler(async (req: Request, res: Response) => {
-    let pagina: number = Number(req.query.pagina) || 1;
+    const pagina: number = Number(req.query.pagina) || 1;
 
     // Collation indica que a query atenderá a características específicas de uma linguagem. Nesse caso, a língua portuguesa.
     // Strenght : 2 significa que irá considerar acentos na hora de ordenar o resultado
@@ -52,6 +52,7 @@ const getFood = asyncHandler(async (req: Request, res: Response) => {
 const getFoodByNameSearch = asyncHandler(
     async (req: Request, res: Response) => {
         const query: any = req.query.q;
+        const pagina: number = Number(req.query.pagina) || 1;
 
         // constroi a string de query, depois manda a string toda pra dentro do `` no text search do mongodb
         let mongoQuery: string = "";
@@ -70,7 +71,9 @@ const getFoodByNameSearch = asyncHandler(
             $text: {
                 $search: `${mongoQuery}`,
             },
-        });
+        })
+            .limit(100)
+            .skip((pagina - 1) * 100);
         const result = food.map((obj: any) => {
             let rObj = {};
             rObj = {

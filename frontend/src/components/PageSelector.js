@@ -7,11 +7,19 @@ const PageSelector = (props) => {
     let items = [];
     for (let number = 1; number <= 10; number++) {
         items.push(
-            <PageItem key={number} active={number == active}>
-                {number + active}
+            <PageItem
+                key={number}
+                active={number == active}
+                onClick={() => {
+                    props.setPagina(number);
+                }}
+            >
+                {number}
             </PageItem>
         );
     }
+
+    const refresh = (number) => {};
 
     return (
         /* <Container responsive>
@@ -24,7 +32,11 @@ const PageSelector = (props) => {
         </Container>*/
         <Container responsive>
             <Pagination>
-                <Pagination.First />
+                <Pagination.First
+                    onClick={() => {
+                        props.setPagina(1);
+                    }}
+                />
                 <Pagination.Prev />
                 {items}
                 <Pagination.Next />
