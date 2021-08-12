@@ -2,13 +2,13 @@ import { Request, Response, Router } from "express";
 import asyncHandler from "express-async-handler";
 import Food from "../models/foodModel";
 
-// @desc Recebe os dados de um conjunto de alimentos, de 100 em 100
-// @route GET /api/alimentos/
-// @access Publico
 const getApi = asyncHandler(async (req: Request, res: Response) => {
     res.json("kek");
 });
 
+// @desc Recebe os dados de um conjunto de alimentos, de 100 em 100
+// @route GET /api/alimentos/
+// @access Publico
 const getFoods = asyncHandler(async (req: Request, res: Response) => {
     const pagina: number = Number(req.query.pagina) || 1;
 
@@ -67,6 +67,7 @@ const getFoodByNameSearch = asyncHandler(
             mongoQuery = `"${query}"`;
         }
 
+        // Busca os alimentos no banco de dados
         const food = await Food.find({
             $text: {
                 $search: `${mongoQuery}`,
@@ -74,6 +75,20 @@ const getFoodByNameSearch = asyncHandler(
         })
             .limit(100)
             .skip((pagina - 1) * 100);
+
+        // Query adicional só para buscar o total de alimentos, para fins de paginação
+        const count = await Food.find({
+            $text: {
+                $search: `${mongoQuery}`,
+            },
+        }).count();
+
+        // debug, remover
+        if (food.length === 0) {
+            res.json({ message: "kek" });
+        }
+
+        // Mapeia o resultado para um objeto json bonitão
         const result = food.map((obj: any) => {
             let rObj = {};
             rObj = {
@@ -86,7 +101,10 @@ const getFoodByNameSearch = asyncHandler(
             };
             return rObj;
         });
-        res.json(result);
+
+        // Adiciona a contagem total de resultados no final do array de objetos
+        result.push({ totalCount: count });
+        res.status(200).json(result);
     }
 );
 

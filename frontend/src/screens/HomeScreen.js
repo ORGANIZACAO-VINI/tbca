@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Container, Row, Col, Table } from "react-bootstrap";
+import { Container, Row, Col, Table, Alert } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
@@ -12,9 +12,20 @@ const HomeScreen = () => {
     const query = useQuery();
     // Pega as queries caso tenha
     let pagina = query.get("pagina") || 1;
+    let itemsCount = 0;
 
-    const [food, setFood] = useState([{}]);
+    const [alert, setAlert] = useState(false);
+    const [food, setFood] = useState([]);
     const [searchTerms, setSearchTerms] = useState();
+    const [count, setCount] = useState(0);
+
+    const getCount = (items) => {
+        setCount(items);
+    };
+
+    const getAlert = (bool) => {
+        setAlert(bool);
+    };
 
     // Preciso aprender Redux urgentemente,
     // isso aqui NÃO TÁ LEGAL
@@ -40,12 +51,25 @@ const HomeScreen = () => {
 
     const getSearchTerms = async (terms) => {
         setSearchTerms(terms);
-        console.log("Terms é" + terms);
+        let pesquisa = terms.split(" ");
+        let query = "";
+        for (let i = 0; i < pesquisa.length; i++) {
+            query += `&q=${pesquisa[i]}`;
+        }
+        console.log(query);
         if (terms) {
-            const { data } = await axios.get(
-                `/api/alimentos/search?q=${terms}`
-            );
-            setFood(data);
+            const { data } = await axios.get(`/api/alimentos/search?${query}`);
+
+            if (data.message) {
+                setFood([{}]);
+                getAlert(true);
+                console.log("kek 404");
+            } else {
+                await getCount(data[data.length - 1].totalCount);
+                console.log(count);
+                getAlert(false);
+                setFood(data);
+            }
         }
     };
     useEffect(() => {
@@ -66,9 +90,15 @@ const HomeScreen = () => {
                     getSearchTerms={getSearchTerms}
                     searchTerms={searchTerms}
                 ></SearchBar>
-
+                {alert ? (
+                    <Alert key={"aa"} variant={"warning"}>
+                        Nenhum alimento foi encontrado!
+                    </Alert>
+                ) : (
+                    <></>
+                )}
                 <Row>
-                    {food && food[0].codigo ? (
+                    {food.length > 0 ? (
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
@@ -99,13 +129,20 @@ const HomeScreen = () => {
                         </Table>
                     ) : (
                         <Loader />
-                    )}
+                    )}{" "}
+                    <Row>
+                        {food.length > 1 ? (
+                            <PageSelector
+                                key={food}
+                                pagina={pagina}
+                                setPagina={setPagina}
+                                count={count}
+                            />
+                        ) : (
+                            <></>
+                        )}
+                    </Row>
                 </Row>
-                <PageSelector
-                    key={food}
-                    pagina={pagina}
-                    setPagina={setPagina}
-                />
             </Container>
         </>
     );

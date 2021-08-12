@@ -16,7 +16,7 @@ const FoodScreen = ({ match }) => {
             setFood(data);
         };
         getFood();
-    }, []);
+    }, [food]);
 
     return (
         <>

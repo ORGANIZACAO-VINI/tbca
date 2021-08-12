@@ -3,6 +3,7 @@ import { Pagination, Container, Row, Col } from "react-bootstrap";
 import PageItem from "react-bootstrap/PageItem";
 import { Link } from "react-router-bootstrap";
 const PageSelector = (props) => {
+    //let count = props.itemsCount;
     let active = parseInt(props.pagina);
     let items = [];
     for (let number = 1; number <= 10; number++) {
@@ -17,6 +18,7 @@ const PageSelector = (props) => {
                 {number}
             </PageItem>
         );
+        console.log("eba" + props.count);
     }
 
     const refresh = (number) => {};
