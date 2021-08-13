@@ -6,6 +6,8 @@ const PageSelector = (props) => {
     //let count = props.itemsCount;
     let active = parseInt(props.pagina);
     let items = [];
+
+    console.log("Mult: " + props.count / 100);
     for (let number = 1; number <= 10; number++) {
         items.push(
             <PageItem
@@ -21,7 +23,9 @@ const PageSelector = (props) => {
         console.log("eba" + props.count);
     }
 
-    const refresh = (number) => {};
+    const howManyPages = (count) => {
+        let pages = count / 100;
+    };
 
     return (
         /* <Container responsive>
