@@ -1,12 +1,12 @@
 import express, { Request, Response, NextFunction } from "express";
-import connectDB from "./config/db";
+// import connectDB from "./config/db";
 import dotenv from "dotenv";
 import foodRoutes from "./routes/foodRoutes";
 import { notFound, errorHandler } from "./middlewares/errorMiddleware";
 
 const app = express();
 dotenv.config();
-connectDB();
+// connectDB();  // Comentando a conexão com o MongoDB
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -21,8 +21,9 @@ app.get("/", (req: Request, res: Response) => {
 app.use(errorHandler);
 app.use(notFound);
 
-app.listen(process.env.PORT, () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
     return console.log(
-        `server is listening in ${process.env.NODE_ENV} mode on port ${process.env.PORT}`
+        `server is listening in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`
     );
 });
