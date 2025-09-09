@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ alimento.nome if 'nome' in alimento else alimento.alimento if 'alimento' in alimento else 'Detalhes do Alimento' }} - TBCA Web</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">TBCA Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/buscar">Buscar Alimentos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Início</a></li>
+                <li class="breadcrumb-item"><a href="/buscar">Busca</a></li>
+                {% if 'categoria' in alimento %}
+                <li class="breadcrumb-item"><a href="/buscar?categoria={{ alimento.categoria }}">{{ alimento.categoria|replace('_', ' ')|title }}</a></li>
+                {% endif %}
+                <li class="breadcrumb-item active">{{ alimento.nome if 'nome' in alimento else alimento.alimento if 'alimento' in alimento else 'Detalhes do Alimento' }}</li>
+            </ol>
+        </nav>
+        
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">{{ alimento.nome if 'nome' in alimento else alimento.alimento if 'alimento' in alimento else 'Detalhes do Alimento' }}</h2>
+            </div>
+            <div class="card-body">
+                {% if 'descricao' in alimento and alimento.descricao %}
+                <p class="lead">{{ alimento.descricao }}</p>
+                {% endif %}
+                
+                {% if 'categoria' in alimento and alimento.categoria %}
+                <p><strong>Categoria:</strong> {{ alimento.categoria|replace('_', ' ')|title }}</p>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="mb-0">Informação Nutricional</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Nutriente</th>
+                                        <th>Valor</th>
+                                        <th>Unidade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for chave, valor in alimento.items() %}
+                                    {% if chave not in ['id', 'nome', 'alimento', 'descricao', 'categoria'] and valor is not none %}
+                                    <tr>
+                                        <td>{{ chave|replace('_', ' ')|title }}</td>
+                                        <td>{{ valor }}</td>
+                                        <td>
+                                            {% if 'energia' in chave.lower() %}
+                                                kcal
+                                            {% elif 'proteina' in chave.lower() or 'lipideo' in chave.lower() or 'carboidrato' in chave.lower() %}
+                                                g
+                                            {% elif 'fibra' in chave.lower() %}
+                                                g
+                                            {% elif 'colesterol' in chave.lower() %}
+                                                mg
+                                            {% elif 'vitamina' in chave.lower() %}
+                                                {% if 'a' in chave.lower() %}
+                                                    µg
+                                                {% elif 'c' in chave.lower() %}
+                                                    mg
+                                                {% elif 'd' in chave.lower() %}
+                                                    µg
+                                                {% else %}
+                                                    mg
+                                                {% endif %}
+                                            {% elif 'calcio' in chave.lower() or 'ferro' in chave.lower() or 'sodio' in chave.lower() %}
+                                                mg
+                                            {% else %}
+                                                g
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mb-4">
+            <a href="/buscar" class="btn btn-secondary">Voltar para a busca</a>
+        </div>
+    </div>
+
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p>TBCA Web - Plataforma de consulta da Tabela Brasileira de Composição de Alimentos</p>
+            <p><small>&copy; 2025 - Todos os direitos reservados</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

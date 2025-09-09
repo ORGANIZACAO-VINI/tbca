@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBCA - Tabela Brasileira de Composição de Alimentos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">TBCA Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/buscar">Buscar Alimentos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for categoria in categorias %}
+                            <li><a class="dropdown-item" href="/buscar?categoria={{ categoria }}">{{ categoria|replace('_', ' ')|title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="jumbotron bg-light p-5 rounded">
+            <h1 class="display-4">Tabela Brasileira de Composição de Alimentos</h1>
+            <p class="lead">Consulte informações nutricionais de diversos alimentos brasileiros.</p>
+            <hr class="my-4">
+            
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form action="/buscar" method="GET" class="d-flex flex-column gap-2">
+                        <div class="input-group">
+                            <input type="text" name="termo" class="form-control form-control-lg" 
+                                placeholder="Digite o nome do alimento..." required>
+                            <button class="btn btn-primary" type="submit">Buscar</button>
+                        </div>
+                        
+                        <div class="input-group mt-2">
+                            <label class="input-group-text" for="categoria">Categoria</label>
+                            <select class="form-select" id="categoria" name="categoria">
+                                <option value="">Todas as categorias</option>
+                                {% for categoria in categorias %}
+                                <option value="{{ categoria }}">{{ categoria|replace('_', ' ')|title }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Busca por Categoria</h5>
+                        <p class="card-text">Navegue pelos alimentos organizados por categoria.</p>
+                        <div class="list-group">
+                            {% for categoria in categorias %}
+                            <a href="/buscar?categoria={{ categoria }}" class="list-group-item list-group-item-action">
+                                {{ categoria|replace('_', ' ')|title }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sobre o TBCA</h5>
+                        <p class="card-text">A Tabela Brasileira de Composição de Alimentos (TBCA) é uma base de dados que 
+                        contém informações sobre a composição nutricional dos alimentos consumidos no Brasil.</p>
+                        <p>Esta plataforma web permite consultar facilmente os dados nutricionais de diversos alimentos,
+                        facilitando o acesso a informações importantes para nutricionistas, pesquisadores e o público em geral.</p>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">API Disponível</h5>
+                        <p class="card-text">Os dados também estão disponíveis através de uma API REST:</p>
+                        <pre><code>GET /api/alimentos?termo=arroz&categoria=cereais&limite=10</code></pre>
+                        <p>Parâmetros:</p>
+                        <ul>
+                            <li><strong>termo</strong>: Termo para busca (opcional)</li>
+                            <li><strong>categoria</strong>: Categoria de alimentos (opcional)</li>
+                            <li><strong>limite</strong>: Número máximo de resultados (padrão: 50)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p>TBCA Web - Plataforma de consulta da Tabela Brasileira de Composição de Alimentos</p>
+            <p><small>&copy; 2025 - Todos os direitos reservados</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

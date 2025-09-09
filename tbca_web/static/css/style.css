@@ -1,0 +1,100 @@
+/* Estilos personalizados para a aplicação TBCA Web */
+
+/* Personalização geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Personalização do navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Estilos para cards */
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+/* Estilo para tabelas */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para página de detalhes */
+.nutrient-table th {
+    width: 30%;
+}
+
+/* Animações */
+.card, .btn, .form-control {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Personalização de botões */
+.btn-primary {
+    background-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Estilos para resultados de busca */
+.search-result-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Destaque para termos de busca */
+.highlight-search {
+    position: relative;
+}
+
+.highlight-search mark {
+    background-color: #fff3cd;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* Estilos para progresso de relevância */
+.progress-bar {
+    background-color: #0d6efd;
+    transition: width 0.6s ease;
+}
+
+/* Estilos para filtros avançados */
+.accordion-button:not(.collapsed) {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+}
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #e7e7e7;
+}

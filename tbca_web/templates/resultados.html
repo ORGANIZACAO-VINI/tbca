@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Busca - TBCA Web</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">TBCA Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/buscar">Buscar Alimentos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            {% for categoria in categorias %}
+                            <li><a class="dropdown-item" href="/buscar?categoria={{ categoria }}">{{ categoria|replace('_', ' ')|title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Refinar Busca</h5>
+                        <form action="/buscar" method="GET">
+                            <div class="mb-3">
+                                <label for="termo" class="form-label">Termo de busca</label>
+                                <input type="text" class="form-control" id="termo" name="termo" value="{{ termo }}">
+                                <small class="text-muted">Digite um ou mais termos separados por espaço</small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="categoria" class="form-label">Categoria</label>
+                                <select class="form-select" id="categoria" name="categoria">
+                                    <option value="">Todas as categorias</option>
+                                    {% for cat in categorias %}
+                                    <option value="{{ cat }}" {% if request.args.get('categoria') == cat %}selected{% endif %}>
+                                        {{ cat|replace('_', ' ')|title }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            
+                            <!-- Filtros adicionais -->
+                            <div class="mb-3">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="exatamente" name="exatamente" value="1" 
+                                        {% if request.args.get('exatamente') == '1' %}checked{% endif %}>
+                                    <label class="form-check-label" for="exatamente">Busca exata</label>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion mb-3" id="filtrosAvancados">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                                                data-bs-target="#filtrosNutricionais">
+                                            Filtros Nutricionais
+                                        </button>
+                                    </h2>
+                                    <div id="filtrosNutricionais" class="accordion-collapse collapse" data-bs-parent="#filtrosAvancados">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="minEnergia" class="form-label">Energia mín. (kcal)</label>
+                                                    <input type="number" class="form-control" id="minEnergia" name="minEnergia" 
+                                                        value="{{ request.args.get('minEnergia', '') }}">
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="maxEnergia" class="form-label">Energia máx. (kcal)</label>
+                                                    <input type="number" class="form-control" id="maxEnergia" name="maxEnergia" 
+                                                        value="{{ request.args.get('maxEnergia', '') }}">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="minProteina" class="form-label">Proteína mín. (g)</label>
+                                                    <input type="number" class="form-control" id="minProteina" name="minProteina" step="0.1"
+                                                        value="{{ request.args.get('minProteina', '') }}">
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="maxProteina" class="form-label">Proteína máx. (g)</label>
+                                                    <input type="number" class="form-control" id="maxProteina" name="maxProteina" step="0.1"
+                                                        value="{{ request.args.get('maxProteina', '') }}">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="minCarboidrato" class="form-label">Carboidrato mín. (g)</label>
+                                                    <input type="number" class="form-control" id="minCarboidrato" name="minCarboidrato" step="0.1"
+                                                        value="{{ request.args.get('minCarboidrato', '') }}">
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="maxCarboidrato" class="form-label">Carboidrato máx. (g)</label>
+                                                    <input type="number" class="form-control" id="maxCarboidrato" name="maxCarboidrato" step="0.1"
+                                                        value="{{ request.args.get('maxCarboidrato', '') }}">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="minLipideos" class="form-label">Lipídeos mín. (g)</label>
+                                                    <input type="number" class="form-control" id="minLipideos" name="minLipideos" step="0.1"
+                                                        value="{{ request.args.get('minLipideos', '') }}">
+                                                </div>
+                                                <div class="col-md-6 mb-2">
+                                                    <label for="maxLipideos" class="form-label">Lipídeos máx. (g)</label>
+                                                    <input type="number" class="form-control" id="maxLipideos" name="maxLipideos" step="0.1"
+                                                        value="{{ request.args.get('maxLipideos', '') }}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="ordenar" class="form-label">Ordenar por</label>
+                                <select class="form-select" id="ordenar" name="ordenar">
+                                    <option value="relevancia" {% if request.args.get('ordenar') == 'relevancia' %}selected{% endif %}>Relevância</option>
+                                    <option value="alimento" {% if request.args.get('ordenar') == 'alimento' %}selected{% endif %}>Nome (A-Z)</option>
+                                    <option value="-alimento" {% if request.args.get('ordenar') == '-alimento' %}selected{% endif %}>Nome (Z-A)</option>
+                                    <option value="energia" {% if request.args.get('ordenar') == 'energia' %}selected{% endif %}>Energia (crescente)</option>
+                                    <option value="-energia" {% if request.args.get('ordenar') == '-energia' %}selected{% endif %}>Energia (decrescente)</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Buscar</button>
+                            <a href="/buscar" class="btn btn-outline-secondary">Limpar filtros</a>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Categorias</h5>
+                        <div class="list-group">
+                            <a href="/buscar" class="list-group-item list-group-item-action">Todas</a>
+                            {% for cat in categorias %}
+                            <a href="/buscar?categoria={{ cat }}" class="list-group-item list-group-item-action 
+                                {% if request.args.get('categoria') == cat %}active{% endif %}">
+                                {{ cat|replace('_', ' ')|title }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <h2>Resultados da Busca</h2>
+                {% if termo %}
+                <p>Resultados para: <strong>{{ termo }}</strong></p>
+                {% endif %}
+                
+                {% if resultados|length > 0 %}
+                <div class="alert alert-info">
+                    {{ resultados|length }} resultado(s) encontrado(s)
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                {% for key in resultados[0].keys() %}
+                                {% if key in ['alimento', 'nome', 'descricao', 'categoria', 'energia', 'proteina', 'lipideos', 'carboidratos'] %}
+                                <th>{{ key|title }}</th>
+                                {% endif %}
+                                {% endfor %}
+                                <th>Relevância</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for alimento in resultados %}
+                            <tr>
+                                {% for key, value in alimento.items() %}
+                                {% if key in ['alimento', 'nome', 'descricao', 'categoria', 'energia', 'proteina', 'lipideos', 'carboidratos'] %}
+                                <td>
+                                    {% if key == 'alimento' or key == 'nome' or key == 'descricao' %}
+                                    <span class="highlight-search">{{ value }}</span>
+                                    {% else %}
+                                    {{ value }}
+                                    {% endif %}
+                                </td>
+                                {% endif %}
+                                {% endfor %}
+                                <td>
+                                    {% if 'relevancia' in alimento %}
+                                    <div class="progress" style="height: 15px;">
+                                        <div class="progress-bar" role="progressbar" 
+                                             style="width: {{ (alimento.relevancia / 20) * 100 }}%;" 
+                                             aria-valuenow="{{ alimento.relevancia }}" aria-valuemin="0" aria-valuemax="20">
+                                            {{ alimento.relevancia }}
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <a href="/alimento/{{ alimento.id if 'id' in alimento else loop.index0 }}" class="btn btn-sm btn-primary">Detalhes</a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-warning">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                    Nenhum resultado encontrado para a busca.
+                    <ul class="mt-2">
+                        <li>Verifique se há erros de digitação</li>
+                        <li>Tente usar termos mais gerais</li>
+                        <li>Tente remover filtros de busca</li>
+                        <li>Tente buscar em todas as categorias</li>
+                    </ul>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sugestões de busca</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Frutas populares</h6>
+                                <ul>
+                                    <li><a href="/buscar?termo=maçã">Maçã</a></li>
+                                    <li><a href="/buscar?termo=banana">Banana</a></li>
+                                    <li><a href="/buscar?termo=laranja">Laranja</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Carnes</h6>
+                                <ul>
+                                    <li><a href="/buscar?termo=frango">Frango</a></li>
+                                    <li><a href="/buscar?termo=bovina">Carne Bovina</a></li>
+                                    <li><a href="/buscar?termo=peixe">Peixe</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Cereais</h6>
+                                <ul>
+                                    <li><a href="/buscar?termo=arroz">Arroz</a></li>
+                                    <li><a href="/buscar?termo=trigo">Trigo</a></li>
+                                    <li><a href="/buscar?termo=aveia">Aveia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p>TBCA Web - Plataforma de consulta da Tabela Brasileira de Composição de Alimentos</p>
+            <p><small>&copy; 2025 - Todos os direitos reservados</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
