@@ -5,7 +5,7 @@ Prezado Desenvolvedor,
 Estou enviando o projeto Nutri-App para implementação. Este sistema gerencia dados nutricionais integrando uma base extensa com frontend e backend estruturados.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*📌 VISÃO GERAL DO PROJETO*
+*📌 VISÃO GERAL DO PROJETO**
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 O Nutri-App é uma aplicação web para consulta de informações nutricionais baseada na Tabela Brasileira de Composição de Alimentos (TBCA). Principais recursos:
