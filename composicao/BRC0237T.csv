@@ -1,0 +1,80 @@
+componente,unidade,Valor por 100g,Colher sopa cheia (20 g),Concha cheia (130 g),codigo_alimento,nome_alimento
+Energia,kJ,643,128,835,BRC0237T,Nome não encontrado
+Energia,kJ,141,28,183,BRC0237T,Nome não encontrado
+Energia,kcal,34,6,43,BRC0237T,Nome não encontrado
+Energia,kcal,155,30,200,BRC0237T,Nome não encontrado
+Umidade,g,"85,2","17,0",110,BRC0237T,Nome não encontrado
+Umidade,g,"72,2","14,4","93,9",BRC0237T,Nome não encontrado
+Carboidrato total,g,"8,37","1,67","10,9",BRC0237T,Nome não encontrado
+Carboidrato total,g,"10,6","2,12","13,8",BRC0237T,Nome não encontrado
+Carboidrato disponível,g,"6,23","1,25","8,09",BRC0237T,Nome não encontrado
+Carboidrato disponível,g,"6,91","1,38","8,98",BRC0237T,Nome não encontrado
+Proteína,g,"8,12","1,62","10,6",BRC0237T,Nome não encontrado
+Proteína,g,"2,62","0,52","3,41",BRC0237T,Nome não encontrado
+Lipídios,g,"10,3","2,06","13,4",BRC0237T,Nome não encontrado
+Lipídios,g,"1,08","0,22","1,41",BRC0237T,Nome não encontrado
+Fibra alimentar,g,"2,14","0,43","2,78",BRC0237T,Nome não encontrado
+Fibra alimentar,g,"3,71","0,74","4,82",BRC0237T,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Cinzas,g,"0,46","0,09","0,59",BRC0237T,Nome não encontrado
+Cinzas,g,"0,99","0,20","1,28",BRC0237T,Nome não encontrado
+Colesterol,mg,"0,58","0,12","0,75",BRC0237T,Nome não encontrado
+Colesterol,mg,"19,9","3,98","25,9",BRC0237T,Nome não encontrado
+Ácidos graxos saturados,g,"2,96","0,59","3,84",BRC0237T,Nome não encontrado
+Ácidos graxos saturados,g,"0,19","0,04","0,25",BRC0237T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,78","0,96","6,21",BRC0237T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,24","0,05","0,31",BRC0237T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,22","0,24","1,59",BRC0237T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,60","0,12","0,77",BRC0237T,Nome não encontrado
+Ácidos graxos trans,g,"0,08","0,02","0,10",BRC0237T,Nome não encontrado
+Ácidos graxos trans,g,"0,01","0,00","0,01",BRC0237T,Nome não encontrado
+Cálcio,mg,"12,8","2,56","16,6",BRC0237T,Nome não encontrado
+Cálcio,mg,"18,5","3,69","24,0",BRC0237T,Nome não encontrado
+Ferro,mg,"0,94","0,19","1,22",BRC0237T,Nome não encontrado
+Ferro,mg,"0,62","0,12","0,81",BRC0237T,Nome não encontrado
+Sódio,mg,"2,07","0,41","2,69",BRC0237T,Nome não encontrado
+Sódio,mg,195,"39,2",254,BRC0237T,Nome não encontrado
+Magnésio,mg,"18,5","3,69","24,0",BRC0237T,Nome não encontrado
+Magnésio,mg,"15,3","3,07","19,9",BRC0237T,Nome não encontrado
+Fósforo,mg,"87,3","17,5",113,BRC0237T,Nome não encontrado
+Fósforo,mg,"45,7","9,13","59,4",BRC0237T,Nome não encontrado
+Potássio,mg,243,"48,8",317,BRC0237T,Nome não encontrado
+Potássio,mg,158,"31,6",205,BRC0237T,Nome não encontrado
+Manganês,mg,"0,27","0,05","0,35",BRC0237T,Nome não encontrado
+Manganês,mg,"0,19","0,04","0,25",BRC0237T,Nome não encontrado
+Zinco,mg,"1,36","0,27","1,77",BRC0237T,Nome não encontrado
+Zinco,mg,"0,79","0,16","1,03",BRC0237T,Nome não encontrado
+Cobre,mg,"0,13","0,03","0,17",BRC0237T,Nome não encontrado
+Cobre,mg,"0,22","0,04","0,29",BRC0237T,Nome não encontrado
+Selênio,mcg,"3,28","0,66","4,27",BRC0237T,Nome não encontrado
+Selênio,mcg,"1,21","0,24","1,57",BRC0237T,Nome não encontrado
+Vitamina A (RE),mcg,"28,2","5,63","36,6",BRC0237T,Nome não encontrado
+Vitamina A (RE),mcg,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Vitamina A (RAE),mcg,"14,2","2,84","18,5",BRC0237T,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Vitamina D,mcg,"0,02","0,00","0,02",BRC0237T,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,41","0,08","0,54",BRC0237T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,21","0,04","0,27",BRC0237T,Nome não encontrado
+Tiamina,mg,"0,13","0,03","0,17",BRC0237T,Nome não encontrado
+Tiamina,mg,"0,04","0,01","0,05",BRC0237T,Nome não encontrado
+Riboflavina,mg,"0,01","0,00","0,02",BRC0237T,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,BRC0237T,Nome não encontrado
+Niacina,mg,"1,27","0,25","1,65",BRC0237T,Nome não encontrado
+Niacina,mg,"0,15","0,03","0,19",BRC0237T,Nome não encontrado
+Vitamina B6,mg,"0,16","0,03","0,20",BRC0237T,Nome não encontrado
+Vitamina B6,mg,"0,04","0,01","0,05",BRC0237T,Nome não encontrado
+Vitamina B12,mcg,"0,01","0,00","0,01",BRC0237T,Nome não encontrado
+Vitamina B12,mcg,"0,67","0,13","0,87",BRC0237T,Nome não encontrado
+Vitamina C,mg,"2,41","0,48","3,13",BRC0237T,Nome não encontrado
+Vitamina C,mg,"5,95","1,19","7,73",BRC0237T,Nome não encontrado
+Equivalente de folato,mcg,"44,8","8,96","58,3",BRC0237T,Nome não encontrado
+Equivalente de folato,mcg,"29,3","5,87","38,1",BRC0237T,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00",BRC0237T,Nome não encontrado
+Gordura de adição,g,-,-,-,BRC0237T,Nome não encontrado
+Proteína vegetal,g,-,-,-,BRC0237T,Nome não encontrado
+Proteína animal,g,-,-,-,BRC0237T,Nome não encontrado

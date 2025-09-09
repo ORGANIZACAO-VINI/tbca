@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Porção Média (190 g),codigo_alimento,nome_alimento
+Energia,kJ,872,1656,BRC0411A,Nome não encontrado
+Energia,kcal,208,395,BRC0411A,Nome não encontrado
+Umidade,g,"57,7",109,BRC0411A,Nome não encontrado
+Carboidrato total,g,"17,6","33,4",BRC0411A,Nome não encontrado
+Carboidrato disponível,g,"16,6","31,6",BRC0411A,Nome não encontrado
+Proteína,g,"13,0","24,7",BRC0411A,Nome não encontrado
+Lipídios,g,"9,74","18,5",BRC0411A,Nome não encontrado
+Fibra alimentar,g,"0,95","1,81",BRC0411A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0411A,Nome não encontrado
+Cinzas,g,"1,99","3,79",BRC0411A,Nome não encontrado
+Colesterol,mg,153,292,BRC0411A,Nome não encontrado
+Ácidos graxos saturados,g,"3,57","6,79",BRC0411A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,76","5,25",BRC0411A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,58","3,01",BRC0411A,Nome não encontrado
+Ácidos graxos trans,g,"0,20","0,38",BRC0411A,Nome não encontrado
+Cálcio,mg,151,288,BRC0411A,Nome não encontrado
+Ferro,mg,"1,92","3,65",BRC0411A,Nome não encontrado
+Sódio,mg,469,892,BRC0411A,Nome não encontrado
+Magnésio,mg,"18,9","35,8",BRC0411A,Nome não encontrado
+Fósforo,mg,253,481,BRC0411A,Nome não encontrado
+Potássio,mg,182,345,BRC0411A,Nome não encontrado
+Manganês,mg,"0,17","0,31",BRC0411A,Nome não encontrado
+Zinco,mg,"1,43","2,72",BRC0411A,Nome não encontrado
+Cobre,mg,"0,07","0,14",BRC0411A,Nome não encontrado
+Selênio,mcg,"16,4","31,1",BRC0411A,Nome não encontrado
+Vitamina A (RE),mcg,"73,5",139,BRC0411A,Nome não encontrado
+Vitamina A (RAE),mcg,"57,6",109,BRC0411A,Nome não encontrado
+Vitamina D,mcg,"0,83","1,57",BRC0411A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,59","1,11",BRC0411A,Nome não encontrado
+Tiamina,mg,"0,22","0,42",BRC0411A,Nome não encontrado
+Riboflavina,mg,"0,31","0,59",BRC0411A,Nome não encontrado
+Niacina,mg,"1,35","2,56",BRC0411A,Nome não encontrado
+Vitamina B6,mg,"0,17","0,32",BRC0411A,Nome não encontrado
+Vitamina B12,mcg,"0,78","1,48",BRC0411A,Nome não encontrado
+Vitamina C,mg,"2,50","4,74",BRC0411A,Nome não encontrado
+Equivalente de folato,mcg,"60,1",114,BRC0411A,Nome não encontrado
+Sal de adição,g,,,BRC0411A,Nome não encontrado
+Açúcar de adição,g,,,BRC0411A,Nome não encontrado
+Gordura de adição,g,-,-,BRC0411A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0411A,Nome não encontrado
+Proteína animal,g,-,-,BRC0411A,Nome não encontrado

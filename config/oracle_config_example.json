@@ -1,0 +1,23 @@
+{
+    "ORACLE_HOST": "localhost",
+    "ORACLE_PORT": "1521",
+    "ORACLE_SERVICE": "XEPDB1",
+    "ORACLE_USER": "nutri_user",
+    "ORACLE_PASSWORD": "sua_senha_aqui",
+    "ORACLE_TABLESPACE": "USERS",
+    "ORACLE_TEMP_TABLESPACE": "TEMP",
+    "CONNECTION_POOL": {
+        "min_connections": 2,
+        "max_connections": 10,
+        "increment": 1
+    },
+    "PERFORMANCE": {
+        "default_iterations": 5,
+        "max_concurrency": 20
+    },
+    "LOGGING": {
+        "level": "INFO",
+        "enable_performance_logs": true,
+        "enable_detailed_errors": true
+    }
+}

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (280 unidade),codigo_alimento,nome_alimento
+Energia,kJ,1500,4200,BRC0319A,Nome não encontrado
+Energia,kcal,359,1006,BRC0319A,Nome não encontrado
+Umidade,g,"33,5","93,7",BRC0319A,Nome não encontrado
+Carboidrato total,g,"36,8",102,BRC0319A,Nome não encontrado
+Carboidrato disponível,g,"34,9","97,6",BRC0319A,Nome não encontrado
+Proteína,g,"6,81","19,1",BRC0319A,Nome não encontrado
+Lipídios,g,"21,0","58,8",BRC0319A,Nome não encontrado
+Fibra alimentar,g,"1,91","5,35",BRC0319A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0319A,Nome não encontrado
+Cinzas,g,"1,97","5,51",BRC0319A,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0319A,Nome não encontrado
+Ácidos graxos saturados,g,"4,59","12,8",BRC0319A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"5,58","15,6",BRC0319A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"6,63","18,6",BRC0319A,Nome não encontrado
+Ácidos graxos trans,g,"2,99","8,36",BRC0319A,Nome não encontrado
+Cálcio,mg,"73,0",204,BRC0319A,Nome não encontrado
+Ferro,mg,"2,47","6,91",BRC0319A,Nome não encontrado
+Sódio,mg,869,2435,BRC0319A,Nome não encontrado
+Magnésio,mg,"38,1",106,BRC0319A,Nome não encontrado
+Fósforo,mg,104,293,BRC0319A,Nome não encontrado
+Potássio,mg,183,513,BRC0319A,Nome não encontrado
+Manganês,mg,"1,01","2,83",BRC0319A,Nome não encontrado
+Zinco,mg,"0,99","2,78",BRC0319A,Nome não encontrado
+Cobre,mg,"0,09","0,25",BRC0319A,Nome não encontrado
+Selênio,mcg,"3,93","11,0",BRC0319A,Nome não encontrado
+Vitamina A (RE),mcg,"70,4",197,BRC0319A,Nome não encontrado
+Vitamina A (RAE),mcg,"70,4",197,BRC0319A,Nome não encontrado
+Vitamina D,mcg,,,BRC0319A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,65","4,61",BRC0319A,Nome não encontrado
+Tiamina,mg,"0,06","0,15",BRC0319A,Nome não encontrado
+Riboflavina,mg,"0,03","0,08",BRC0319A,Nome não encontrado
+Niacina,mg,traços,traços,BRC0319A,Nome não encontrado
+Vitamina B6,mg,"0,11","0,29",BRC0319A,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0319A,Nome não encontrado
+Vitamina C,mg,traços,traços,BRC0319A,Nome não encontrado
+Equivalente de folato,mcg,"95,1",266,BRC0319A,Nome não encontrado
+Sal de adição,g,,,BRC0319A,Nome não encontrado
+Açúcar de adição,g,,,BRC0319A,Nome não encontrado
+Gordura de adição,g,-,-,BRC0319A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0319A,Nome não encontrado
+Proteína animal,g,-,-,BRC0319A,Nome não encontrado

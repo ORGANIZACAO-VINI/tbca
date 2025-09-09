@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,1292,BRC1204A,Nome não encontrado
+Energia,kcal,305,BRC1204A,Nome não encontrado
+Umidade,g,"25,8",BRC1204A,Nome não encontrado
+Carboidrato total,g,"60,7",BRC1204A,Nome não encontrado
+Carboidrato disponível,g,"59,0",BRC1204A,Nome não encontrado
+Proteína,g,"8,59",BRC1204A,Nome não encontrado
+Lipídios,g,"3,50",BRC1204A,Nome não encontrado
+Fibra alimentar,g,"1,74",BRC1204A,Nome não encontrado
+Álcool,g,"0,00",BRC1204A,Nome não encontrado
+Cinzas,g,"1,62",BRC1204A,Nome não encontrado
+Colesterol,mg,"6,69",BRC1204A,Nome não encontrado
+Ácidos graxos saturados,g,"0,90",BRC1204A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,70",BRC1204A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,97",BRC1204A,Nome não encontrado
+Ácidos graxos trans,g,"0,17",BRC1204A,Nome não encontrado
+Cálcio,mg,"74,5",BRC1204A,Nome não encontrado
+Ferro,mg,"2,91",BRC1204A,Nome não encontrado
+Sódio,mg,494,BRC1204A,Nome não encontrado
+Magnésio,mg,"22,0",BRC1204A,Nome não encontrado
+Fósforo,mg,113,BRC1204A,Nome não encontrado
+Potássio,mg,186,BRC1204A,Nome não encontrado
+Manganês,mg,"0,33",BRC1204A,Nome não encontrado
+Zinco,mg,"0,72",BRC1204A,Nome não encontrado
+Cobre,mg,"0,10",BRC1204A,Nome não encontrado
+Selênio,mcg,"4,87",BRC1204A,Nome não encontrado
+Vitamina A (RE),mcg,"14,4",BRC1204A,Nome não encontrado
+Vitamina A (RAE),mcg,"14,1",BRC1204A,Nome não encontrado
+Vitamina D,mcg,"0,06",BRC1204A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,18",BRC1204A,Nome não encontrado
+Tiamina,mg,"0,29",BRC1204A,Nome não encontrado
+Riboflavina,mg,"0,56",BRC1204A,Nome não encontrado
+Niacina,mg,"1,64",BRC1204A,Nome não encontrado
+Vitamina B6,mg,"0,42",BRC1204A,Nome não encontrado
+Vitamina B12,mcg,"0,11",BRC1204A,Nome não encontrado
+Vitamina C,mg,"0,00",BRC1204A,Nome não encontrado
+Equivalente de folato,mcg,103,BRC1204A,Nome não encontrado
+Sal de adição,g,,BRC1204A,Nome não encontrado
+Açúcar de adição,g,,BRC1204A,Nome não encontrado
+Gordura de adição,g,-,BRC1204A,Nome não encontrado
+Proteína vegetal,g,-,BRC1204A,Nome não encontrado
+Proteína animal,g,-,BRC1204A,Nome não encontrado

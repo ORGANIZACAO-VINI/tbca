@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (60 g),codigo_alimento,nome_alimento
+Energia,kJ,809,485,BRC0005M,Nome não encontrado
+Energia,kcal,192,115,BRC0005M,Nome não encontrado
+Umidade,g,"57,3","34,4",BRC0005M,Nome não encontrado
+Carboidrato total,g,"33,4","20,0",BRC0005M,Nome não encontrado
+Carboidrato disponível,g,"33,4","20,0",BRC0005M,Nome não encontrado
+Proteína,g,"3,58","2,15",BRC0005M,Nome não encontrado
+Lipídios,g,"4,89","2,93",BRC0005M,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00",BRC0005M,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0005M,Nome não encontrado
+Cinzas,g,"0,90","0,54",BRC0005M,Nome não encontrado
+Colesterol,mg,"16,0","9,60",BRC0005M,Nome não encontrado
+Ácidos graxos saturados,g,"2,47","1,48",BRC0005M,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,21","0,73",BRC0005M,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,23","0,14",BRC0005M,Nome não encontrado
+Ácidos graxos trans,g,"0,27","0,16",BRC0005M,Nome não encontrado
+Cálcio,mg,127,"76,2",BRC0005M,Nome não encontrado
+Ferro,mg,"0,08","0,05",BRC0005M,Nome não encontrado
+Sódio,mg,"80,0","48,0",BRC0005M,Nome não encontrado
+Magnésio,mg,"12,0","7,20",BRC0005M,Nome não encontrado
+Fósforo,mg,112,"67,2",BRC0005M,Nome não encontrado
+Potássio,mg,186,111,BRC0005M,Nome não encontrado
+Manganês,mg,"0,01","0,01",BRC0005M,Nome não encontrado
+Zinco,mg,"0,45","0,27",BRC0005M,Nome não encontrado
+Cobre,mg,"0,02","0,01",BRC0005M,Nome não encontrado
+Selênio,mcg,,,BRC0005M,Nome não encontrado
+Vitamina A (RE),mcg,,,BRC0005M,Nome não encontrado
+Vitamina A (RAE),mcg,"92,0","55,2",BRC0005M,Nome não encontrado
+Vitamina D,mcg,,,BRC0005M,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,01","0,01",BRC0005M,Nome não encontrado
+Tiamina,mg,"0,04","0,02",BRC0005M,Nome não encontrado
+Riboflavina,mg,"0,22","0,13",BRC0005M,Nome não encontrado
+Niacina,mg,"0,11","0,07",BRC0005M,Nome não encontrado
+Vitamina B6,mg,"0,05","0,03",BRC0005M,Nome não encontrado
+Vitamina B12,mcg,"0,51","0,31",BRC0005M,Nome não encontrado
+Vitamina C,mg,,,BRC0005M,Nome não encontrado
+Equivalente de folato,mcg,,,BRC0005M,Nome não encontrado
+Sal de adição,g,,,BRC0005M,Nome não encontrado
+Açúcar de adição,g,,,BRC0005M,Nome não encontrado
+Gordura de adição,g,,,BRC0005M,Nome não encontrado
+Proteína vegetal,g,"0,00","0,00",BRC0005M,Nome não encontrado
+Proteína animal,g,"3,58","2,15",BRC0005M,Nome não encontrado

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Copo americano duplo (240 mL),Copo americano pequeno (165 mL),codigo_alimento,nome_alimento
+Energia,kJ,129,309,212,BRC0212C,Nome não encontrado
+Energia,kcal,30,72,50,BRC0212C,Nome não encontrado
+Umidade,g,"92,0",220,151,BRC0212C,Nome não encontrado
+Carboidrato total,g,"7,47","17,9","12,3",BRC0212C,Nome não encontrado
+Carboidrato disponível,g,"6,92","16,6","11,4",BRC0212C,Nome não encontrado
+Proteína,g,"0,25","0,61","0,42",BRC0212C,Nome não encontrado
+Lipídios,g,"0,07","0,16","0,11",BRC0212C,Nome não encontrado
+Fibra alimentar,g,"0,54","1,31","0,90",BRC0212C,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Cinzas,g,"0,19","0,47","0,32",BRC0212C,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Ácidos graxos saturados,g,,,,BRC0212C,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Ácidos graxos trans,g,,,,BRC0212C,Nome não encontrado
+Cálcio,mg,"5,96","14,3","9,83",BRC0212C,Nome não encontrado
+Ferro,mg,"0,24","0,57","0,39",BRC0212C,Nome não encontrado
+Sódio,mg,"3,40","8,16","5,61",BRC0212C,Nome não encontrado
+Magnésio,mg,"4,23","10,1","6,97",BRC0212C,Nome não encontrado
+Fósforo,mg,"10,9","26,2","18,0",BRC0212C,Nome não encontrado
+Potássio,mg,"68,1",163,112,BRC0212C,Nome não encontrado
+Manganês,mg,"0,13","0,31","0,21",BRC0212C,Nome não encontrado
+Zinco,mg,"0,03","0,07","0,05",BRC0212C,Nome não encontrado
+Cobre,mg,"0,04","0,10","0,07",BRC0212C,Nome não encontrado
+Selênio,mcg,,,,BRC0212C,Nome não encontrado
+Vitamina A (RE),mcg,"42,4",101,"70,0",BRC0212C,Nome não encontrado
+Vitamina A (RAE),mcg,"21,2","50,9","35,0",BRC0212C,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,,,,BRC0212C,Nome não encontrado
+Tiamina,mg,"0,02","0,04","0,03",BRC0212C,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,BRC0212C,Nome não encontrado
+Niacina,mg,traços,traços,traços,BRC0212C,Nome não encontrado
+Vitamina B6,mg,traços,traços,traços,BRC0212C,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Vitamina C,mg,"4,04","9,70","6,67",BRC0212C,Nome não encontrado
+Equivalente de folato,mcg,,,,BRC0212C,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00",BRC0212C,Nome não encontrado
+Açúcar de adição,g,"5,00","12,0","8,25",BRC0212C,Nome não encontrado
+Gordura de adição,g,-,-,-,BRC0212C,Nome não encontrado
+Proteína vegetal,g,-,-,-,BRC0212C,Nome não encontrado
+Proteína animal,g,-,-,-,BRC0212C,Nome não encontrado

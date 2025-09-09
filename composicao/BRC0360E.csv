@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (110 g),codigo_alimento,nome_alimento
+Energia,kJ,656,721,BRC0360E,Nome não encontrado
+Energia,kcal,155,170,BRC0360E,Nome não encontrado
+Umidade,g,"60,2","66,3",BRC0360E,Nome não encontrado
+Carboidrato total,g,"4,38","4,82",BRC0360E,Nome não encontrado
+Carboidrato disponível,g,"4,38","4,82",BRC0360E,Nome não encontrado
+Proteína,g,"29,7","32,7",BRC0360E,Nome não encontrado
+Lipídios,g,"2,07","2,28",BRC0360E,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00",BRC0360E,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0360E,Nome não encontrado
+Cinzas,g,"3,63","4,00",BRC0360E,Nome não encontrado
+Colesterol,mg,"95,6",105,BRC0360E,Nome não encontrado
+Ácidos graxos saturados,g,"0,45","0,50",BRC0360E,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,32","0,36",BRC0360E,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,48","0,52",BRC0360E,Nome não encontrado
+Ácidos graxos trans,g,,,BRC0360E,Nome não encontrado
+Cálcio,mg,105,116,BRC0360E,Nome não encontrado
+Ferro,mg,"9,50","10,4",BRC0360E,Nome não encontrado
+Sódio,mg,640,704,BRC0360E,Nome não encontrado
+Magnésio,mg,"59,7","65,7",BRC0360E,Nome não encontrado
+Fósforo,mg,277,305,BRC0360E,Nome não encontrado
+Potássio,mg,627,689,BRC0360E,Nome não encontrado
+Manganês,mg,"0,05","0,05",BRC0360E,Nome não encontrado
+Zinco,mg,"3,35","3,68",BRC0360E,Nome não encontrado
+Cobre,mg,"0,74","0,81",BRC0360E,Nome não encontrado
+Selênio,mcg,"89,2","98,1",BRC0360E,Nome não encontrado
+Vitamina A (RE),mcg,,,BRC0360E,Nome não encontrado
+Vitamina A (RAE),mcg,,,BRC0360E,Nome não encontrado
+Vitamina D,mcg,,,BRC0360E,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,20","1,31",BRC0360E,Nome não encontrado
+Tiamina,mg,"0,06","0,06",BRC0360E,Nome não encontrado
+Riboflavina,mg,"0,08","0,08",BRC0360E,Nome não encontrado
+Niacina,mg,"3,76","4,14",BRC0360E,Nome não encontrado
+Vitamina B6,mg,"0,65","0,71",BRC0360E,Nome não encontrado
+Vitamina B12,mcg,"35,8","39,4",BRC0360E,Nome não encontrado
+Vitamina C,mg,"7,96","8,76",BRC0360E,Nome não encontrado
+Equivalente de folato,mcg,"23,9","26,3",BRC0360E,Nome não encontrado
+Sal de adição,g,"0,45","0,50",BRC0360E,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00",BRC0360E,Nome não encontrado
+Gordura de adição,g,-,-,BRC0360E,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0360E,Nome não encontrado
+Proteína animal,g,-,-,BRC0360E,Nome não encontrado

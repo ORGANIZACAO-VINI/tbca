@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (50 g),codigo_alimento,nome_alimento
+Energia,kJ,1392,696,BRC1149A,Nome não encontrado
+Energia,kcal,332,165,BRC1149A,Nome não encontrado
+Umidade,g,"31,3","15,6",BRC1149A,Nome não encontrado
+Carboidrato total,g,"48,4","24,2",BRC1149A,Nome não encontrado
+Carboidrato disponível,g,"47,7","23,9",BRC1149A,Nome não encontrado
+Proteína,g,"5,42","2,71",BRC1149A,Nome não encontrado
+Lipídios,g,"14,2","7,10",BRC1149A,Nome não encontrado
+Fibra alimentar,g,"0,66","0,33",BRC1149A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC1149A,Nome não encontrado
+Cinzas,g,"0,74","0,37",BRC1149A,Nome não encontrado
+Colesterol,mg,"56,8","28,4",BRC1149A,Nome não encontrado
+Ácidos graxos saturados,g,"4,04","2,02",BRC1149A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"3,52","1,76",BRC1149A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"2,95","1,48",BRC1149A,Nome não encontrado
+Ácidos graxos trans,g,"1,31","0,66",BRC1149A,Nome não encontrado
+Cálcio,mg,"56,3","28,1",BRC1149A,Nome não encontrado
+Ferro,mg,"1,28","0,64",BRC1149A,Nome não encontrado
+Sódio,mg,"66,3","33,2",BRC1149A,Nome não encontrado
+Magnésio,mg,"12,9","6,46",BRC1149A,Nome não encontrado
+Fósforo,mg,"84,7","42,4",BRC1149A,Nome não encontrado
+Potássio,mg,127,"64,0",BRC1149A,Nome não encontrado
+Manganês,mg,"0,10","0,05",BRC1149A,Nome não encontrado
+Zinco,mg,"0,49","0,25",BRC1149A,Nome não encontrado
+Cobre,mg,"0,05","0,02",BRC1149A,Nome não encontrado
+Selênio,mcg,"5,94","2,97",BRC1149A,Nome não encontrado
+Vitamina A (RE),mcg,100,"50,1",BRC1149A,Nome não encontrado
+Vitamina A (RAE),mcg,"99,5","49,7",BRC1149A,Nome não encontrado
+Vitamina D,mcg,"0,38","0,19",BRC1149A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,94","0,47",BRC1149A,Nome não encontrado
+Tiamina,mg,"0,06","0,03",BRC1149A,Nome não encontrado
+Riboflavina,mg,"0,16","0,08",BRC1149A,Nome não encontrado
+Niacina,mg,"0,59","0,29",BRC1149A,Nome não encontrado
+Vitamina B6,mg,"0,06","0,03",BRC1149A,Nome não encontrado
+Vitamina B12,mcg,"0,19","0,09",BRC1149A,Nome não encontrado
+Vitamina C,mg,"10,7","5,34",BRC1149A,Nome não encontrado
+Equivalente de folato,mcg,"42,2","21,1",BRC1149A,Nome não encontrado
+Sal de adição,g,,traços,BRC1149A,Nome não encontrado
+Açúcar de adição,g,,traços,BRC1149A,Nome não encontrado
+Gordura de adição,g,-,-,BRC1149A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC1149A,Nome não encontrado
+Proteína animal,g,-,-,BRC1149A,Nome não encontrado

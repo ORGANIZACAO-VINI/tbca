@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,523,BRC1043F,Nome não encontrado
+Energia,kcal,124,BRC1043F,Nome não encontrado
+Umidade,g,"70,3",BRC1043F,Nome não encontrado
+Carboidrato total,g,"1,31",BRC1043F,Nome não encontrado
+Carboidrato disponível,g,"1,01",BRC1043F,Nome não encontrado
+Proteína,g,"24,0",BRC1043F,Nome não encontrado
+Lipídios,g,"2,57",BRC1043F,Nome não encontrado
+Fibra alimentar,g,"0,29",BRC1043F,Nome não encontrado
+Álcool,g,"0,00",BRC1043F,Nome não encontrado
+Cinzas,g,"1,81",BRC1043F,Nome não encontrado
+Colesterol,mg,"38,1",BRC1043F,Nome não encontrado
+Ácidos graxos saturados,g,"0,38",BRC1043F,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,61",BRC1043F,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,98",BRC1043F,Nome não encontrado
+Ácidos graxos trans,g,,BRC1043F,Nome não encontrado
+Cálcio,mg,"12,6",BRC1043F,Nome não encontrado
+Ferro,mg,"0,80",BRC1043F,Nome não encontrado
+Sódio,mg,236,BRC1043F,Nome não encontrado
+Magnésio,mg,"22,5",BRC1043F,Nome não encontrado
+Fósforo,mg,146,BRC1043F,Nome não encontrado
+Potássio,mg,162,BRC1043F,Nome não encontrado
+Manganês,mg,"0,05",BRC1043F,Nome não encontrado
+Zinco,mg,"1,30",BRC1043F,Nome não encontrado
+Cobre,mg,"0,05",BRC1043F,Nome não encontrado
+Selênio,mcg,"23,9",BRC1043F,Nome não encontrado
+Vitamina A (RE),mcg,"9,89",BRC1043F,Nome não encontrado
+Vitamina A (RAE),mcg,"8,33",BRC1043F,Nome não encontrado
+Vitamina D,mcg,"0,08",BRC1043F,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,27",BRC1043F,Nome não encontrado
+Tiamina,mg,"0,04",BRC1043F,Nome não encontrado
+Riboflavina,mg,"0,17",BRC1043F,Nome não encontrado
+Niacina,mg,"6,73",BRC1043F,Nome não encontrado
+Vitamina B6,mg,"0,55",BRC1043F,Nome não encontrado
+Vitamina B12,mcg,"0,73",BRC1043F,Nome não encontrado
+Vitamina C,mg,"8,67",BRC1043F,Nome não encontrado
+Equivalente de folato,mcg,"7,50",BRC1043F,Nome não encontrado
+Sal de adição,g,"0,00",BRC1043F,Nome não encontrado
+Açúcar de adição,g,"0,45",BRC1043F,Nome não encontrado
+Gordura de adição,g,-,BRC1043F,Nome não encontrado
+Proteína vegetal,g,-,BRC1043F,Nome não encontrado
+Proteína animal,g,-,BRC1043F,Nome não encontrado

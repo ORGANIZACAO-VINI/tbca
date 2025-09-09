@@ -1,0 +1,282 @@
+
+# Script atualizado para exportar dados do site TBCA com melhorias
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+import time
+import os
+import argparse
+import random
+import json
+from datetime import datetime, timedelta
+
+BASE_URL = "http://www.tbca.net.br/base-dados/"
+N_PAGES = 53
+DELAY = 0.5  # segundos entre requisições
+MAX_RETRIES = 3  # número máximo de tentativas em caso de falha
+VERBOSE = False  # modo verboso desativado por padrão
+TEST_MODE = False  # modo de teste desativado por padrão
+
+def get_links_produtos():
+    """Coleta todos os links dos produtos em todas as páginas."""
+    links = []
+    # Verifica se existe um cache de links
+    if os.path.exists('links_cache.json'):
+        try:
+            with open('links_cache.json', 'r') as f:
+                all_links = json.load(f)
+                print(f"Carregados {len(all_links)} links do cache.")
+                if TEST_MODE:
+                    # No modo de teste, pegar apenas os primeiros links (da primeira página)
+                    links = all_links[:100]  # aproximadamente uma página
+                    print(f"MODO DE TESTE: Usando apenas os primeiros {len(links)} links do cache.")
+                    return links
+                return all_links
+        except Exception as e:
+            print(f"Erro ao carregar cache: {e}")
+    
+    # Modo de teste: apenas a primeira página
+    if TEST_MODE:
+        pages_to_fetch = 1
+        print("MODO DE TESTE: Coletando apenas a primeira página")
+    else:
+        pages_to_fetch = N_PAGES
+    
+    total_links = 0
+    for i in tqdm(range(1, pages_to_fetch+1), desc="Coletando links de produtos"):
+        pag_url = f"{BASE_URL}composicao_alimentos.php?pagina={i}"
+        for attempt in range(MAX_RETRIES):
+            try:
+                # Adiciona um User-Agent para simular um navegador
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                }
+                resp = requests.get(pag_url, headers=headers, timeout=10)
+                resp.raise_for_status()
+                soup = BeautifulSoup(resp.text, 'html.parser')
+                page_links = []
+                for a in soup.select('tr td:nth-of-type(1) a'):
+                    href = a.get('href')
+                    if href:
+                        page_links.append(BASE_URL + href)
+                links.extend(page_links)
+                total_links += len(page_links)
+                if VERBOSE:
+                    print(f"Página {i}: {len(page_links)} produtos encontrados. Total: {total_links}")
+                break  # Sai do loop de tentativas se bem-sucedido
+            except Exception as e:
+                wait_time = DELAY * (attempt + 1) * (random.random() + 0.5)
+                print(f"Tentativa {attempt+1}/{MAX_RETRIES}: Erro ao acessar {pag_url}: {e}")
+                print(f"Aguardando {wait_time:.2f}s antes de tentar novamente...")
+                time.sleep(wait_time)
+        else:  # Executado se todas as tentativas falharem
+            print(f"Falha ao acessar {pag_url} após {MAX_RETRIES} tentativas.")
+        
+        # Adiciona um delay variável para parecer mais humano
+        sleep_time = DELAY * (0.5 + random.random())
+        time.sleep(sleep_time)
+    
+    # Salva cache de links para uso futuro
+    try:
+        with open('links_cache.json', 'w') as f:
+            json.dump(links, f)
+            print(f"Cache de {len(links)} links salvo com sucesso.")
+    except Exception as e:
+        print(f"Erro ao salvar cache de links: {e}")
+        
+    return links
+
+def get_dados_produto(url, retry_count=0):
+    """Coleta os dados de um produto individual."""
+    if retry_count >= MAX_RETRIES:
+        print(f"Excedido número máximo de tentativas para {url}")
+        return {k: '' for k in ['codigo', 'alimento_pt', 'kcal', 'carboidratos', 'proteina', 'gordura']}
+    
+    try:
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        resp = requests.get(url, headers=headers, timeout=10)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        h5s = soup.select('h5#overview')
+        if h5s:
+            h5 = h5s[0]
+            textos = list(h5.stripped_strings)
+            codigo = textos[0] if len(textos) > 0 else ''
+            alimento_pt = textos[1] if len(textos) > 1 else ''
+        else:
+            codigo = ''
+            alimento_pt = ''
+        # Tabela de nutrientes
+        linhas = soup.select('tbody tr')
+        def get_val(idx):
+            try:
+                return linhas[idx].select('td')[2].get_text(strip=True)
+            except Exception:
+                return ''
+        kcal = get_val(1)
+        carboidratos = get_val(3)
+        proteina = get_val(5)
+        gordura = get_val(6)
+        
+        # Dados expandidos - coleta mais informações nutricionais
+        try:
+            fibras = get_val(13)
+            calcio = get_val(20)
+            ferro = get_val(21)
+        except Exception:
+            fibras = calcio = ferro = ''
+        
+        dados = {
+            'codigo': codigo,
+            'alimento_pt': alimento_pt,
+            'kcal': kcal,
+            'carboidratos': carboidratos,
+            'proteina': proteina,
+            'gordura': gordura,
+            'fibras': fibras,
+            'calcio': calcio,
+            'ferro': ferro
+        }
+        
+        if VERBOSE:
+            print(f"Coletado: {codigo} - {alimento_pt[:30]}{'...' if len(alimento_pt) > 30 else ''}")
+            
+        return dados
+    except Exception as e:
+        wait_time = DELAY * (retry_count + 1) * (random.random() + 0.5)
+        print(f"Erro ao acessar {url}: {e}. Tentativa {retry_count+1}/{MAX_RETRIES}")
+        print(f"Aguardando {wait_time:.2f}s antes de tentar novamente...")
+        time.sleep(wait_time)
+        return get_dados_produto(url, retry_count + 1)
+
+def main():
+    """Função principal que coordena a coleta e processamento dos dados."""
+    global DELAY, MAX_RETRIES, VERBOSE, TEST_MODE
+    
+    parser = argparse.ArgumentParser(description='Coletor de dados do TBCA')
+    parser.add_argument('--output', '-o', default='tbca.csv', help='Nome do arquivo de saída (CSV)')
+    parser.add_argument('--excel', '-e', action='store_true', help='Salvar também em formato Excel')
+    parser.add_argument('--delay', '-d', type=float, default=DELAY, help='Delay entre requisições (segundos)')
+    parser.add_argument('--retry', '-r', type=int, default=MAX_RETRIES, help='Número máximo de tentativas')
+    parser.add_argument('--resume', action='store_true', help='Continuar coleta a partir de dados existentes')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Mostrar informações detalhadas do progresso')
+    parser.add_argument('--test', '-t', action='store_true', help='Modo de teste: coleta apenas a primeira página')
+    args = parser.parse_args()
+    
+    DELAY = args.delay
+    MAX_RETRIES = args.retry
+    VERBOSE = args.verbose
+    TEST_MODE = args.test
+    
+    print(f"Iniciando coleta de dados da TBCA em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}...")
+    print(f"Configurações: delay={DELAY}s, max_retries={MAX_RETRIES}, verbose={VERBOSE}")
+    
+    # Criar pasta para dados se não existir
+    os.makedirs('dados', exist_ok=True)
+    
+    # Verificar se já existe um arquivo parcial para continuar
+    dados_existentes = []
+    if args.resume and os.path.exists(args.output):
+        try:
+            dados_existentes = pd.read_csv(args.output, sep=';').to_dict('records')
+            print(f"Continuando coleta a partir de {len(dados_existentes)} registros existentes.")
+            # Extrair códigos já coletados
+            codigos_existentes = set(item['codigo'] for item in dados_existentes if item['codigo'])
+        except Exception as e:
+            print(f"Erro ao carregar dados existentes: {e}")
+            dados_existentes = []
+            codigos_existentes = set()
+    else:
+        codigos_existentes = set()
+    
+    links = get_links_produtos()
+    print(f"Total de produtos encontrados: {len(links)}")
+    
+    # Filtrar links já processados se estiver continuando
+    if args.resume and dados_existentes:
+        links_filtrados = []
+        for link in links:
+            codigo = link.split('=')[-1]
+            if codigo not in codigos_existentes:
+                links_filtrados.append(link)
+        print(f"Restam {len(links_filtrados)} produtos para coletar.")
+        links = links_filtrados
+    
+    dados = dados_existentes.copy()
+    
+    # Salvar checkpoint a cada N itens
+    checkpoint_interval = min(100, max(1, len(links) // 10))
+    
+    # Iniciar cronômetro para estatísticas
+    inicio_tempo = time.time()
+    
+    for i, link in enumerate(tqdm(links, desc="Coletando dados dos produtos")):
+        item = get_dados_produto(link)
+        dados.append(item)
+        
+        # Salvar checkpoints periódicos
+        if (i + 1) % checkpoint_interval == 0:
+            df_checkpoint = pd.DataFrame(dados)
+            checkpoint_file = f"dados/tbca_checkpoint_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+            df_checkpoint.to_csv(checkpoint_file, index=False, sep=';')
+            print(f"\nCheckpoint salvo: {checkpoint_file} ({len(dados)} registros)")
+            
+            # Mostrar estatísticas de progresso
+            if VERBOSE:
+                tempo_decorrido = time.time() - inicio_tempo
+                registros_por_segundo = (i + 1) / tempo_decorrido if tempo_decorrido > 0 else 0
+                tempo_estimado = (len(links) - i - 1) / registros_por_segundo if registros_por_segundo > 0 else 0
+                print(f"Progresso: {i+1}/{len(links)} ({(i+1)/len(links)*100:.1f}%)")
+                print(f"Tempo decorrido: {tempo_decorrido/60:.1f} minutos")
+                print(f"Velocidade: {registros_por_segundo:.2f} registros/segundo")
+                print(f"Tempo estimado restante: {tempo_estimado/60:.1f} minutos")
+                print(f"Hora estimada de término: {datetime.now() + timedelta(seconds=tempo_estimado)}")
+        
+        # Delay variável para parecer mais humano
+        sleep_time = DELAY * (0.5 + random.random())
+        time.sleep(sleep_time)
+    
+    df = pd.DataFrame(dados)
+    
+    # Salvar os dados em CSV
+    try:
+        df.to_csv(args.output, index=False, sep=';')
+        print(f"Arquivo {args.output} salvo com sucesso! ({len(df)} registros)")
+        
+        # Salvar em Excel se solicitado
+        if args.excel:
+            excel_file = args.output.replace('.csv', '.xlsx')
+            if not excel_file.endswith('.xlsx'):
+                excel_file += '.xlsx'
+            df.to_excel(excel_file, index=False)
+            print(f"Arquivo Excel {excel_file} salvo com sucesso!")
+        
+        # Salvar uma cópia de backup com timestamp
+        backup_file = f"dados/tbca_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+        df.to_csv(backup_file, index=False, sep=';')
+        print(f"Backup salvo em {backup_file}")
+        
+    except Exception as e:
+        print(f"Erro ao salvar dados: {e}")
+        # Tentar salvar em arquivo de emergência
+        emergency_file = f"dados/tbca_emergency_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+        try:
+            df.to_csv(emergency_file, index=False, sep=';')
+            print(f"Dados salvos em arquivo de emergência: {emergency_file}")
+        except Exception as e2:
+            print(f"Falha crítica ao salvar dados: {e2}")
+    
+    print(f"Coleta finalizada em {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}.")
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nOperação interrompida pelo usuário. Salvando dados parciais...")
+        # Aqui poderia adicionar código para salvar os dados parciais
+    except Exception as e:
+        print(f"Erro inesperado: {e}")

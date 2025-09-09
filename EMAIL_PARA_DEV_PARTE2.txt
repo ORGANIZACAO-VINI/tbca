@@ -1,0 +1,73 @@
+Assunto: [IMPORTANTE] Envio da Base de Dados Nutri-App (Parte 2)
+
+Prezado(a) Desenvolvedor(a),
+
+Conforme combinado anteriormente, estou enviando agora a segunda parte do projeto Nutri-App: a base de dados completa.
+
+=====================================================
+📥 LINK PARA DOWNLOAD:
+=====================================================
+
+[INSERIR LINK DO GOOGLE DRIVE/WETRANSFER AQUI]
+Senha (se aplicável): [INSERIR SENHA]
+Validade do link: [INSERIR DATA DE EXPIRAÇÃO]
+
+Tamanho do arquivo: ~50MB (compactado)
+Nome do arquivo: composicao_todos_alimentos.csv
+
+=====================================================
+📋 INSTRUÇÕES DE IMPORTAÇÃO:
+=====================================================
+
+1. Baixe o arquivo CSV e coloque-o na raiz do projeto
+   (mesmo nível dos arquivos Python)
+
+2. Certifique-se de que o nome do arquivo é exatamente:
+   composicao_todos_alimentos.csv
+
+3. Execute o menu de importação:
+   
+   > python menu_tbca_completo.py
+
+4. Selecione a opção 1 para iniciar a importação
+
+5. O processo leva aproximadamente 5-10 minutos,
+   dependendo da configuração do seu computador
+
+6. Após a importação, use a opção 3 do menu para
+   verificar se todos os dados foram importados corretamente
+
+=====================================================
+⚠️ RESOLUÇÃO DE PROBLEMAS:
+=====================================================
+
+• Se ocorrer um erro de memória, feche outros aplicativos
+  e tente novamente
+
+• Se o processo falhar no meio, use a opção 5 do menu
+  para limpar o banco e tente novamente
+
+• Se os caracteres especiais não aparecerem corretamente,
+  verifique se o arquivo está com encoding UTF-8
+
+=====================================================
+✅ VERIFICAÇÃO FINAL:
+=====================================================
+
+Após a importação, você deve ter:
+• ~3.000-4.000 alimentos únicos
+• ~230.000 registros de composição detalhada
+
+Por favor, confirme o sucesso da importação me enviando
+o número de registros que foram importados. Isso nos ajudará
+a garantir que a base foi transferida corretamente.
+
+=====================================================
+
+Agradeço sua colaboração neste projeto. Qualquer dúvida
+ou problema durante o processo, estou à disposição.
+
+Atenciosamente,
+
+[SEU NOME]
+[CONTATO]

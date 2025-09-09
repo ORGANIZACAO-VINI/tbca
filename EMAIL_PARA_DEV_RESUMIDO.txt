@@ -1,0 +1,27 @@
+Prezado(a) Desenvolvedor(a),
+
+Estou enviando o projeto Nutri-App, uma aplicação para gerenciamento de dados nutricionais. Devido ao tamanho da base de dados completa, estou dividindo o envio em duas partes:
+
+PARTE 1 (ESTE ENVIO): Código e estrutura do projeto + amostra de dados
+PARTE 2 (PRÓXIMO ENVIO): Base de dados completa (arquivo CSV de ~50MB)
+
+📋 CONTEÚDO DESTE PACOTE:
+- Scripts de importação e análise de dados nutricionais
+- Estrutura completa da aplicação (frontend/backend)
+- Scripts de migração para Oracle
+- Arquivo de amostra da base de dados
+- Documentação completa
+
+🚀 PRIMEIROS PASSOS:
+1. Extraia o arquivo para uma pasta de sua preferência
+2. Execute "python verificacao_inicial_dev.py" para confirmar que tudo está correto
+3. Examine o código e estrutura para se familiarizar com o projeto
+
+O arquivo "README.md" contém todas as instruções necessárias para entender o projeto.
+
+A base de dados completa será enviada em breve via [Google Drive/WeTransfer]. Quando recebê-la, basta colocar o arquivo na raiz do projeto e executar "python menu_tbca_completo.py" para importar os dados.
+
+Por favor, confirme o recebimento deste e-mail e avise quando estiver pronto para receber a base completa.
+
+Atenciosamente,
+[SEU NOME]

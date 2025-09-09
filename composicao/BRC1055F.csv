@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,804,BRC1055F,Nome não encontrado
+Energia,kcal,192,BRC1055F,Nome não encontrado
+Umidade,g,"63,7",BRC1055F,Nome não encontrado
+Carboidrato total,g,"1,55",BRC1055F,Nome não encontrado
+Carboidrato disponível,g,"1,55",BRC1055F,Nome não encontrado
+Proteína,g,"22,9",BRC1055F,Nome não encontrado
+Lipídios,g,"10,5",BRC1055F,Nome não encontrado
+Fibra alimentar,g,"0,00",BRC1055F,Nome não encontrado
+Álcool,g,"0,00",BRC1055F,Nome não encontrado
+Cinzas,g,"1,33",BRC1055F,Nome não encontrado
+Colesterol,mg,168,BRC1055F,Nome não encontrado
+Ácidos graxos saturados,g,"3,45",BRC1055F,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,03",BRC1055F,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,57",BRC1055F,Nome não encontrado
+Ácidos graxos trans,g,,BRC1055F,Nome não encontrado
+Cálcio,mg,"12,5",BRC1055F,Nome não encontrado
+Ferro,mg,"13,1",BRC1055F,Nome não encontrado
+Sódio,mg,105,BRC1055F,Nome não encontrado
+Magnésio,mg,"22,9",BRC1055F,Nome não encontrado
+Fósforo,mg,270,BRC1055F,Nome não encontrado
+Potássio,mg,337,BRC1055F,Nome não encontrado
+Manganês,mg,"0,17",BRC1055F,Nome não encontrado
+Zinco,mg,"4,82",BRC1055F,Nome não encontrado
+Cobre,mg,"0,48",BRC1055F,Nome não encontrado
+Selênio,mcg,"30,6",BRC1055F,Nome não encontrado
+Vitamina A (RE),mcg,2169,BRC1055F,Nome não encontrado
+Vitamina A (RAE),mcg,2169,BRC1055F,Nome não encontrado
+Vitamina D,mcg,,BRC1055F,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,58",BRC1055F,Nome não encontrado
+Tiamina,mg,"0,35",BRC1055F,Nome não encontrado
+Riboflavina,mg,"1,94",BRC1055F,Nome não encontrado
+Niacina,mg,"9,12",BRC1055F,Nome não encontrado
+Vitamina B6,mg,"0,36",BRC1055F,Nome não encontrado
+Vitamina B12,mcg,"10,9",BRC1055F,Nome não encontrado
+Vitamina C,mg,"11,7",BRC1055F,Nome não encontrado
+Equivalente de folato,mcg,"91,7",BRC1055F,Nome não encontrado
+Sal de adição,g,"0,00",BRC1055F,Nome não encontrado
+Açúcar de adição,g,"0,00",BRC1055F,Nome não encontrado
+Gordura de adição,g,"0,00",BRC1055F,Nome não encontrado
+Proteína vegetal,g,"0,00",BRC1055F,Nome não encontrado
+Proteína animal,g,"22,9",BRC1055F,Nome não encontrado

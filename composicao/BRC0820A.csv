@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,401,BRC0820A,Nome não encontrado
+Energia,kcal,96,BRC0820A,Nome não encontrado
+Umidade,g,"76,4",BRC0820A,Nome não encontrado
+Carboidrato total,g,"14,2",BRC0820A,Nome não encontrado
+Carboidrato disponível,g,"10,2",BRC0820A,Nome não encontrado
+Proteína,g,"5,70",BRC0820A,Nome não encontrado
+Lipídios,g,"2,66",BRC0820A,Nome não encontrado
+Fibra alimentar,g,"3,97",BRC0820A,Nome não encontrado
+Álcool,g,"0,00",BRC0820A,Nome não encontrado
+Cinzas,g,"1,07",BRC0820A,Nome não encontrado
+Colesterol,mg,"9,41",BRC0820A,Nome não encontrado
+Ácidos graxos saturados,g,"0,82",BRC0820A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,86",BRC0820A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,96",BRC0820A,Nome não encontrado
+Ácidos graxos trans,g,"0,03",BRC0820A,Nome não encontrado
+Cálcio,mg,"15,1",BRC0820A,Nome não encontrado
+Ferro,mg,"0,99",BRC0820A,Nome não encontrado
+Sódio,mg,192,BRC0820A,Nome não encontrado
+Magnésio,mg,"26,5",BRC0820A,Nome não encontrado
+Fósforo,mg,"70,6",BRC0820A,Nome não encontrado
+Potássio,mg,191,BRC0820A,Nome não encontrado
+Manganês,mg,"0,42",BRC0820A,Nome não encontrado
+Zinco,mg,"1,43",BRC0820A,Nome não encontrado
+Cobre,mg,"0,29",BRC0820A,Nome não encontrado
+Selênio,mcg,"1,53",BRC0820A,Nome não encontrado
+Vitamina A (RE),mcg,"23,5",BRC0820A,Nome não encontrado
+Vitamina A (RAE),mcg,"11,7",BRC0820A,Nome não encontrado
+Vitamina D,mcg,"0,03",BRC0820A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,31",BRC0820A,Nome não encontrado
+Tiamina,mg,"0,05",BRC0820A,Nome não encontrado
+Riboflavina,mg,"0,01",BRC0820A,Nome não encontrado
+Niacina,mg,"0,32",BRC0820A,Nome não encontrado
+Vitamina B6,mg,"0,03",BRC0820A,Nome não encontrado
+Vitamina B12,mcg,"0,10",BRC0820A,Nome não encontrado
+Vitamina C,mg,"3,89",BRC0820A,Nome não encontrado
+Equivalente de folato,mcg,"37,4",BRC0820A,Nome não encontrado
+Sal de adição,g,,BRC0820A,Nome não encontrado
+Açúcar de adição,g,,BRC0820A,Nome não encontrado
+Gordura de adição,g,-,BRC0820A,Nome não encontrado
+Proteína vegetal,g,-,BRC0820A,Nome não encontrado
+Proteína animal,g,-,BRC0820A,Nome não encontrado

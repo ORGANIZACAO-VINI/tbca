@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (50 g),Escumadeira cheia (110 g),Escumadeira rasa (90 g),codigo_alimento,nome_alimento
+Energia,kJ,668,334,734,601,BRC1100A,Nome não encontrado
+Energia,kcal,159,79,174,142,BRC1100A,Nome não encontrado
+Umidade,g,"65,7","32,8","72,3","59,1",BRC1100A,Nome não encontrado
+Carboidrato total,g,"19,6","9,82","21,6","17,7",BRC1100A,Nome não encontrado
+Carboidrato disponível,g,"18,8","9,41","20,7","16,9",BRC1100A,Nome não encontrado
+Proteína,g,"8,83","4,41","9,71","7,94",BRC1100A,Nome não encontrado
+Lipídios,g,"5,18","2,59","5,70","4,66",BRC1100A,Nome não encontrado
+Fibra alimentar,g,"0,83","0,41","0,91","0,74",BRC1100A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00",BRC1100A,Nome não encontrado
+Cinzas,g,"0,67","0,33","0,73","0,60",BRC1100A,Nome não encontrado
+Colesterol,mg,"21,9","11,0","24,1","19,7",BRC1100A,Nome não encontrado
+Ácidos graxos saturados,g,"2,76","1,38","3,03","2,48",BRC1100A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,52","0,76","1,67","1,36",BRC1100A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,24","0,12","0,26","0,22",BRC1100A,Nome não encontrado
+Ácidos graxos trans,g,"0,17","0,08","0,19","0,15",BRC1100A,Nome não encontrado
+Cálcio,mg,"10,1","5,07","11,2","9,13",BRC1100A,Nome não encontrado
+Ferro,mg,"0,73","0,36","0,80","0,65",BRC1100A,Nome não encontrado
+Sódio,mg,133,"66,9",147,120,BRC1100A,Nome não encontrado
+Magnésio,mg,"3,98","1,99","4,38","3,58",BRC1100A,Nome não encontrado
+Fósforo,mg,"64,2","32,1","70,6","57,7",BRC1100A,Nome não encontrado
+Potássio,mg,"93,3","46,6",102,"83,9",BRC1100A,Nome não encontrado
+Manganês,mg,"0,18","0,09","0,20","0,16",BRC1100A,Nome não encontrado
+Zinco,mg,"1,56","0,78","1,71","1,40",BRC1100A,Nome não encontrado
+Cobre,mg,"0,06","0,03","0,06","0,05",BRC1100A,Nome não encontrado
+Selênio,mcg,"1,32","0,66","1,46","1,19",BRC1100A,Nome não encontrado
+Vitamina A (RE),mcg,"44,1","22,1","48,6","39,7",BRC1100A,Nome não encontrado
+Vitamina A (RAE),mcg,"39,5","19,8","43,5","35,6",BRC1100A,Nome não encontrado
+Vitamina D,mcg,"0,06","0,03","0,06","0,05",BRC1100A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,28","0,14","0,30","0,25",BRC1100A,Nome não encontrado
+Tiamina,mg,"0,03","0,02","0,04","0,03",BRC1100A,Nome não encontrado
+Riboflavina,mg,"0,01","0,01","0,01","0,01",BRC1100A,Nome não encontrado
+Niacina,mg,"1,28","0,64","1,41","1,16",BRC1100A,Nome não encontrado
+Vitamina B6,mg,"0,02","0,01","0,02","0,02",BRC1100A,Nome não encontrado
+Vitamina B12,mcg,"0,28","0,14","0,31","0,25",BRC1100A,Nome não encontrado
+Vitamina C,mg,"0,76","0,38","0,83","0,68",BRC1100A,Nome não encontrado
+Equivalente de folato,mcg,"51,1","25,5","56,2","46,0",BRC1100A,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00",BRC1100A,Nome não encontrado
+Açúcar de adição,g,"0,32","0,16","0,35","0,29",BRC1100A,Nome não encontrado
+Gordura de adição,g,-,-,-,-,BRC1100A,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,BRC1100A,Nome não encontrado
+Proteína animal,g,-,-,-,-,BRC1100A,Nome não encontrado

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sopa cheia (5 g),Escumadeira rasa (15 g),Xícara chá (25 g),codigo_alimento,nome_alimento
+Energia,kJ,1672,83,250,417,BRC0055N,Nome não encontrado
+Energia,kcal,398,19,59,99,BRC0055N,Nome não encontrado
+Umidade,g,"1,66","0,08","0,25","0,42",BRC0055N,Nome não encontrado
+Carboidrato total,g,"75,4","3,77","11,3","18,8",BRC0055N,Nome não encontrado
+Carboidrato disponível,g,"57,5","2,87","8,62","14,4",BRC0055N,Nome não encontrado
+Proteína,g,"9,74","0,49","1,46","2,44",BRC0055N,Nome não encontrado
+Lipídios,g,"10,4","0,52","1,56","2,60",BRC0055N,Nome não encontrado
+Fibra alimentar,g,"17,9","0,90","2,69","4,48",BRC0055N,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Cinzas,g,"2,78","0,14","0,42","0,69",BRC0055N,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Ácidos graxos saturados,g,"1,55","0,08","0,23","0,39",BRC0055N,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,48","0,22","0,67","1,12",BRC0055N,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,92","0,20","0,59","0,98",BRC0055N,Nome não encontrado
+Ácidos graxos trans,g,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Cálcio,mg,"11,1","0,56","1,67","2,78",BRC0055N,Nome não encontrado
+Ferro,mg,"2,31","0,12","0,35","0,58",BRC0055N,Nome não encontrado
+Sódio,mg,546,"27,3","81,9",136,BRC0055N,Nome não encontrado
+Magnésio,mg,152,"7,64","22,9","38,2",BRC0055N,Nome não encontrado
+Fósforo,mg,267,"13,4","40,1","66,8",BRC0055N,Nome não encontrado
+Potássio,mg,243,"12,2","36,6","61,0",BRC0055N,Nome não encontrado
+Manganês,mg,,,,,BRC0055N,Nome não encontrado
+Zinco,mg,"3,88","0,19","0,58","0,97",BRC0055N,Nome não encontrado
+Cobre,mg,"0,55","0,03","0,08","0,14",BRC0055N,Nome não encontrado
+Selênio,mcg,"8,70","0,44","1,31","2,18",BRC0055N,Nome não encontrado
+Vitamina A (RE),mcg,"6,40","0,32","0,96","1,60",BRC0055N,Nome não encontrado
+Vitamina A (RAE),mcg,"3,20","0,16","0,48","0,80",BRC0055N,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,55","0,03","0,08","0,14",BRC0055N,Nome não encontrado
+Tiamina,mg,"0,35","0,02","0,05","0,09",BRC0055N,Nome não encontrado
+Riboflavina,mg,"0,11","0,01","0,02","0,03",BRC0055N,Nome não encontrado
+Niacina,mg,"2,09","0,10","0,31","0,52",BRC0055N,Nome não encontrado
+Vitamina B6,mg,"0,17","0,01","0,03","0,04",BRC0055N,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00",BRC0055N,Nome não encontrado
+Equivalente de folato,mcg,"17,2","0,86","2,58","4,30",BRC0055N,Nome não encontrado
+Sal de adição,g,,,,,BRC0055N,Nome não encontrado
+Açúcar de adição,g,,,,,BRC0055N,Nome não encontrado
+Gordura de adição,g,,,,,BRC0055N,Nome não encontrado
+Proteína vegetal,g,,,,,BRC0055N,Nome não encontrado
+Proteína animal,g,,,,,BRC0055N,Nome não encontrado

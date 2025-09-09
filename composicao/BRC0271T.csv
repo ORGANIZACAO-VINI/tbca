@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,428,BRC0271T,Nome não encontrado
+Energia,kcal,102,BRC0271T,Nome não encontrado
+Umidade,g,"73,5",BRC0271T,Nome não encontrado
+Carboidrato total,g,"12,8",BRC0271T,Nome não encontrado
+Carboidrato disponível,g,"9,85",BRC0271T,Nome não encontrado
+Proteína,g,"10,1",BRC0271T,Nome não encontrado
+Lipídios,g,"1,73",BRC0271T,Nome não encontrado
+Fibra alimentar,g,"2,99",BRC0271T,Nome não encontrado
+Álcool,g,"0,00",BRC0271T,Nome não encontrado
+Cinzas,g,"1,77",BRC0271T,Nome não encontrado
+Colesterol,mg,"0,00",BRC0271T,Nome não encontrado
+Ácidos graxos saturados,g,"0,32",BRC0271T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,43",BRC0271T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,13",BRC0271T,Nome não encontrado
+Ácidos graxos trans,g,"0,01",BRC0271T,Nome não encontrado
+Cálcio,mg,"32,8",BRC0271T,Nome não encontrado
+Ferro,mg,"2,26",BRC0271T,Nome não encontrado
+Sódio,mg,165,BRC0271T,Nome não encontrado
+Magnésio,mg,"13,2",BRC0271T,Nome não encontrado
+Fósforo,mg,120,BRC0271T,Nome não encontrado
+Potássio,mg,155,BRC0271T,Nome não encontrado
+Manganês,mg,"0,11",BRC0271T,Nome não encontrado
+Zinco,mg,"0,68",BRC0271T,Nome não encontrado
+Cobre,mg,"0,06",BRC0271T,Nome não encontrado
+Selênio,mcg,"0,17",BRC0271T,Nome não encontrado
+Vitamina A (RE),mcg,"51,7",BRC0271T,Nome não encontrado
+Vitamina A (RAE),mcg,"29,4",BRC0271T,Nome não encontrado
+Vitamina D,mcg,"0,00",BRC0271T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,69",BRC0271T,Nome não encontrado
+Tiamina,mg,"0,02",BRC0271T,Nome não encontrado
+Riboflavina,mg,"0,03",BRC0271T,Nome não encontrado
+Niacina,mg,"0,29",BRC0271T,Nome não encontrado
+Vitamina B6,mg,"0,04",BRC0271T,Nome não encontrado
+Vitamina B12,mcg,"0,00",BRC0271T,Nome não encontrado
+Vitamina C,mg,"41,4",BRC0271T,Nome não encontrado
+Equivalente de folato,mcg,"32,6",BRC0271T,Nome não encontrado
+Sal de adição,g,"0,00",BRC0271T,Nome não encontrado
+Açúcar de adição,g,"0,00",BRC0271T,Nome não encontrado
+Gordura de adição,g,-,BRC0271T,Nome não encontrado
+Proteína vegetal,g,-,BRC0271T,Nome não encontrado
+Proteína animal,g,-,BRC0271T,Nome não encontrado

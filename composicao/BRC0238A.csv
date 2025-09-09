@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (50 g),Escumadeira cheia (110 g),Escumadeira rasa (90 g),Prato fundo (200 g),Prato raso (280 g),codigo_alimento,nome_alimento
+Energia,kJ,520,260,572,468,1040,1456,BRC0238A,Nome não encontrado
+Energia,kcal,123,61,135,110,246,344,BRC0238A,Nome não encontrado
+Umidade,g,"70,1","35,0","77,1","63,1",140,196,BRC0238A,Nome não encontrado
+Carboidrato total,g,"22,5","11,3","24,8","20,3","45,0","63,0",BRC0238A,Nome não encontrado
+Carboidrato disponível,g,"21,6","10,8","23,7","19,4","43,1","60,3",BRC0238A,Nome não encontrado
+Proteína,g,"4,42","2,21","4,86","3,98","8,84","12,4",BRC0238A,Nome não encontrado
+Lipídios,g,"1,94","0,97","2,13","1,75","3,88","5,43",BRC0238A,Nome não encontrado
+Fibra alimentar,g,"1,03","0,52","1,13","0,93","2,06","2,88",BRC0238A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Cinzas,g,"0,97","0,49","1,07","0,87","1,94","2,72",BRC0238A,Nome não encontrado
+Colesterol,mg,"8,54","4,27","9,39","7,68","17,1","23,9",BRC0238A,Nome não encontrado
+Ácidos graxos saturados,g,"0,49","0,24","0,53","0,44","0,97","1,36",BRC0238A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,50","0,25","0,55","0,45","0,99","1,39",BRC0238A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,84","0,42","0,92","0,75","1,67","2,34",BRC0238A,Nome não encontrado
+Ácidos graxos trans,g,"0,04","0,02","0,04","0,04","0,08","0,11",BRC0238A,Nome não encontrado
+Cálcio,mg,"10,4","5,18","11,4","9,32","20,7","29,0",BRC0238A,Nome não encontrado
+Ferro,mg,"1,36","0,68","1,50","1,23","2,73","3,82",BRC0238A,Nome não encontrado
+Sódio,mg,"8,77","4,39","9,65","7,89","17,5","24,6",BRC0238A,Nome não encontrado
+Magnésio,mg,"9,79","4,90","10,8","8,81","19,6","27,4",BRC0238A,Nome não encontrado
+Fósforo,mg,"52,9","26,5","58,2","47,7",105,148,BRC0238A,Nome não encontrado
+Potássio,mg,"82,0","41,0","90,2","73,8",164,229,BRC0238A,Nome não encontrado
+Manganês,mg,"0,22","0,11","0,24","0,19","0,43","0,60",BRC0238A,Nome não encontrado
+Zinco,mg,"0,74","0,37","0,81","0,66","1,48","2,07",BRC0238A,Nome não encontrado
+Cobre,mg,"0,09","0,04","0,09","0,08","0,17","0,24",BRC0238A,Nome não encontrado
+Selênio,mcg,traços,traços,traços,traços,,traços,BRC0238A,Nome não encontrado
+Vitamina A (RE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Tiamina,mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Riboflavina,mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Niacina,mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Vitamina B6,mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Vitamina B12,mcg,"0,16","0,08","0,18","0,14","0,32","0,45",BRC0238A,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Equivalente de folato,mcg,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Sal de adição,g,"0,47","0,24","0,52","0,42","0,94","1,32",BRC0238A,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00",BRC0238A,Nome não encontrado
+Gordura de adição,g,-,-,-,-,-,-,BRC0238A,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,-,-,BRC0238A,Nome não encontrado
+Proteína animal,g,-,-,-,-,-,-,BRC0238A,Nome não encontrado

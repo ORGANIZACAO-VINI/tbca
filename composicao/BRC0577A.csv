@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (50 g),codigo_alimento,nome_alimento
+Energia,kJ,1523,761,BRC0577A,Nome não encontrado
+Energia,kcal,360,179,BRC0577A,Nome não encontrado
+Umidade,g,"2,40","1,20",BRC0577A,Nome não encontrado
+Carboidrato total,g,"72,9","36,5",BRC0577A,Nome não encontrado
+Carboidrato disponível,g,"68,6","34,3",BRC0577A,Nome não encontrado
+Proteína,g,"12,2","6,10",BRC0577A,Nome não encontrado
+Lipídios,g,"3,10","1,55",BRC0577A,Nome não encontrado
+Fibra alimentar,g,"4,30","2,15",BRC0577A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0577A,Nome não encontrado
+Cinzas,g,"9,40","4,70",BRC0577A,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0577A,Nome não encontrado
+Ácidos graxos saturados,g,"0,40","0,20",BRC0577A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,70","0,35",BRC0577A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,90","0,45",BRC0577A,Nome não encontrado
+Ácidos graxos trans,g,,traços,BRC0577A,Nome não encontrado
+Cálcio,mg,"19,0","9,50",BRC0577A,Nome não encontrado
+Ferro,mg,"1,30","0,65",BRC0577A,Nome não encontrado
+Sódio,mg,766,383,BRC0577A,Nome não encontrado
+Magnésio,mg,"37,0","18,5",BRC0577A,Nome não encontrado
+Fósforo,mg,140,"70,0",BRC0577A,Nome não encontrado
+Potássio,mg,156,"78,0",BRC0577A,Nome não encontrado
+Manganês,mg,"1,30","0,65",BRC0577A,Nome não encontrado
+Zinco,mg,"0,90","0,45",BRC0577A,Nome não encontrado
+Cobre,mg,"0,22","0,11",BRC0577A,Nome não encontrado
+Selênio,mcg,"7,00","3,50",BRC0577A,Nome não encontrado
+Vitamina A (RE),mcg,traços,traços,BRC0577A,Nome não encontrado
+Vitamina A (RAE),mcg,traços,traços,BRC0577A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0577A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,20","0,10",BRC0577A,Nome não encontrado
+Tiamina,mg,"0,15","0,08",BRC0577A,Nome não encontrado
+Riboflavina,mg,"0,02","0,01",BRC0577A,Nome não encontrado
+Niacina,mg,"1,30","0,65",BRC0577A,Nome não encontrado
+Vitamina B6,mg,"0,08","0,04",BRC0577A,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0577A,Nome não encontrado
+Vitamina C,mg,"0,00","0,00",BRC0577A,Nome não encontrado
+Equivalente de folato,mcg,,traços,BRC0577A,Nome não encontrado
+Sal de adição,g,,traços,BRC0577A,Nome não encontrado
+Açúcar de adição,g,,traços,BRC0577A,Nome não encontrado
+Gordura de adição,g,,traços,BRC0577A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0577A,Nome não encontrado
+Proteína animal,g,-,-,BRC0577A,Nome não encontrado

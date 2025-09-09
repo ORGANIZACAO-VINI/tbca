@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sobremesa rasa (10 g),codigo_alimento,nome_alimento
+Energia,kJ,1329,132,BRC0005U,Nome não encontrado
+Energia,kcal,321,32,BRC0005U,Nome não encontrado
+Umidade,g,"49,3","4,93",BRC0005U,Nome não encontrado
+Carboidrato total,g,"16,8","1,68",BRC0005U,Nome não encontrado
+Carboidrato disponível,g,"14,3","1,43",BRC0005U,Nome não encontrado
+Proteína,g,"7,43","0,74",BRC0005U,Nome não encontrado
+Lipídios,g,"25,4","2,54",BRC0005U,Nome não encontrado
+Fibra alimentar,g,"2,51","0,25",BRC0005U,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0005U,Nome não encontrado
+Cinzas,g,"1,00","0,10",BRC0005U,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0005U,Nome não encontrado
+Ácidos graxos saturados,g,"11,9","1,19",BRC0005U,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"8,82","0,88",BRC0005U,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,82","0,38",BRC0005U,Nome não encontrado
+Ácidos graxos trans,g,"0,01","0,00",BRC0005U,Nome não encontrado
+Cálcio,mg,"33,6","3,36",BRC0005U,Nome não encontrado
+Ferro,mg,"1,86","0,19",BRC0005U,Nome não encontrado
+Sódio,mg,"23,0","2,30",BRC0005U,Nome não encontrado
+Magnésio,mg,"69,1","6,91",BRC0005U,Nome não encontrado
+Fósforo,mg,115,"11,5",BRC0005U,Nome não encontrado
+Potássio,mg,275,"27,5",BRC0005U,Nome não encontrado
+Manganês,mg,"0,79","0,08",BRC0005U,Nome não encontrado
+Zinco,mg,"0,99","0,10",BRC0005U,Nome não encontrado
+Cobre,mg,"0,32","0,03",BRC0005U,Nome não encontrado
+Selênio,mcg,"1,32","0,13",BRC0005U,Nome não encontrado
+Vitamina A (RE),mcg,"0,01","0,00",BRC0005U,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00",BRC0005U,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0005U,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,84","0,18",BRC0005U,Nome não encontrado
+Tiamina,mg,"0,04","0,00",BRC0005U,Nome não encontrado
+Riboflavina,mg,"0,01","0,00",BRC0005U,Nome não encontrado
+Niacina,mg,"1,31","0,13",BRC0005U,Nome não encontrado
+Vitamina B6,mg,"0,07","0,01",BRC0005U,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0005U,Nome não encontrado
+Vitamina C,mg,"0,00","0,00",BRC0005U,Nome não encontrado
+Equivalente de folato,mcg,"28,2","2,82",BRC0005U,Nome não encontrado
+Sal de adição,g,,,BRC0005U,Nome não encontrado
+Açúcar de adição,g,,,BRC0005U,Nome não encontrado
+Gordura de adição,g,-,-,BRC0005U,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0005U,Nome não encontrado
+Proteína animal,g,-,-,BRC0005U,Nome não encontrado

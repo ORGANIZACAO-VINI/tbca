@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (65 g),Colher servir rasa (50 g),codigo_alimento,nome_alimento
+Energia,kJ,1197,778,598,BRC0110K,Nome não encontrado
+Energia,kcal,282,183,141,BRC0110K,Nome não encontrado
+Umidade,g,"28,0","18,2","14,0",BRC0110K,Nome não encontrado
+Carboidrato total,g,"70,2","45,6","35,1",BRC0110K,Nome não encontrado
+Carboidrato disponível,g,"67,7","44,0","33,9",BRC0110K,Nome não encontrado
+Proteína,g,"1,10","0,72","0,55",BRC0110K,Nome não encontrado
+Lipídios,g,"0,20","0,13","0,10",BRC0110K,Nome não encontrado
+Fibra alimentar,g,"2,50","1,63","1,25",BRC0110K,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00",BRC0110K,Nome não encontrado
+Cinzas,g,"0,50","0,33","0,25",BRC0110K,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00",BRC0110K,Nome não encontrado
+Ácidos graxos saturados,g,"0,04","0,03","0,02",BRC0110K,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,07","0,05","0,04",BRC0110K,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,08","0,05","0,04",BRC0110K,Nome não encontrado
+Ácidos graxos trans,g,"0,00","0,00","0,00",BRC0110K,Nome não encontrado
+Cálcio,mg,"0,14","0,09","0,07",BRC0110K,Nome não encontrado
+Ferro,mg,"0,41","0,27","0,21",BRC0110K,Nome não encontrado
+Sódio,mg,"48,0","31,2","24,0",BRC0110K,Nome não encontrado
+Magnésio,mg,"11,0","7,15","5,50",BRC0110K,Nome não encontrado
+Fósforo,mg,"37,0","24,1","18,5",BRC0110K,Nome não encontrado
+Potássio,mg,181,117,"90,5",BRC0110K,Nome não encontrado
+Manganês,mg,,,traços,BRC0110K,Nome não encontrado
+Zinco,mg,"0,16","0,10","0,08",BRC0110K,Nome não encontrado
+Cobre,mg,,,traços,BRC0110K,Nome não encontrado
+Selênio,mcg,"0,70","0,46","0,35",BRC0110K,Nome não encontrado
+Vitamina A (RE),mcg,"1,00","0,65","0,50",BRC0110K,Nome não encontrado
+Vitamina A (RAE),mcg,,,traços,BRC0110K,Nome não encontrado
+Vitamina D,mcg,,,traços,BRC0110K,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,10","0,07","0,05",BRC0110K,Nome não encontrado
+Tiamina,mg,"0,07","0,05","0,04",BRC0110K,Nome não encontrado
+Riboflavina,mg,"0,03","0,02","0,01",BRC0110K,Nome não encontrado
+Niacina,mg,"0,59","0,38","0,30",BRC0110K,Nome não encontrado
+Vitamina B6,mg,"0,15","0,10","0,08",BRC0110K,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00",BRC0110K,Nome não encontrado
+Vitamina C,mg,"1,00","0,65","0,50",BRC0110K,Nome não encontrado
+Equivalente de folato,mcg,"18,0","11,7","9,00",BRC0110K,Nome não encontrado
+Sal de adição,g,,,traços,BRC0110K,Nome não encontrado
+Açúcar de adição,g,,,traços,BRC0110K,Nome não encontrado
+Gordura de adição,g,-,-,-,BRC0110K,Nome não encontrado
+Proteína vegetal,g,-,-,-,BRC0110K,Nome não encontrado
+Proteína animal,g,-,-,-,BRC0110K,Nome não encontrado

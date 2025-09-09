@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (35 g),Colher sopa cheia (17 g),Concha cheia (140 g),Concha rasa (80 g),codigo_alimento,nome_alimento
+Energia,kJ,817,286,138,1144,653,BRC0222T,Nome não encontrado
+Energia,kcal,197,69,33,276,157,BRC0222T,Nome não encontrado
+Umidade,g,"64,3","22,5","10,9","90,0","51,4",BRC0222T,Nome não encontrado
+Carboidrato total,g,"11,3","3,95","1,92","15,8","9,02",BRC0222T,Nome não encontrado
+Carboidrato disponível,g,"4,85","1,70","0,82","6,79","3,88",BRC0222T,Nome não encontrado
+Proteína,g,"8,95","3,13","1,52","12,5","7,16",BRC0222T,Nome não encontrado
+Lipídios,g,"14,4","5,03","2,44","20,1","11,5",BRC0222T,Nome não encontrado
+Fibra alimentar,g,"6,43","2,25","1,09","9,00","5,14",BRC0222T,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00",BRC0222T,Nome não encontrado
+Cinzas,g,"1,15","0,40","0,20","1,61","0,92",BRC0222T,Nome não encontrado
+Colesterol,mg,"17,9","6,26","3,04","25,1","14,3",BRC0222T,Nome não encontrado
+Ácidos graxos saturados,g,"4,24","1,49","0,72","5,94","3,40",BRC0222T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"5,57","1,95","0,95","7,80","4,46",BRC0222T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,80","1,33","0,65","5,32","3,04",BRC0222T,Nome não encontrado
+Ácidos graxos trans,g,"0,12","0,04","0,02","0,17","0,10",BRC0222T,Nome não encontrado
+Cálcio,mg,"24,5","8,58","4,17","34,3","19,6",BRC0222T,Nome não encontrado
+Ferro,mg,"1,29","0,45","0,22","1,81","1,03",BRC0222T,Nome não encontrado
+Sódio,mg,206,"72,2","35,1",288,164,BRC0222T,Nome não encontrado
+Magnésio,mg,"32,9","11,5","5,60","46,1","26,3",BRC0222T,Nome não encontrado
+Fósforo,mg,"88,3","30,9","15,0",123,"70,7",BRC0222T,Nome não encontrado
+Potássio,mg,240,"84,1","40,9",336,192,BRC0222T,Nome não encontrado
+Manganês,mg,"0,29","0,10","0,05","0,40","0,23",BRC0222T,Nome não encontrado
+Zinco,mg,"1,57","0,55","0,27","2,20","1,26",BRC0222T,Nome não encontrado
+Cobre,mg,"0,45","0,16","0,08","0,62","0,36",BRC0222T,Nome não encontrado
+Selênio,mcg,"2,06","0,72","0,35","2,89","1,65",BRC0222T,Nome não encontrado
+Vitamina A (RE),mcg,,,,,,BRC0222T,Nome não encontrado
+Vitamina A (RAE),mcg,,,,,,BRC0222T,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00","0,00",BRC0222T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,24","0,08","0,04","0,33","0,19",BRC0222T,Nome não encontrado
+Tiamina,mg,"0,05","0,02","0,01","0,07","0,04",BRC0222T,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,traços,traços,BRC0222T,Nome não encontrado
+Niacina,mg,"1,01","0,35","0,17","1,41","0,81",BRC0222T,Nome não encontrado
+Vitamina B6,mg,"0,03","0,01","0,01","0,05","0,03",BRC0222T,Nome não encontrado
+Vitamina B12,mcg,"0,35","0,12","0,06","0,48","0,28",BRC0222T,Nome não encontrado
+Vitamina C,mg,"0,41","0,14","0,07","0,57","0,33",BRC0222T,Nome não encontrado
+Equivalente de folato,mcg,"65,8","23,0","11,2","92,1","52,6",BRC0222T,Nome não encontrado
+Sal de adição,g,"0,45","0,16","0,08","0,63","0,36",BRC0222T,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0222T,Nome não encontrado
+Gordura de adição,g,-,-,-,-,-,BRC0222T,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,-,BRC0222T,Nome não encontrado
+Proteína animal,g,-,-,-,-,-,BRC0222T,Nome não encontrado

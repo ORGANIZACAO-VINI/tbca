@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,348,BRC1006F,Nome não encontrado
+Energia,kcal,82,BRC1006F,Nome não encontrado
+Umidade,g,"77,3",BRC1006F,Nome não encontrado
+Carboidrato total,g,"2,25",BRC1006F,Nome não encontrado
+Carboidrato disponível,g,"0,00",BRC1006F,Nome não encontrado
+Proteína,g,"18,1",BRC1006F,Nome não encontrado
+Lipídios,g,"1,09",BRC1006F,Nome não encontrado
+Fibra alimentar,g,"0,00",BRC1006F,Nome não encontrado
+Álcool,g,"0,00",BRC1006F,Nome não encontrado
+Cinzas,g,"1,29",BRC1006F,Nome não encontrado
+Colesterol,mg,181,BRC1006F,Nome não encontrado
+Ácidos graxos saturados,g,"0,28",BRC1006F,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,19",BRC1006F,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,37",BRC1006F,Nome não encontrado
+Ácidos graxos trans,g,,BRC1006F,Nome não encontrado
+Cálcio,mg,118,BRC1006F,Nome não encontrado
+Ferro,mg,"1,10",BRC1006F,Nome não encontrado
+Sódio,mg,"72,8",BRC1006F,Nome não encontrado
+Magnésio,mg,"25,1",BRC1006F,Nome não encontrado
+Fósforo,mg,184,BRC1006F,Nome não encontrado
+Potássio,mg,357,BRC1006F,Nome não encontrado
+Manganês,mg,,BRC1006F,Nome não encontrado
+Zinco,mg,"1,26",BRC1006F,Nome não encontrado
+Cobre,mg,"0,31",BRC1006F,Nome não encontrado
+Selênio,mcg,"17,7",BRC1006F,Nome não encontrado
+Vitamina A (RE),mcg,,BRC1006F,Nome não encontrado
+Vitamina A (RAE),mcg,"54,3",BRC1006F,Nome não encontrado
+Vitamina D,mcg,"0,72",BRC1006F,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"3,62",BRC1006F,Nome não encontrado
+Tiamina,mg,"0,18",BRC1006F,Nome não encontrado
+Riboflavina,mg,"0,31",BRC1006F,Nome não encontrado
+Niacina,mg,"1,51",BRC1006F,Nome não encontrado
+Vitamina B6,mg,"0,15",BRC1006F,Nome não encontrado
+Vitamina B12,mcg,"0,50",BRC1006F,Nome não encontrado
+Vitamina C,mg,-,BRC1006F,Nome não encontrado
+Equivalente de folato,mcg,"18,8",BRC1006F,Nome não encontrado
+Sal de adição,g,"0,00",BRC1006F,Nome não encontrado
+Açúcar de adição,g,"0,00",BRC1006F,Nome não encontrado
+Gordura de adição,g,"0,00",BRC1006F,Nome não encontrado
+Proteína vegetal,g,"0,00",BRC1006F,Nome não encontrado
+Proteína animal,g,"18,1",BRC1006F,Nome não encontrado

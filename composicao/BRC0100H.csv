@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Xícara chá (200 mL),codigo_alimento,nome_alimento
+Energia,kJ,240,479,BRC0100H,Nome não encontrado
+Energia,kcal,57,113,BRC0100H,Nome não encontrado
+Umidade,g,"87,3",174,BRC0100H,Nome não encontrado
+Carboidrato total,g,"3,33","6,66",BRC0100H,Nome não encontrado
+Carboidrato disponível,g,"3,01","6,01",BRC0100H,Nome não encontrado
+Proteína,g,"1,46","2,92",BRC0100H,Nome não encontrado
+Lipídios,g,"1,64","3,28",BRC0100H,Nome não encontrado
+Fibra alimentar,g,"0,33","0,65",BRC0100H,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0100H,Nome não encontrado
+Cinzas,g,"0,32","0,64",BRC0100H,Nome não encontrado
+Colesterol,mg,"5,81","11,6",BRC0100H,Nome não encontrado
+Ácidos graxos saturados,g,"0,99","1,98",BRC0100H,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,45","0,90",BRC0100H,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,10","0,20",BRC0100H,Nome não encontrado
+Ácidos graxos trans,g,"0,00","0,00",BRC0100H,Nome não encontrado
+Cálcio,mg,"51,4",102,BRC0100H,Nome não encontrado
+Ferro,mg,"0,07","0,13",BRC0100H,Nome não encontrado
+Sódio,mg,"30,5","61,1",BRC0100H,Nome não encontrado
+Magnésio,mg,"6,45","12,9",BRC0100H,Nome não encontrado
+Fósforo,mg,"39,8","79,6",BRC0100H,Nome não encontrado
+Potássio,mg,"78,5",156,BRC0100H,Nome não encontrado
+Manganês,mg,"0,02","0,03",BRC0100H,Nome não encontrado
+Zinco,mg,"0,19","0,37",BRC0100H,Nome não encontrado
+Cobre,mg,"0,02","0,03",BRC0100H,Nome não encontrado
+Selênio,mcg,,,BRC0100H,Nome não encontrado
+Vitamina A (RE),mcg,"23,3","46,6",BRC0100H,Nome não encontrado
+Vitamina A (RAE),mcg,"22,9","45,9",BRC0100H,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0100H,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,04","0,07",BRC0100H,Nome não encontrado
+Tiamina,mg,"0,02","0,04",BRC0100H,Nome não encontrado
+Riboflavina,mg,"0,11","0,23",BRC0100H,Nome não encontrado
+Niacina,mg,"0,79","1,59",BRC0100H,Nome não encontrado
+Vitamina B6,mg,traços,,BRC0100H,Nome não encontrado
+Vitamina B12,mcg,"0,18","0,35",BRC0100H,Nome não encontrado
+Vitamina C,mg,"0,00","0,00",BRC0100H,Nome não encontrado
+Equivalente de folato,mcg,"2,44","4,87",BRC0100H,Nome não encontrado
+Sal de adição,g,"0,00","0,00",BRC0100H,Nome não encontrado
+Açúcar de adição,g,"6,00","12,0",BRC0100H,Nome não encontrado
+Gordura de adição,g,-,-,BRC0100H,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0100H,Nome não encontrado
+Proteína animal,g,-,-,BRC0100H,Nome não encontrado

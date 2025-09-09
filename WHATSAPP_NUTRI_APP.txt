@@ -1,0 +1,229 @@
+*PROJETO NUTRI-APP: DOCUMENTAÇÃO COMPLETA* 📱🍎
+
+Prezado Desenvolvedor,
+
+Estou enviando o projeto Nutri-App para implementação. Este sistema gerencia dados nutricionais integrando uma base extensa com frontend e backend estruturados.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*📌 VISÃO GERAL DO PROJETO*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+O Nutri-App é uma aplicação web para consulta de informações nutricionais baseada na Tabela Brasileira de Composição de Alimentos (TBCA). Principais recursos:
+
+• Consulta detalhada de alimentos e nutrientes
+• Cálculos nutricionais por porção
+• Pesquisa avançada por tipo de alimento
+• Integração com banco Oracle para alta performance
+• Interface web responsiva
+
+Devido ao tamanho da base completa (~50MB, 230.000+ registros), estou dividindo o envio em duas partes:
+
+*1️⃣ PARTE 1 (ESTE ENVIO):* Código completo + arquivo de amostra
+*2️⃣ PARTE 2 (PRÓXIMO ENVIO):* Base de dados completa (CSV)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*📂 ESTRUTURA DO PROJETO*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+```
+nutri-app/
+│
+├── backend/                  # API e serviços de dados
+│   ├── app/                  # Aplicação principal
+│   │   ├── models/           # Modelos de dados
+│   │   ├── routes/           # Endpoints da API
+│   │   └── services/         # Serviços de negócio
+│   ├── data/                 # Scripts de importação
+│   └── tbca.db               # Banco SQLite (dados)
+│
+├── frontend/                 # Interface de usuário
+│   ├── public/               # Arquivos estáticos
+│   └── src/                  # Código fonte React/JS
+│
+├── scripts/                  # Scripts de automação
+│   ├── migrate_sqlite_to_oracle.py
+│   └── oracle_config_utils.py
+│
+├── dados/                    # Arquivos de dados
+│   └── teste_tbca.csv        # Dados de teste
+│
+├── importar_tbca_completo.py # Script de importação
+└── menu_tbca_completo.py     # Menu interativo
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*⚙️ FLUXO DE DADOS*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+*1. IMPORTAÇÃO DE DADOS*
+CSV Tabela TBCA ➡️ SQLite DB ➡️ Oracle DB
+
+*2. ARQUITETURA DA APLICAÇÃO*
+Frontend ⬅️ Backend API ⬅️ Database
+
+*3. COMPONENTES PRINCIPAIS:*
+• Importador de dados (Python)
+• API RESTful (Python/FastAPI)
+• Frontend (React/JavaScript)
+• Migrações Oracle (Python/cx_Oracle)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*🔍 FUNCIONALIDADES DETALHADAS*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+*1. IMPORTAÇÃO DE DADOS*
+• Processamento automático do CSV (~230.000 linhas)
+• Normalização de caracteres especiais
+• Categorização automática de alimentos
+• Extração de informações nutricionais
+• Armazenamento de porções e medidas
+
+*2. BANCO DE DADOS*
+• Tabelas principais:
+  - alimentos: Dados básicos
+  - nutrientes: Informações nutricionais
+  - grupos: Categorias
+  - alimentos_composicao: Detalhes completos
+
+*3. API BACKEND*
+• Endpoints principais:
+```
+GET /alimentos
+GET /alimentos/{id}
+GET /grupos
+GET /nutrientes/{alimento_id}
+```
+
+*4. FRONTEND*
+• Páginas principais:
+  - Home: Visão geral e pesquisa
+  - Pesquisa avançada: Filtros completos
+  - Detalhe do alimento: Informações nutricionais
+  - Calculadora: Cálculos por porção
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*🚀 INSTRUÇÕES DE CONFIGURAÇÃO*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+*PARTE 1: CONFIGURAÇÃO INICIAL*
+
+1. Extraia o arquivo compactado para uma pasta adequada
+
+2. Execute o script de verificação:
+```
+python verificacao_inicial_dev.py
+```
+
+3. Configure o ambiente Python:
+```
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar ambiente (Windows)
+venv\Scripts\activate
+
+# Instalar dependências
+pip install -r nutri-app/backend/requirements.txt
+```
+
+4. Verificar banco de dados:
+```
+python check_database.py
+```
+
+*PARTE 2: IMPORTAÇÃO DA BASE COMPLETA*
+
+Quando receber o arquivo completo:
+
+1. Coloque-o na raiz do projeto
+2. Execute o menu de importação:
+```
+python menu_tbca_completo.py
+```
+3. Selecione a opção 1 para importar os dados
+
+O processo leva aproximadamente 5-10 minutos.
+
+*PARTE 3: EXECUÇÃO DO APLICATIVO*
+
+1. Iniciar backend:
+```
+cd nutri-app/backend
+python -m app.main
+```
+API estará disponível em http://localhost:8000
+
+2. Iniciar frontend:
+```
+cd nutri-app/frontend
+npm install
+npm start
+```
+Frontend estará disponível em http://localhost:3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*⚠️ SOLUÇÃO DE PROBLEMAS*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+*1. ERRO DE IMPORTAÇÃO:*
+• Problema: "Arquivo CSV não encontrado"
+• Solução: Verifique se o arquivo está na raiz com nome exato
+
+*2. ERRO DE MEMÓRIA:*
+• Problema: "MemoryError" durante importação
+• Solução: Feche outros aplicativos e tente novamente
+
+*3. ERRO DE CODIFICAÇÃO:*
+• Problema: Caracteres especiais incorretos
+• Solução: Certifique-se que o CSV está em UTF-8
+
+*4. ERRO DE CONEXÃO ORACLE:*
+• Problema: Falha na migração para Oracle
+• Solução: Verifique configurações em config/oracle_config.json
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*📊 REQUISITOS DE SISTEMA*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Hardware recomendado:
+  - CPU: 2+ cores
+  - RAM: 8GB (mínimo 4GB)
+  - Espaço: 100MB
+
+• Tempos estimados:
+  - Importação: 5-10 minutos
+  - Migração Oracle: 10-15 minutos
+  - Resposta API: <200ms
+
+• Capacidade:
+  - ~4.000 alimentos
+  - ~230.000 registros de composição
+  - ~30 tipos de nutrientes por alimento
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*📝 PRÓXIMAS ETAPAS*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Confirme o recebimento desta mensagem
+2. Execute o script de verificação inicial
+3. Avise quando o ambiente estiver configurado
+4. Receba a base de dados completa
+5. Importe os dados usando o menu
+6. Inicie a aplicação para testes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*📞 SUPORTE E CONTATO*
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Se encontrar qualquer problema:
+
+• Email: [SEU-EMAIL]
+• Telefone: [SEU-TELEFONE]
+• Disponibilidade: [HORÁRIOS]
+
+Estou à disposição para ajudar durante a implementação.
+
+Agradeço sua colaboração neste projeto!
+
+Atenciosamente,
+[SEU NOME]

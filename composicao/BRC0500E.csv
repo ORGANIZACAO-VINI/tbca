@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,500,BRC0500E,Nome não encontrado
+Energia,kcal,119,BRC0500E,Nome não encontrado
+Umidade,g,"72,9",BRC0500E,Nome não encontrado
+Carboidrato total,g,"0,38",BRC0500E,Nome não encontrado
+Carboidrato disponível,g,"0,38",BRC0500E,Nome não encontrado
+Proteína,g,"20,0",BRC0500E,Nome não encontrado
+Lipídios,g,"4,15",BRC0500E,Nome não encontrado
+Fibra alimentar,g,"0,00",BRC0500E,Nome não encontrado
+Álcool,g,"0,00",BRC0500E,Nome não encontrado
+Cinzas,g,"2,55",BRC0500E,Nome não encontrado
+Colesterol,mg,"9,61",BRC0500E,Nome não encontrado
+Ácidos graxos saturados,g,"0,81",BRC0500E,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,04",BRC0500E,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"2,18",BRC0500E,Nome não encontrado
+Ácidos graxos trans,g,"0,02",BRC0500E,Nome não encontrado
+Cálcio,mg,176,BRC0500E,Nome não encontrado
+Ferro,mg,"0,34",BRC0500E,Nome não encontrado
+Sódio,mg,219,BRC0500E,Nome não encontrado
+Magnésio,mg,"22,6",BRC0500E,Nome não encontrado
+Fósforo,mg,205,BRC0500E,Nome não encontrado
+Potássio,mg,216,BRC0500E,Nome não encontrado
+Manganês,mg,"0,07",BRC0500E,Nome não encontrado
+Zinco,mg,"1,00",BRC0500E,Nome não encontrado
+Cobre,mg,"0,06",BRC0500E,Nome não encontrado
+Selênio,mcg,,BRC0500E,Nome não encontrado
+Vitamina A (RE),mcg,"0,50",BRC0500E,Nome não encontrado
+Vitamina A (RAE),mcg,"0,50",BRC0500E,Nome não encontrado
+Vitamina D,mcg,"0,62",BRC0500E,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,29",BRC0500E,Nome não encontrado
+Tiamina,mg,"0,03",BRC0500E,Nome não encontrado
+Riboflavina,mg,"0,04",BRC0500E,Nome não encontrado
+Niacina,mg,"1,78",BRC0500E,Nome não encontrado
+Vitamina B6,mg,"0,08",BRC0500E,Nome não encontrado
+Vitamina B12,mcg,,BRC0500E,Nome não encontrado
+Vitamina C,mg,,BRC0500E,Nome não encontrado
+Equivalente de folato,mcg,,BRC0500E,Nome não encontrado
+Sal de adição,g,"0,00",BRC0500E,Nome não encontrado
+Açúcar de adição,g,"0,45",BRC0500E,Nome não encontrado
+Gordura de adição,g,-,BRC0500E,Nome não encontrado
+Proteína vegetal,g,-,BRC0500E,Nome não encontrado
+Proteína animal,g,-,BRC0500E,Nome não encontrado

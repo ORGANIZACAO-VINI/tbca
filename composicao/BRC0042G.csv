@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sobremesa cheia (9 g),Colher sobremesa rasa (5 g),Colher sopa cheia (16 g),Colher sopa rasa (8 g),codigo_alimento,nome_alimento
+Energia,kJ,2094,188,104,334,167,BRC0042G,Nome não encontrado
+Energia,kcal,501,45,25,80,40,BRC0042G,Nome não encontrado
+Umidade,g,"2,70","0,24","0,14","0,43","0,22",BRC0042G,Nome não encontrado
+Carboidrato total,g,"39,2","3,53","1,96","6,27","3,13",BRC0042G,Nome não encontrado
+Carboidrato disponível,g,"39,2","3,53","1,96","6,27","3,13",BRC0042G,Nome não encontrado
+Proteína,g,"25,4","2,29","1,27","4,07","2,03",BRC0042G,Nome não encontrado
+Lipídios,g,"26,9","2,42","1,35","4,30","2,15",BRC0042G,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Cinzas,g,"5,80","0,52","0,29","0,93","0,46",BRC0042G,Nome não encontrado
+Colesterol,mg,"85,3","7,67","4,26","13,6","6,82",BRC0042G,Nome não encontrado
+Ácidos graxos saturados,g,"16,3","1,47","0,82","2,61","1,30",BRC0042G,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"7,10","0,64","0,36","1,14","0,57",BRC0042G,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,50","0,05","0,03","0,08","0,04",BRC0042G,Nome não encontrado
+Ácidos graxos trans,g,"0,94","0,08","0,05","0,15","0,08",BRC0042G,Nome não encontrado
+Cálcio,mg,890,"80,1","44,5",142,"71,2",BRC0042G,Nome não encontrado
+Ferro,mg,"0,52","0,05","0,03","0,08","0,04",BRC0042G,Nome não encontrado
+Sódio,mg,323,"29,1","16,2","51,7","25,9",BRC0042G,Nome não encontrado
+Magnésio,mg,"77,4","6,97","3,87","12,4","6,19",BRC0042G,Nome não encontrado
+Fósforo,mg,1242,111,"62,1",198,"99,4",BRC0042G,Nome não encontrado
+Potássio,mg,1131,101,"56,6",181,"90,5",BRC0042G,Nome não encontrado
+Manganês,mg,traços,traços,traços,traços,traços,BRC0042G,Nome não encontrado
+Zinco,mg,"2,73","0,25","0,14","0,44","0,22",BRC0042G,Nome não encontrado
+Cobre,mg,"0,11","0,01","0,01","0,02","0,01",BRC0042G,Nome não encontrado
+Selênio,mcg,,,,,,BRC0042G,Nome não encontrado
+Vitamina A (RE),mcg,1488,133,"74,4",238,119,BRC0042G,Nome não encontrado
+Vitamina A (RAE),mcg,1481,133,"74,1",237,118,BRC0042G,Nome não encontrado
+Vitamina D,mcg,"0,50","0,05","0,03","0,08","0,04",BRC0042G,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"3,22","0,29","0,16","0,51","0,26",BRC0042G,Nome não encontrado
+Tiamina,mg,"0,39","0,04","0,02","0,06","0,03",BRC0042G,Nome não encontrado
+Riboflavina,mg,"1,02","0,09","0,05","0,16","0,08",BRC0042G,Nome não encontrado
+Niacina,mg,traços,traços,traços,traços,traços,BRC0042G,Nome não encontrado
+Vitamina B6,mg,traços,traços,traços,traços,traços,BRC0042G,Nome não encontrado
+Vitamina B12,mcg,"3,16","0,28","0,16","0,51","0,25",BRC0042G,Nome não encontrado
+Vitamina C,mg,"8,37","0,75","0,42","1,34","0,67",BRC0042G,Nome não encontrado
+Equivalente de folato,mcg,"36,0","3,24","1,80","5,76","2,88",BRC0042G,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Gordura de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Proteína vegetal,g,"0,00","0,00","0,00","0,00","0,00",BRC0042G,Nome não encontrado
+Proteína animal,g,"25,4","2,29","1,27","4,07","2,03",BRC0042G,Nome não encontrado

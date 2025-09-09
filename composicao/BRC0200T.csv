@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (70 g),codigo_alimento,nome_alimento
+Energia,kJ,1334,933,BRC0200T,Nome não encontrado
+Energia,kcal,322,225,BRC0200T,Nome não encontrado
+Umidade,g,"48,4","33,9",BRC0200T,Nome não encontrado
+Carboidrato total,g,"14,0","9,83",BRC0200T,Nome não encontrado
+Carboidrato disponível,g,"11,9","8,32",BRC0200T,Nome não encontrado
+Proteína,g,"10,1","7,09",BRC0200T,Nome não encontrado
+Lipídios,g,"25,5","17,8",BRC0200T,Nome não encontrado
+Fibra alimentar,g,"2,15","1,51",BRC0200T,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0200T,Nome não encontrado
+Cinzas,g,"1,97","1,38",BRC0200T,Nome não encontrado
+Colesterol,mg,"65,5","45,9",BRC0200T,Nome não encontrado
+Ácidos graxos saturados,g,"8,24","5,77",BRC0200T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"10,5","7,38",BRC0200T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"5,10","3,57",BRC0200T,Nome não encontrado
+Ácidos graxos trans,g,"0,17","0,12",BRC0200T,Nome não encontrado
+Cálcio,mg,"40,6","28,4",BRC0200T,Nome não encontrado
+Ferro,mg,"1,05","0,73",BRC0200T,Nome não encontrado
+Sódio,mg,523,366,BRC0200T,Nome não encontrado
+Magnésio,mg,"21,7","15,2",BRC0200T,Nome não encontrado
+Fósforo,mg,134,"94,4",BRC0200T,Nome não encontrado
+Potássio,mg,236,165,BRC0200T,Nome não encontrado
+Manganês,mg,"0,15","0,11",BRC0200T,Nome não encontrado
+Zinco,mg,"1,04","0,73",BRC0200T,Nome não encontrado
+Cobre,mg,"0,07","0,05",BRC0200T,Nome não encontrado
+Selênio,mcg,,,BRC0200T,Nome não encontrado
+Vitamina A (RE),mcg,,,BRC0200T,Nome não encontrado
+Vitamina A (RAE),mcg,,,BRC0200T,Nome não encontrado
+Vitamina D,mcg,,,BRC0200T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,,,BRC0200T,Nome não encontrado
+Tiamina,mg,"0,14","0,10",BRC0200T,Nome não encontrado
+Riboflavina,mg,"0,05","0,04",BRC0200T,Nome não encontrado
+Niacina,mg,"2,59","1,81",BRC0200T,Nome não encontrado
+Vitamina B6,mg,traços,traços,BRC0200T,Nome não encontrado
+Vitamina B12,mcg,,,BRC0200T,Nome não encontrado
+Vitamina C,mg,traços,traços,BRC0200T,Nome não encontrado
+Equivalente de folato,mcg,,,BRC0200T,Nome não encontrado
+Sal de adição,g,"0,45","0,32",BRC0200T,Nome não encontrado
+Açúcar de adição,g,,,BRC0200T,Nome não encontrado
+Gordura de adição,g,-,-,BRC0200T,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0200T,Nome não encontrado
+Proteína animal,g,-,-,BRC0200T,Nome não encontrado

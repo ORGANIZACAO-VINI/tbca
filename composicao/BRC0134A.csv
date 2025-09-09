@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sopa cheia (15 g),codigo_alimento,nome_alimento
+Energia,kJ,1741,261,BRC0134A,Nome não encontrado
+Energia,kcal,416,62,BRC0134A,Nome não encontrado
+Umidade,g,"11,5","1,73",BRC0134A,Nome não encontrado
+Carboidrato total,g,"59,1","8,87",BRC0134A,Nome não encontrado
+Carboidrato disponível,g,"49,4","7,41",BRC0134A,Nome não encontrado
+Proteína,g,"7,50","1,13",BRC0134A,Nome não encontrado
+Lipídios,g,"18,8","2,82",BRC0134A,Nome não encontrado
+Fibra alimentar,g,"9,70","1,46",BRC0134A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0134A,Nome não encontrado
+Cinzas,g,"3,07","0,46",BRC0134A,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0134A,Nome não encontrado
+Ácidos graxos saturados,g,"2,94","0,44",BRC0134A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,23","0,64",BRC0134A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"10,0","1,50",BRC0134A,Nome não encontrado
+Ácidos graxos trans,g,,,BRC0134A,Nome não encontrado
+Cálcio,mg,"3,58","0,54",BRC0134A,Nome não encontrado
+Ferro,mg,"1,77","0,27",BRC0134A,Nome não encontrado
+Sódio,mg,608,"91,2",BRC0134A,Nome não encontrado
+Magnésio,mg,"70,8","10,6",BRC0134A,Nome não encontrado
+Fósforo,mg,178,"26,7",BRC0134A,Nome não encontrado
+Potássio,mg,163,"24,5",BRC0134A,Nome não encontrado
+Manganês,mg,"0,56","0,08",BRC0134A,Nome não encontrado
+Zinco,mg,"2,78","0,42",BRC0134A,Nome não encontrado
+Cobre,mg,"0,15","0,02",BRC0134A,Nome não encontrado
+Selênio,mcg,,,BRC0134A,Nome não encontrado
+Vitamina A (RE),mcg,"6,80","1,02",BRC0134A,Nome não encontrado
+Vitamina A (RAE),mcg,"3,45","0,52",BRC0134A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0134A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"11,7","1,75",BRC0134A,Nome não encontrado
+Tiamina,mg,"0,12","0,02",BRC0134A,Nome não encontrado
+Riboflavina,mg,"0,05","0,01",BRC0134A,Nome não encontrado
+Niacina,mg,"1,07","0,16",BRC0134A,Nome não encontrado
+Vitamina B6,mg,"0,10","0,01",BRC0134A,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0134A,Nome não encontrado
+Vitamina C,mg,"0,27","0,04",BRC0134A,Nome não encontrado
+Equivalente de folato,mcg,"22,4","3,36",BRC0134A,Nome não encontrado
+Sal de adição,g,,,BRC0134A,Nome não encontrado
+Açúcar de adição,g,,,BRC0134A,Nome não encontrado
+Gordura de adição,g,,,BRC0134A,Nome não encontrado
+Proteína vegetal,g,,,BRC0134A,Nome não encontrado
+Proteína animal,g,,,BRC0134A,Nome não encontrado

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Porção Média (80 g),codigo_alimento,nome_alimento
+Energia,kJ,619,495,BRC0300C,Nome não encontrado
+Energia,kcal,148,118,BRC0300C,Nome não encontrado
+Umidade,g,"69,9","55,9",BRC0300C,Nome não encontrado
+Carboidrato total,g,"21,3","17,1",BRC0300C,Nome não encontrado
+Carboidrato disponível,g,"20,2","16,2",BRC0300C,Nome não encontrado
+Proteína,g,"1,69","1,36",BRC0300C,Nome não encontrado
+Lipídios,g,"6,43","5,14",BRC0300C,Nome não encontrado
+Fibra alimentar,g,"1,10","0,88",BRC0300C,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0300C,Nome não encontrado
+Cinzas,g,"0,69","0,56",BRC0300C,Nome não encontrado
+Colesterol,mg,"3,36","2,69",BRC0300C,Nome não encontrado
+Ácidos graxos saturados,g,"3,58","2,86",BRC0300C,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,06","1,65",BRC0300C,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,26","0,21",BRC0300C,Nome não encontrado
+Ácidos graxos trans,g,"0,06","0,04",BRC0300C,Nome não encontrado
+Cálcio,mg,"53,4","42,7",BRC0300C,Nome não encontrado
+Ferro,mg,"0,77","0,62",BRC0300C,Nome não encontrado
+Sódio,mg,"15,9","12,7",BRC0300C,Nome não encontrado
+Magnésio,mg,"26,8","21,4",BRC0300C,Nome não encontrado
+Fósforo,mg,"50,9","40,7",BRC0300C,Nome não encontrado
+Potássio,mg,161,128,BRC0300C,Nome não encontrado
+Manganês,mg,"1,25","1,00",BRC0300C,Nome não encontrado
+Zinco,mg,"0,31","0,25",BRC0300C,Nome não encontrado
+Cobre,mg,"0,15","0,12",BRC0300C,Nome não encontrado
+Selênio,mcg,"1,23","0,98",BRC0300C,Nome não encontrado
+Vitamina A (RE),mcg,"1,20","0,96",BRC0300C,Nome não encontrado
+Vitamina A (RAE),mcg,"0,60","0,48",BRC0300C,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0300C,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,14","0,11",BRC0300C,Nome não encontrado
+Tiamina,mg,"0,12","0,09",BRC0300C,Nome não encontrado
+Riboflavina,mg,"0,06","0,05",BRC0300C,Nome não encontrado
+Niacina,mg,"0,13","0,10",BRC0300C,Nome não encontrado
+Vitamina B6,mg,"0,12","0,09",BRC0300C,Nome não encontrado
+Vitamina B12,mcg,"0,15","0,12",BRC0300C,Nome não encontrado
+Vitamina C,mg,"18,5","14,8",BRC0300C,Nome não encontrado
+Equivalente de folato,mcg,"6,72","5,38",BRC0300C,Nome não encontrado
+Sal de adição,g,,,BRC0300C,Nome não encontrado
+Açúcar de adição,g,,,BRC0300C,Nome não encontrado
+Gordura de adição,g,-,-,BRC0300C,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0300C,Nome não encontrado
+Proteína animal,g,-,-,BRC0300C,Nome não encontrado

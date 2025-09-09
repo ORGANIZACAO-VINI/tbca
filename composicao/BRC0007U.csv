@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (30 g),codigo_alimento,nome_alimento
+Energia,kJ,739,221,BRC0007U,Nome não encontrado
+Energia,kcal,175,52,BRC0007U,Nome não encontrado
+Umidade,g,"50,4","15,1",BRC0007U,Nome não encontrado
+Carboidrato total,g,"43,8","13,1",BRC0007U,Nome não encontrado
+Carboidrato disponível,g,"33,1","9,94",BRC0007U,Nome não encontrado
+Proteína,g,"3,15","0,94",BRC0007U,Nome não encontrado
+Lipídios,g,"1,00","0,30",BRC0007U,Nome não encontrado
+Fibra alimentar,g,"10,7","3,20",BRC0007U,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0007U,Nome não encontrado
+Cinzas,g,"1,63","0,49",BRC0007U,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0007U,Nome não encontrado
+Ácidos graxos saturados,g,"0,40","0,12",BRC0007U,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,13","0,04",BRC0007U,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,27","0,08",BRC0007U,Nome não encontrado
+Ácidos graxos trans,g,,,BRC0007U,Nome não encontrado
+Cálcio,mg,"15,4","4,63",BRC0007U,Nome não encontrado
+Ferro,mg,"0,68","0,20",BRC0007U,Nome não encontrado
+Sódio,mg,"0,86","0,26",BRC0007U,Nome não encontrado
+Magnésio,mg,"48,6","14,6",BRC0007U,Nome não encontrado
+Fósforo,mg,104,"31,4",BRC0007U,Nome não encontrado
+Potássio,mg,727,218,BRC0007U,Nome não encontrado
+Manganês,mg,"0,41","0,12",BRC0007U,Nome não encontrado
+Zinco,mg,"0,78","0,23",BRC0007U,Nome não encontrado
+Cobre,mg,"0,20","0,06",BRC0007U,Nome não encontrado
+Selênio,mcg,,,BRC0007U,Nome não encontrado
+Vitamina A (RE),mcg,,,BRC0007U,Nome não encontrado
+Vitamina A (RAE),mcg,,,BRC0007U,Nome não encontrado
+Vitamina D,mcg,,,BRC0007U,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,,,BRC0007U,Nome não encontrado
+Tiamina,mg,traços,traços,BRC0007U,Nome não encontrado
+Riboflavina,mg,traços,traços,BRC0007U,Nome não encontrado
+Niacina,mg,traços,traços,BRC0007U,Nome não encontrado
+Vitamina B6,mg,traços,traços,BRC0007U,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0007U,Nome não encontrado
+Vitamina C,mg,"27,7","8,32",BRC0007U,Nome não encontrado
+Equivalente de folato,mcg,,,BRC0007U,Nome não encontrado
+Sal de adição,g,"0,00","0,00",BRC0007U,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00",BRC0007U,Nome não encontrado
+Gordura de adição,g,"0,00","0,00",BRC0007U,Nome não encontrado
+Proteína vegetal,g,"3,15","0,94",BRC0007U,Nome não encontrado
+Proteína animal,g,"0,00","0,00",BRC0007U,Nome não encontrado

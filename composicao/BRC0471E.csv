@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,267,BRC0471E,Nome não encontrado
+Energia,kcal,64,BRC0471E,Nome não encontrado
+Umidade,g,"75,6",BRC0471E,Nome não encontrado
+Carboidrato total,g,"10,9",BRC0471E,Nome não encontrado
+Carboidrato disponível,g,"9,16",BRC0471E,Nome não encontrado
+Proteína,g,"6,23",BRC0471E,Nome não encontrado
+Lipídios,g,"6,27",BRC0471E,Nome não encontrado
+Fibra alimentar,g,"1,69",BRC0471E,Nome não encontrado
+Álcool,g,"0,00",BRC0471E,Nome não encontrado
+Cinzas,g,"1,04",BRC0471E,Nome não encontrado
+Colesterol,mg,"11,6",BRC0471E,Nome não encontrado
+Ácidos graxos saturados,g,"1,18",BRC0471E,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,10",BRC0471E,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"2,25",BRC0471E,Nome não encontrado
+Ácidos graxos trans,g,,BRC0471E,Nome não encontrado
+Cálcio,mg,"19,5",BRC0471E,Nome não encontrado
+Ferro,mg,"0,38",BRC0471E,Nome não encontrado
+Sódio,mg,131,BRC0471E,Nome não encontrado
+Magnésio,mg,"23,2",BRC0471E,Nome não encontrado
+Fósforo,mg,"86,4",BRC0471E,Nome não encontrado
+Potássio,mg,212,BRC0471E,Nome não encontrado
+Manganês,mg,"0,27",BRC0471E,Nome não encontrado
+Zinco,mg,"0,36",BRC0471E,Nome não encontrado
+Cobre,mg,"0,10",BRC0471E,Nome não encontrado
+Selênio,mcg,"5,62",BRC0471E,Nome não encontrado
+Vitamina A (RE),mcg,146,BRC0471E,Nome não encontrado
+Vitamina A (RAE),mcg,"73,2",BRC0471E,Nome não encontrado
+Vitamina D,mcg,"1,73",BRC0471E,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,03",BRC0471E,Nome não encontrado
+Tiamina,mg,"0,08",BRC0471E,Nome não encontrado
+Riboflavina,mg,"0,03",BRC0471E,Nome não encontrado
+Niacina,mg,"1,03",BRC0471E,Nome não encontrado
+Vitamina B6,mg,"0,04",BRC0471E,Nome não encontrado
+Vitamina B12,mcg,"0,62",BRC0471E,Nome não encontrado
+Vitamina C,mg,"8,66",BRC0471E,Nome não encontrado
+Equivalente de folato,mcg,"24,8",BRC0471E,Nome não encontrado
+Sal de adição,g,,BRC0471E,Nome não encontrado
+Açúcar de adição,g,"0,13",BRC0471E,Nome não encontrado
+Gordura de adição,g,-,BRC0471E,Nome não encontrado
+Proteína vegetal,g,-,BRC0471E,Nome não encontrado
+Proteína animal,g,-,BRC0471E,Nome não encontrado

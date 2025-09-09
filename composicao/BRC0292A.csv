@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (200 g),codigo_alimento,nome_alimento
+Energia,kJ,1062,2124,BRC0292A,Nome não encontrado
+Energia,kcal,254,507,BRC0292A,Nome não encontrado
+Umidade,g,"49,5","99,1",BRC0292A,Nome não encontrado
+Carboidrato total,g,"24,2","48,3",BRC0292A,Nome não encontrado
+Carboidrato disponível,g,"22,8","45,7",BRC0292A,Nome não encontrado
+Proteína,g,"11,2","22,4",BRC0292A,Nome não encontrado
+Lipídios,g,"12,8","25,6",BRC0292A,Nome não encontrado
+Fibra alimentar,g,"1,33","2,66",BRC0292A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0292A,Nome não encontrado
+Cinzas,g,"2,33","4,65",BRC0292A,Nome não encontrado
+Colesterol,mg,158,317,BRC0292A,Nome não encontrado
+Ácidos graxos saturados,g,"3,35","6,70",BRC0292A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"3,85","7,69",BRC0292A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,46","6,92",BRC0292A,Nome não encontrado
+Ácidos graxos trans,g,"0,16","0,31",BRC0292A,Nome não encontrado
+Cálcio,mg,"52,8",105,BRC0292A,Nome não encontrado
+Ferro,mg,"2,60","5,19",BRC0292A,Nome não encontrado
+Sódio,mg,592,1184,BRC0292A,Nome não encontrado
+Magnésio,mg,"25,9","51,8",BRC0292A,Nome não encontrado
+Fósforo,mg,219,439,BRC0292A,Nome não encontrado
+Potássio,mg,239,479,BRC0292A,Nome não encontrado
+Manganês,mg,"0,23","0,47",BRC0292A,Nome não encontrado
+Zinco,mg,"2,00","3,99",BRC0292A,Nome não encontrado
+Cobre,mg,"0,06","0,13",BRC0292A,Nome não encontrado
+Selênio,mcg,"18,3","36,6",BRC0292A,Nome não encontrado
+Vitamina A (RE),mcg,"26,4","52,8",BRC0292A,Nome não encontrado
+Vitamina A (RAE),mcg,"25,3","50,7",BRC0292A,Nome não encontrado
+Vitamina D,mcg,"0,70","1,39",BRC0292A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,67","1,33",BRC0292A,Nome não encontrado
+Tiamina,mg,"0,10","0,19",BRC0292A,Nome não encontrado
+Riboflavina,mg,"0,12","0,23",BRC0292A,Nome não encontrado
+Niacina,mg,"1,73","3,46",BRC0292A,Nome não encontrado
+Vitamina B6,mg,"0,05","0,10",BRC0292A,Nome não encontrado
+Vitamina B12,mcg,"1,15","2,29",BRC0292A,Nome não encontrado
+Vitamina C,mg,"0,09","0,18",BRC0292A,Nome não encontrado
+Equivalente de folato,mcg,"62,1",124,BRC0292A,Nome não encontrado
+Sal de adição,g,,,BRC0292A,Nome não encontrado
+Açúcar de adição,g,,,BRC0292A,Nome não encontrado
+Gordura de adição,g,-,-,BRC0292A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0292A,Nome não encontrado
+Proteína animal,g,-,-,BRC0292A,Nome não encontrado

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,1016,BRC0535E,Nome não encontrado
+Energia,kcal,242,BRC0535E,Nome não encontrado
+Umidade,g,"50,1",BRC0535E,Nome não encontrado
+Carboidrato total,g,"15,2",BRC0535E,Nome não encontrado
+Carboidrato disponível,g,"14,5",BRC0535E,Nome não encontrado
+Proteína,g,"22,4",BRC0535E,Nome não encontrado
+Lipídios,g,"10,4",BRC0535E,Nome não encontrado
+Fibra alimentar,g,"0,71",BRC0535E,Nome não encontrado
+Álcool,g,"0,00",BRC0535E,Nome não encontrado
+Cinzas,g,"1,92",BRC0535E,Nome não encontrado
+Colesterol,mg,"82,3",BRC0535E,Nome não encontrado
+Ácidos graxos saturados,g,"2,13",BRC0535E,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,56",BRC0535E,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"5,08",BRC0535E,Nome não encontrado
+Ácidos graxos trans,g,"0,06",BRC0535E,Nome não encontrado
+Cálcio,mg,"28,3",BRC0535E,Nome não encontrado
+Ferro,mg,"1,65",BRC0535E,Nome não encontrado
+Sódio,mg,285,BRC0535E,Nome não encontrado
+Magnésio,mg,"35,1",BRC0535E,Nome não encontrado
+Fósforo,mg,212,BRC0535E,Nome não encontrado
+Potássio,mg,336,BRC0535E,Nome não encontrado
+Manganês,mg,"0,22",BRC0535E,Nome não encontrado
+Zinco,mg,"1,20",BRC0535E,Nome não encontrado
+Cobre,mg,"0,17",BRC0535E,Nome não encontrado
+Selênio,mcg,"31,1",BRC0535E,Nome não encontrado
+Vitamina A (RE),mcg,traços,BRC0535E,Nome não encontrado
+Vitamina A (RAE),mcg,traços,BRC0535E,Nome não encontrado
+Vitamina D,mcg,"1,44",BRC0535E,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,20",BRC0535E,Nome não encontrado
+Tiamina,mg,traços,BRC0535E,Nome não encontrado
+Riboflavina,mg,"0,11",BRC0535E,Nome não encontrado
+Niacina,mg,"1,16",BRC0535E,Nome não encontrado
+Vitamina B6,mg,traços,BRC0535E,Nome não encontrado
+Vitamina B12,mcg,"3,69",BRC0535E,Nome não encontrado
+Vitamina C,mg,"0,65",BRC0535E,Nome não encontrado
+Equivalente de folato,mcg,"44,8",BRC0535E,Nome não encontrado
+Sal de adição,g,,BRC0535E,Nome não encontrado
+Açúcar de adição,g,,BRC0535E,Nome não encontrado
+Gordura de adição,g,-,BRC0535E,Nome não encontrado
+Proteína vegetal,g,-,BRC0535E,Nome não encontrado
+Proteína animal,g,-,BRC0535E,Nome não encontrado

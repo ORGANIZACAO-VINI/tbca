@@ -1,0 +1,77 @@
+Assunto: [IMPORTANTE] Envio do Projeto Nutri-App (Parte 1: Código)
+
+Prezado(a) Desenvolvedor(a),
+
+Estou enviando a primeira parte do projeto Nutri-App para implementação. Este projeto envolve uma base de dados nutricional completa, que devido ao seu tamanho, será enviada em duas partes:
+
+1. PARTE 1 (ESTE ENVIO): Código e estrutura do projeto + arquivo de amostra
+2. PARTE 2 (PRÓXIMO ENVIO): Base de dados completa (composicao_todos_alimentos.csv)
+
+=====================================================
+📋 CONTEÚDO DESTE PACOTE:
+=====================================================
+
+• Scripts principais de importação e análise
+• Estrutura completa da aplicação (frontend/backend)
+• Scripts de migração para Oracle
+• Arquivo de amostra da base (primeiras 200 linhas)
+• Documentação completa
+
+=====================================================
+🚀 PASSOS PARA CONFIGURAÇÃO INICIAL:
+=====================================================
+
+1. Extraia o arquivo compactado para uma pasta adequada
+2. Abra a pasta "EnvioParaDev" no terminal
+3. Execute o script de verificação inicial:
+   
+   > python verificacao_inicial_dev.py
+   
+   Este script confirmará se todas as dependências estão instaladas e se
+   a estrutura do projeto está correta.
+
+4. Examine a estrutura do projeto e o código para se familiarizar.
+   Aproveite este tempo para entender o funcionamento enquanto aguarda
+   o envio da base completa.
+
+=====================================================
+📝 PRÓXIMOS PASSOS:
+=====================================================
+
+Enviarei a base completa (composicao_todos_alimentos.csv) nos próximos 
+dias via Google Drive/WeTransfer. Este arquivo tem aproximadamente 50MB 
+e contém mais de 230.000 linhas de dados nutricionais detalhados.
+
+Quando receber o arquivo, basta:
+
+1. Colocá-lo na raiz do projeto (mesmo nível dos arquivos Python)
+2. Executar o menu de importação:
+   
+   > python menu_tbca_completo.py
+   
+3. Selecionar a opção 1 para importar os dados
+   (processo leva cerca de 5-10 minutos)
+
+=====================================================
+⚠️ IMPORTANTES OBSERVAÇÕES:
+=====================================================
+
+• A importação da base completa requer ~4GB de RAM disponível
+• O script detecta automaticamente a estrutura do CSV
+• A tabela "alimentos_composicao" será criada para armazenar os detalhes
+• Consulte o arquivo INSTRUCOES_SEGUNDO_ENVIO.md para mais detalhes
+
+=====================================================
+
+Por favor, confirme o recebimento deste e-mail e avise quando estiver 
+com o ambiente configurado para que eu possa enviar a base completa.
+
+Caso tenha qualquer dúvida ou encontre algum problema na configuração, 
+por favor, entre em contato imediatamente.
+
+Agradeço sua atenção e aguardo seu retorno.
+
+Atenciosamente,
+
+[SEU NOME]
+[CONTATO]

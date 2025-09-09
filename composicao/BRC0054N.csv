@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sopa cheia (15 g),codigo_alimento,nome_alimento
+Energia,kJ,1492,223,BRC0054N,Nome não encontrado
+Energia,kcal,356,53,BRC0054N,Nome não encontrado
+Umidade,g,"12,2","1,83",BRC0054N,Nome não encontrado
+Carboidrato total,g,"67,3","10,1",BRC0054N,Nome não encontrado
+Carboidrato disponível,g,"51,3","7,70",BRC0054N,Nome não encontrado
+Proteína,g,"8,70","1,31",BRC0054N,Nome não encontrado
+Lipídios,g,"9,30","1,40",BRC0054N,Nome não encontrado
+Fibra alimentar,g,"16,0","2,40",BRC0054N,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0054N,Nome não encontrado
+Cinzas,g,"2,48","0,37",BRC0054N,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC0054N,Nome não encontrado
+Ácidos graxos saturados,g,"1,39","0,21",BRC0054N,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,00","0,60",BRC0054N,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,50","0,52",BRC0054N,Nome não encontrado
+Ácidos graxos trans,g,,,BRC0054N,Nome não encontrado
+Cálcio,mg,"9,94","1,49",BRC0054N,Nome não encontrado
+Ferro,mg,"2,06","0,31",BRC0054N,Nome não encontrado
+Sódio,mg,487,"73,2",BRC0054N,Nome não encontrado
+Magnésio,mg,136,"20,5",BRC0054N,Nome não encontrado
+Fósforo,mg,238,"35,8",BRC0054N,Nome não encontrado
+Potássio,mg,217,"32,7",BRC0054N,Nome não encontrado
+Manganês,mg,,,BRC0054N,Nome não encontrado
+Zinco,mg,"3,46","0,52",BRC0054N,Nome não encontrado
+Cobre,mg,"0,49","0,07",BRC0054N,Nome não encontrado
+Selênio,mcg,"7,77","1,17",BRC0054N,Nome não encontrado
+Vitamina A (RE),mcg,"17,6","2,64",BRC0054N,Nome não encontrado
+Vitamina A (RAE),mcg,"8,81","1,32",BRC0054N,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0054N,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,49","0,07",BRC0054N,Nome não encontrado
+Tiamina,mg,"0,32","0,05",BRC0054N,Nome não encontrado
+Riboflavina,mg,"0,10","0,01",BRC0054N,Nome não encontrado
+Niacina,mg,"1,87","0,28",BRC0054N,Nome não encontrado
+Vitamina B6,mg,"0,15","0,02",BRC0054N,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC0054N,Nome não encontrado
+Vitamina C,mg,"0,00","0,00",BRC0054N,Nome não encontrado
+Equivalente de folato,mcg,"15,4","2,30",BRC0054N,Nome não encontrado
+Sal de adição,g,,,BRC0054N,Nome não encontrado
+Açúcar de adição,g,,,BRC0054N,Nome não encontrado
+Gordura de adição,g,,,BRC0054N,Nome não encontrado
+Proteína vegetal,g,,,BRC0054N,Nome não encontrado
+Proteína animal,g,,,BRC0054N,Nome não encontrado

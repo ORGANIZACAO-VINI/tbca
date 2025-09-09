@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher café cheia (3.5 g),Colher café rasa (2.3 g),Colher chá cheia (3.5 g),Colher chá rasa (3.6 g),Colher sobremesa cheia (17 g),Colher sobremesa rasa (11 g),Colher sopa cheia (22 g),Colher sopa rasa (12 g),codigo_alimento,nome_alimento
+Energia,kJ,0,0,0,0,0,0,0,0,0,BRC0017L,Nome não encontrado
+Energia,kcal,0,0,0,0,0,0,0,0,0,BRC0017L,Nome não encontrado
+Umidade,g,"0,60","0,02","0,01","0,02","0,02","0,10","0,07","0,13","0,07",BRC0017L,Nome não encontrado
+Carboidrato total,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Carboidrato disponível,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Proteína,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Lipídios,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Fibra alimentar,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0017L,Nome não encontrado
+Cinzas,g,"99,4","3,48","2,29","3,48","3,58","16,9","10,9","21,9","11,9",BRC0017L,Nome não encontrado
+Colesterol,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Ácidos graxos saturados,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Ácidos graxos monoinsaturados,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Ácidos graxos poliinsaturados,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Ácidos graxos trans,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Cálcio,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Ferro,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Sódio,mg,23431,820,538,820,843,3983,2577,5154,2811,BRC0017L,Nome não encontrado
+Magnésio,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Fósforo,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Potássio,mg,20467,716,470,716,736,3479,2251,4502,2456,BRC0017L,Nome não encontrado
+Manganês,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Zinco,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Cobre,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Selênio,mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina A (RE),mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina A (RAE),mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina D,mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Tiamina,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Riboflavina,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Niacina,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina B6,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina B12,mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Vitamina C,mg,,,,,,,,,,BRC0017L,Nome não encontrado
+Equivalente de folato,mcg,,,,,,,,,,BRC0017L,Nome não encontrado
+Sal de adição,g,"100,0","3,50","2,30","3,50","3,60","17,0","11,0","22,0","12,0",BRC0017L,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0017L,Nome não encontrado
+Gordura de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0017L,Nome não encontrado
+Proteína vegetal,g,,,,,,,,,,BRC0017L,Nome não encontrado
+Proteína animal,g,,,,,,,,,,BRC0017L,Nome não encontrado

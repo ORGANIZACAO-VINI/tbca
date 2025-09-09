@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher café cheia (3.5 g),Colher café rasa (2 g),Colher chá cheia (8 g),Colher chá rasa (3 g),Colher sobremesa cheia (21 g),Colher sobremesa rasa (11 g),Colher sopa cheia (22 g),Colher sopa rasa (17 g),codigo_alimento,nome_alimento
+Energia,kJ,910,31,18,72,27,191,100,200,154,BRC0151G,Nome não encontrado
+Energia,kcal,220,7,4,17,6,46,24,48,37,BRC0151G,Nome não encontrado
+Umidade,g,"68,2","2,39","1,36","5,46","2,05","14,3","7,50","15,0","11,6",BRC0151G,Nome não encontrado
+Carboidrato total,g,"5,12","0,18","0,10","0,41","0,15","1,07","0,56","1,13","0,87",BRC0151G,Nome não encontrado
+Carboidrato disponível,g,"4,66","0,16","0,09","0,37","0,14","0,98","0,51","1,03","0,79",BRC0151G,Nome não encontrado
+Proteína,g,"4,65","0,16","0,09","0,37","0,14","0,98","0,51","1,02","0,79",BRC0151G,Nome não encontrado
+Lipídios,g,"20,2","0,71","0,40","1,62","0,61","4,25","2,23","4,45","3,44",BRC0151G,Nome não encontrado
+Fibra alimentar,g,"0,46","0,02","0,01","0,04","0,01","0,10","0,05","0,10","0,08",BRC0151G,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0151G,Nome não encontrado
+Cinzas,g,"1,81","0,06","0,04","0,14","0,05","0,38","0,20","0,40","0,31",BRC0151G,Nome não encontrado
+Colesterol,mg,"53,6","1,87","1,07","4,28","1,61","11,2","5,89","11,8","9,10",BRC0151G,Nome não encontrado
+Ácidos graxos saturados,g,"9,44","0,33","0,19","0,76","0,28","1,98","1,04","2,08","1,61",BRC0151G,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,66","0,16","0,09","0,37","0,14","0,98","0,51","1,02","0,79",BRC0151G,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,64","0,06","0,03","0,13","0,05","0,34","0,18","0,36","0,28",BRC0151G,Nome não encontrado
+Ácidos graxos trans,g,"0,47","0,02","0,01","0,04","0,01","0,10","0,05","0,10","0,08",BRC0151G,Nome não encontrado
+Cálcio,mg,136,"4,79","2,74","10,9","4,10","28,7","15,0","30,1","23,3",BRC0151G,Nome não encontrado
+Ferro,mg,"0,26","0,01","0,01","0,02","0,01","0,05","0,03","0,06","0,04",BRC0151G,Nome não encontrado
+Sódio,mg,428,"15,0","8,57","34,3","12,9","90,0","47,1","94,3","72,9",BRC0151G,Nome não encontrado
+Magnésio,mg,"9,43","0,33","0,19","0,75","0,28","1,98","1,04","2,07","1,60",BRC0151G,Nome não encontrado
+Fósforo,mg,210,"7,37","4,21","16,8","6,32","44,2","23,2","46,3","35,8",BRC0151G,Nome não encontrado
+Potássio,mg,119,"4,18","2,39","9,56","3,59","25,1","13,1","26,3","20,3",BRC0151G,Nome não encontrado
+Manganês,mg,"0,08","0,00","0,00","0,01","0,00","0,02","0,01","0,02","0,01",BRC0151G,Nome não encontrado
+Zinco,mg,"0,66","0,02","0,01","0,05","0,02","0,14","0,07","0,14","0,11",BRC0151G,Nome não encontrado
+Cobre,mg,"0,04","0,00","0,00","0,00","0,00","0,01","0,00","0,01","0,01",BRC0151G,Nome não encontrado
+Selênio,mcg,"5,62","0,20","0,11","0,45","0,17","1,18","0,62","1,24","0,96",BRC0151G,Nome não encontrado
+Vitamina A (RE),mcg,134,"4,71","2,69","10,8","4,04","28,3","14,8","29,6","22,9",BRC0151G,Nome não encontrado
+Vitamina A (RAE),mcg,129,"4,52","2,58","10,3","3,88","27,1","14,2","28,4","22,0",BRC0151G,Nome não encontrado
+Vitamina D,mcg,"0,54","0,02","0,01","0,04","0,02","0,11","0,06","0,12","0,09",BRC0151G,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,60","0,02","0,01","0,05","0,02","0,13","0,07","0,13","0,10",BRC0151G,Nome não encontrado
+Tiamina,mg,"0,01","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0151G,Nome não encontrado
+Riboflavina,mg,"0,11","0,00","0,00","0,01","0,00","0,02","0,01","0,02","0,02",BRC0151G,Nome não encontrado
+Niacina,mg,"0,01","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0151G,Nome não encontrado
+Vitamina B6,mg,"0,03","0,00","0,00","0,00","0,00","0,01","0,00","0,01","0,01",BRC0151G,Nome não encontrado
+Vitamina B12,mcg,"0,19","0,01","0,00","0,01","0,01","0,04","0,02","0,04","0,03",BRC0151G,Nome não encontrado
+Vitamina C,mg,"1,75","0,06","0,04","0,14","0,05","0,37","0,19","0,39","0,30",BRC0151G,Nome não encontrado
+Equivalente de folato,mcg,"11,0","0,39","0,22","0,88","0,33","2,32","1,21","2,43","1,88",BRC0151G,Nome não encontrado
+Sal de adição,g,,,,,,,,,,BRC0151G,Nome não encontrado
+Açúcar de adição,g,,,,,,,,,,BRC0151G,Nome não encontrado
+Gordura de adição,g,-,-,-,-,-,-,-,-,-,BRC0151G,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,-,-,-,-,-,BRC0151G,Nome não encontrado
+Proteína animal,g,-,-,-,-,-,-,-,-,-,BRC0151G,Nome não encontrado

@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (100 g),Colher sopa cheia (50 g),Escumadeira cheia (170 g),Pedaço/ Unidade/ Fatia (M) (190 g),codigo_alimento,nome_alimento
+Energia,kJ,546,546,273,928,1037,BRC0113A,Nome não encontrado
+Energia,kcal,131,130,65,222,248,BRC0113A,Nome não encontrado
+Umidade,g,"73,7","73,7","36,9",125,140,BRC0113A,Nome não encontrado
+Carboidrato total,g,"13,3","13,3","6,64","22,6","25,2",BRC0113A,Nome não encontrado
+Carboidrato disponível,g,"11,8","11,8","5,89","20,0","22,4",BRC0113A,Nome não encontrado
+Proteína,g,"4,53","4,53","2,27","7,70","8,61",BRC0113A,Nome não encontrado
+Lipídios,g,"6,94","6,94","3,47","11,8","13,2",BRC0113A,Nome não encontrado
+Fibra alimentar,g,"1,50","1,50","0,75","2,55","2,85",BRC0113A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00",BRC0113A,Nome não encontrado
+Cinzas,g,"1,52","1,52","0,76","2,58","2,89",BRC0113A,Nome não encontrado
+Colesterol,mg,"24,0","24,0","12,0","40,8","45,6",BRC0113A,Nome não encontrado
+Ácidos graxos saturados,g,"3,31","3,31","1,66","5,63","6,29",BRC0113A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,48","2,48","1,24","4,22","4,71",BRC0113A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,61","0,61","0,31","1,04","1,16",BRC0113A,Nome não encontrado
+Ácidos graxos trans,g,,,traços,,,BRC0113A,Nome não encontrado
+Cálcio,mg,"79,4","79,4","39,7",134,150,BRC0113A,Nome não encontrado
+Ferro,mg,"0,64","0,64","0,32","1,09","1,22",BRC0113A,Nome não encontrado
+Sódio,mg,336,336,168,571,639,BRC0113A,Nome não encontrado
+Magnésio,mg,"18,0","18,0","9,02","30,7","34,3",BRC0113A,Nome não encontrado
+Fósforo,mg,103,103,"51,9",176,197,BRC0113A,Nome não encontrado
+Potássio,mg,176,176,"88,4",300,335,BRC0113A,Nome não encontrado
+Manganês,mg,,,traços,,,BRC0113A,Nome não encontrado
+Zinco,mg,"0,79","0,79","0,39","1,33","1,49",BRC0113A,Nome não encontrado
+Cobre,mg,,,traços,,,BRC0113A,Nome não encontrado
+Selênio,mcg,,,traços,,,BRC0113A,Nome não encontrado
+Vitamina A (RE),mcg,,,traços,,,BRC0113A,Nome não encontrado
+Vitamina A (RAE),mcg,"57,8","57,8","28,9","98,3",109,BRC0113A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00","0,00",BRC0113A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,48","1,48","0,74","2,52","2,81",BRC0113A,Nome não encontrado
+Tiamina,mg,"0,06","0,06","0,03","0,11","0,12",BRC0113A,Nome não encontrado
+Riboflavina,mg,"0,08","0,08","0,04","0,14","0,15",BRC0113A,Nome não encontrado
+Niacina,mg,"1,38","1,38","0,69","2,34","2,62",BRC0113A,Nome não encontrado
+Vitamina B6,mg,"0,11","0,11","0,06","0,19","0,21",BRC0113A,Nome não encontrado
+Vitamina B12,mcg,"0,37","0,37","0,19","0,63","0,70",BRC0113A,Nome não encontrado
+Vitamina C,mg,"2,26","2,26","1,13","3,83","4,28",BRC0113A,Nome não encontrado
+Equivalente de folato,mcg,"32,5","32,5","16,2","55,2","61,7",BRC0113A,Nome não encontrado
+Sal de adição,g,,,traços,,,BRC0113A,Nome não encontrado
+Açúcar de adição,g,,,traços,,,BRC0113A,Nome não encontrado
+Gordura de adição,g,,,traços,,,BRC0113A,Nome não encontrado
+Proteína vegetal,g,,,traços,,,BRC0113A,Nome não encontrado
+Proteína animal,g,,,traços,,,BRC0113A,Nome não encontrado

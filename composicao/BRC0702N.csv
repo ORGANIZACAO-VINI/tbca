@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,520,BRC0702N,Nome não encontrado
+Energia,kcal,124,BRC0702N,Nome não encontrado
+Umidade,g,"71,7",BRC0702N,Nome não encontrado
+Carboidrato total,g,"19,0",BRC0702N,Nome não encontrado
+Carboidrato disponível,g,"16,8",BRC0702N,Nome não encontrado
+Proteína,g,"2,75",BRC0702N,Nome não encontrado
+Lipídios,g,"4,60",BRC0702N,Nome não encontrado
+Fibra alimentar,g,"2,19",BRC0702N,Nome não encontrado
+Álcool,g,"0,00",BRC0702N,Nome não encontrado
+Cinzas,g,"1,91",BRC0702N,Nome não encontrado
+Colesterol,mg,"0,00",BRC0702N,Nome não encontrado
+Ácidos graxos saturados,g,"0,71",BRC0702N,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,04",BRC0702N,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"2,67",BRC0702N,Nome não encontrado
+Ácidos graxos trans,g,,BRC0702N,Nome não encontrado
+Cálcio,mg,"8,72",BRC0702N,Nome não encontrado
+Ferro,mg,"0,80",BRC0702N,Nome não encontrado
+Sódio,mg,501,BRC0702N,Nome não encontrado
+Magnésio,mg,"9,00",BRC0702N,Nome não encontrado
+Fósforo,mg,"38,0",BRC0702N,Nome não encontrado
+Potássio,mg,117,BRC0702N,Nome não encontrado
+Manganês,mg,"0,17",BRC0702N,Nome não encontrado
+Zinco,mg,"0,10",BRC0702N,Nome não encontrado
+Cobre,mg,"0,10",BRC0702N,Nome não encontrado
+Selênio,mcg,"0,11",BRC0702N,Nome não encontrado
+Vitamina A (RE),mcg,"43,1",BRC0702N,Nome não encontrado
+Vitamina A (RAE),mcg,"21,6",BRC0702N,Nome não encontrado
+Vitamina D,mcg,"0,00",BRC0702N,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,41",BRC0702N,Nome não encontrado
+Tiamina,mg,"0,29",BRC0702N,Nome não encontrado
+Riboflavina,mg,"0,02",BRC0702N,Nome não encontrado
+Niacina,mg,"2,13",BRC0702N,Nome não encontrado
+Vitamina B6,mg,"0,14",BRC0702N,Nome não encontrado
+Vitamina B12,mcg,"0,00",BRC0702N,Nome não encontrado
+Vitamina C,mg,"6,18",BRC0702N,Nome não encontrado
+Equivalente de folato,mcg,"24,4",BRC0702N,Nome não encontrado
+Sal de adição,g,,BRC0702N,Nome não encontrado
+Açúcar de adição,g,,BRC0702N,Nome não encontrado
+Gordura de adição,g,-,BRC0702N,Nome não encontrado
+Proteína vegetal,g,-,BRC0702N,Nome não encontrado
+Proteína animal,g,-,BRC0702N,Nome não encontrado

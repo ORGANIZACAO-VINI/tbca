@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Porção Média (120 g),codigo_alimento,nome_alimento
+Energia,kJ,514,616,BRC0893A,Nome não encontrado
+Energia,kcal,122,146,BRC0893A,Nome não encontrado
+Umidade,g,"69,1","82,9",BRC0893A,Nome não encontrado
+Carboidrato total,g,"18,2","21,8",BRC0893A,Nome não encontrado
+Carboidrato disponível,g,"17,1","20,5",BRC0893A,Nome não encontrado
+Proteína,g,"7,48","8,98",BRC0893A,Nome não encontrado
+Lipídios,g,"2,60","3,11",BRC0893A,Nome não encontrado
+Fibra alimentar,g,"1,05","1,26",BRC0893A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0893A,Nome não encontrado
+Cinzas,g,"2,71","3,25",BRC0893A,Nome não encontrado
+Colesterol,mg,"14,8","17,8",BRC0893A,Nome não encontrado
+Ácidos graxos saturados,g,"0,58","0,70",BRC0893A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,86","1,04",BRC0893A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,98","1,18",BRC0893A,Nome não encontrado
+Ácidos graxos trans,g,"0,01","0,02",BRC0893A,Nome não encontrado
+Cálcio,mg,"14,0","16,8",BRC0893A,Nome não encontrado
+Ferro,mg,"0,62","0,75",BRC0893A,Nome não encontrado
+Sódio,mg,977,1173,BRC0893A,Nome não encontrado
+Magnésio,mg,"13,3","15,9",BRC0893A,Nome não encontrado
+Fósforo,mg,"82,6","99,2",BRC0893A,Nome não encontrado
+Potássio,mg,157,189,BRC0893A,Nome não encontrado
+Manganês,mg,"0,15","0,18",BRC0893A,Nome não encontrado
+Zinco,mg,"0,68","0,81",BRC0893A,Nome não encontrado
+Cobre,mg,"0,06","0,07",BRC0893A,Nome não encontrado
+Selênio,mcg,"9,79","11,8",BRC0893A,Nome não encontrado
+Vitamina A (RE),mcg,"61,7","74,1",BRC0893A,Nome não encontrado
+Vitamina A (RAE),mcg,"30,9","37,0",BRC0893A,Nome não encontrado
+Vitamina D,mcg,,,BRC0893A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,40","0,48",BRC0893A,Nome não encontrado
+Tiamina,mg,"0,16","0,20",BRC0893A,Nome não encontrado
+Riboflavina,mg,traços,traços,BRC0893A,Nome não encontrado
+Niacina,mg,"2,08","2,50",BRC0893A,Nome não encontrado
+Vitamina B6,mg,,,BRC0893A,Nome não encontrado
+Vitamina B12,mcg,,,BRC0893A,Nome não encontrado
+Vitamina C,mg,traços,traços,BRC0893A,Nome não encontrado
+Equivalente de folato,mcg,,,BRC0893A,Nome não encontrado
+Sal de adição,g,"0,47","0,56",BRC0893A,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00",BRC0893A,Nome não encontrado
+Gordura de adição,g,-,-,BRC0893A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0893A,Nome não encontrado
+Proteína animal,g,-,-,BRC0893A,Nome não encontrado

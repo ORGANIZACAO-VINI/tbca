@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sobremesa cheia (9 g),Colher sobremesa rasa (5 g),Colher sopa cheia (16 g),Colher sopa rasa (8 g),codigo_alimento,nome_alimento
+Energia,kJ,2225,200,111,356,178,BRC0143G,Nome não encontrado
+Energia,kcal,534,48,26,85,42,BRC0143G,Nome não encontrado
+Umidade,g,"3,10","0,28","0,16","0,50","0,25",BRC0143G,Nome não encontrado
+Carboidrato total,g,"29,9","2,69","1,50","4,78","2,39",BRC0143G,Nome não encontrado
+Carboidrato disponível,g,"29,9","2,69","1,50","4,78","2,39",BRC0143G,Nome não encontrado
+Proteína,g,"25,9","2,33","1,29","4,14","2,07",BRC0143G,Nome não encontrado
+Lipídios,g,"34,5","3,11","1,73","5,52","2,76",BRC0143G,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Cinzas,g,"6,63","0,60","0,33","1,06","0,53",BRC0143G,Nome não encontrado
+Colesterol,mg,111,"10,1","5,59","17,9","8,95",BRC0143G,Nome não encontrado
+Ácidos graxos saturados,g,"19,7","1,77","0,99","3,15","1,58",BRC0143G,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"6,57","0,59","0,33","1,05","0,53",BRC0143G,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,82","0,07","0,04","0,13","0,07",BRC0143G,Nome não encontrado
+Ácidos graxos trans,g,"0,99","0,09","0,05","0,16","0,08",BRC0143G,Nome não encontrado
+Cálcio,mg,"45,3","4,07","2,26","7,24","3,62",BRC0143G,Nome não encontrado
+Ferro,mg,"0,85","0,08","0,04","0,14","0,07",BRC0143G,Nome não encontrado
+Sódio,mg,607,"54,6","30,4","97,1","48,6",BRC0143G,Nome não encontrado
+Magnésio,mg,108,"9,79","5,44","17,4","8,70",BRC0143G,Nome não encontrado
+Fósforo,mg,929,"83,7","46,5",148,"74,4",BRC0143G,Nome não encontrado
+Potássio,mg,1149,103,"57,5",183,"92,0",BRC0143G,Nome não encontrado
+Manganês,mg,traços,traços,traços,traços,traços,BRC0143G,Nome não encontrado
+Zinco,mg,"2,93","0,26","0,15","0,47","0,23",BRC0143G,Nome não encontrado
+Cobre,mg,"0,33","0,03","0,02","0,05","0,03",BRC0143G,Nome não encontrado
+Selênio,mcg,,,,,,BRC0143G,Nome não encontrado
+Vitamina A (RE),mcg,345,"31,1","17,3","55,3","27,7",BRC0143G,Nome não encontrado
+Vitamina A (RAE),mcg,340,"30,7","17,0","54,5","27,3",BRC0143G,Nome não encontrado
+Vitamina D,mcg,"0,51","0,05","0,03","0,08","0,04",BRC0143G,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,58","0,05","0,03","0,09","0,05",BRC0143G,Nome não encontrado
+Tiamina,mg,traços,traços,traços,traços,traços,BRC0143G,Nome não encontrado
+Riboflavina,mg,"1,18","0,11","0,06","0,19","0,09",BRC0143G,Nome não encontrado
+Niacina,mg,traços,traços,traços,traços,traços,BRC0143G,Nome não encontrado
+Vitamina B6,mg,traços,traços,traços,traços,traços,BRC0143G,Nome não encontrado
+Vitamina B12,mcg,"0,52","0,05","0,03","0,08","0,04",BRC0143G,Nome não encontrado
+Vitamina C,mg,traços,traços,traços,traços,traços,BRC0143G,Nome não encontrado
+Equivalente de folato,mcg,"7,47","0,67","0,37","1,20","0,60",BRC0143G,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Gordura de adição,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Proteína vegetal,g,"0,00","0,00","0,00","0,00","0,00",BRC0143G,Nome não encontrado
+Proteína animal,g,"25,9","2,33","1,29","4,14","2,07",BRC0143G,Nome não encontrado

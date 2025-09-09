@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (150 g),codigo_alimento,nome_alimento
+Energia,kJ,711,1066,BRC0201T,Nome não encontrado
+Energia,kcal,171,256,BRC0201T,Nome não encontrado
+Umidade,g,"67,8",101,BRC0201T,Nome não encontrado
+Carboidrato total,g,"9,40","14,1",BRC0201T,Nome não encontrado
+Carboidrato disponível,g,"6,95","10,4",BRC0201T,Nome não encontrado
+Proteína,g,"11,6","17,4",BRC0201T,Nome não encontrado
+Lipídios,g,"10,2","15,3",BRC0201T,Nome não encontrado
+Fibra alimentar,g,"2,44","3,66",BRC0201T,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0201T,Nome não encontrado
+Cinzas,g,"1,04","1,56",BRC0201T,Nome não encontrado
+Colesterol,mg,"31,0","46,4",BRC0201T,Nome não encontrado
+Ácidos graxos saturados,g,"3,49","5,24",BRC0201T,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"3,70","5,55",BRC0201T,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,81","2,72",BRC0201T,Nome não encontrado
+Ácidos graxos trans,g,"0,12","0,18",BRC0201T,Nome não encontrado
+Cálcio,mg,"32,4","48,6",BRC0201T,Nome não encontrado
+Ferro,mg,"1,64","2,46",BRC0201T,Nome não encontrado
+Sódio,mg,283,425,BRC0201T,Nome não encontrado
+Magnésio,mg,"24,4","36,6",BRC0201T,Nome não encontrado
+Fósforo,mg,101,151,BRC0201T,Nome não encontrado
+Potássio,mg,272,408,BRC0201T,Nome não encontrado
+Manganês,mg,"0,09","0,14",BRC0201T,Nome não encontrado
+Zinco,mg,"2,20","3,30",BRC0201T,Nome não encontrado
+Cobre,mg,"0,26","0,39",BRC0201T,Nome não encontrado
+Selênio,mcg,"1,33","2,00",BRC0201T,Nome não encontrado
+Vitamina A (RE),mcg,"40,9","61,3",BRC0201T,Nome não encontrado
+Vitamina A (RAE),mcg,"23,7","35,6",BRC0201T,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0201T,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,60","0,90",BRC0201T,Nome não encontrado
+Tiamina,mg,"0,09","0,14",BRC0201T,Nome não encontrado
+Riboflavina,mg,"0,03","0,05",BRC0201T,Nome não encontrado
+Niacina,mg,"1,97","2,96",BRC0201T,Nome não encontrado
+Vitamina B6,mg,"0,06","0,09",BRC0201T,Nome não encontrado
+Vitamina B12,mcg,"0,93","1,40",BRC0201T,Nome não encontrado
+Vitamina C,mg,"2,91","4,37",BRC0201T,Nome não encontrado
+Equivalente de folato,mcg,"30,2","45,3",BRC0201T,Nome não encontrado
+Sal de adição,g,"0,45","0,68",BRC0201T,Nome não encontrado
+Açúcar de adição,g,,-,BRC0201T,Nome não encontrado
+Gordura de adição,g,-,-,BRC0201T,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0201T,Nome não encontrado
+Proteína animal,g,-,-,BRC0201T,Nome não encontrado

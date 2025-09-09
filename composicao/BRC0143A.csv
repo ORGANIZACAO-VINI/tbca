@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (40 g),Colher servir rasa (20 g),Colher sopa cheia (30 g),Concha cheia (165 g),Concha rasa (140 g),Pedaço/ Unidade/ Fatia (M) (100 g),Prato fundo (500 g),Prato raso (300 g),codigo_alimento,nome_alimento
+Energia,kJ,438,175,87,131,723,613,438,2192,1315,BRC0143A,Nome não encontrado
+Energia,kcal,104,41,20,31,170,144,103,517,310,BRC0143A,Nome não encontrado
+Umidade,g,"73,5","29,4","14,7","22,1",121,102,"73,5",367,220,BRC0143A,Nome não encontrado
+Carboidrato total,g,"23,2","9,28","4,64","6,96","38,3","32,5","23,2",116,"69,6",BRC0143A,Nome não encontrado
+Carboidrato disponível,g,"21,5","8,60","4,30","6,45","35,5","30,1","21,5",107,"64,5",BRC0143A,Nome não encontrado
+Proteína,g,"2,25","0,90","0,45","0,68","3,72","3,16","2,25","11,3","6,76",BRC0143A,Nome não encontrado
+Lipídios,g,"0,56","0,22","0,11","0,17","0,92","0,78","0,56","2,80","1,68",BRC0143A,Nome não encontrado
+Fibra alimentar,g,"1,74","0,70","0,35","0,52","2,87","2,44","1,74","8,71","5,22",BRC0143A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Cinzas,g,"0,57","0,23","0,11","0,17","0,94","0,80","0,57","2,86","1,71",BRC0143A,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Ácidos graxos saturados,g,"0,10","0,04","0,02","0,03","0,17","0,14","0,10","0,50","0,30",BRC0143A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,23","0,09","0,05","0,07","0,38","0,32","0,23","1,15","0,69",BRC0143A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,34","0,14","0,07","0,10","0,56","0,48","0,34","1,70","1,02",BRC0143A,Nome não encontrado
+Ácidos graxos trans,g,,,,,,,,,,BRC0143A,Nome não encontrado
+Cálcio,mg,"1,06","0,43","0,21","0,32","1,75","1,49","1,06","5,32","3,19",BRC0143A,Nome não encontrado
+Ferro,mg,"1,94","0,78","0,39","0,58","3,20","2,72","1,94","9,70","5,82",BRC0143A,Nome não encontrado
+Sódio,mg,429,171,"85,9",128,708,601,429,2146,1288,BRC0143A,Nome não encontrado
+Magnésio,mg,"4,30","1,72","0,86","1,29","7,10","6,02","4,30","21,5","12,9",BRC0143A,Nome não encontrado
+Fósforo,mg,"16,3","6,52","3,26","4,89","26,9","22,8","16,3","81,6","48,9",BRC0143A,Nome não encontrado
+Potássio,mg,"96,8","38,7","19,4","29,0",159,135,"96,8",484,290,BRC0143A,Nome não encontrado
+Manganês,mg,traços,traços,traços,traços,traços,traços,traços,traços,-,BRC0143A,Nome não encontrado
+Zinco,mg,"0,05","0,02","0,01","0,01","0,08","0,07","0,05","0,25","0,15",BRC0143A,Nome não encontrado
+Cobre,mg,"0,04","0,02","0,01","0,01","0,07","0,06","0,04","0,22","0,13",BRC0143A,Nome não encontrado
+Selênio,mcg,"1,14","0,46","0,23","0,34","1,88","1,60","1,14","5,70","3,42",BRC0143A,Nome não encontrado
+Vitamina A (RE),mcg,"1,08","0,43","0,22","0,32","1,79","1,52","1,08","5,42","3,25",BRC0143A,Nome não encontrado
+Vitamina A (RAE),mcg,"0,54","0,22","0,11","0,16","0,89","0,76","0,54","2,71","1,63",BRC0143A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,07","0,03","0,01","0,02","0,11","0,09","0,07","0,33","0,20",BRC0143A,Nome não encontrado
+Tiamina,mg,"0,04","0,02","0,01","0,01","0,07","0,06","0,04","0,21","0,13",BRC0143A,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,traços,traços,traços,traços,traços,-,BRC0143A,Nome não encontrado
+Niacina,mg,traços,traços,traços,traços,traços,traços,traços,traços,-,BRC0143A,Nome não encontrado
+Vitamina B6,mg,traços,traços,traços,traços,traços,traços,traços,traços,-,BRC0143A,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Vitamina C,mg,traços,traços,traços,traços,traços,traços,traços,traços,-,BRC0143A,Nome não encontrado
+Equivalente de folato,mcg,"63,5","25,4","12,7","19,1",104,"88,9","63,5",317,190,BRC0143A,Nome não encontrado
+Sal de adição,g,,,,,,,,,,BRC0143A,Nome não encontrado
+Açúcar de adição,g,,,,,,,,,,BRC0143A,Nome não encontrado
+Gordura de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Proteína vegetal,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado
+Proteína animal,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0143A,Nome não encontrado

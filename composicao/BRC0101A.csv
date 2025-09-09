@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher sopa cheia (5 g),Copo americano duplo (47 g),Copo americano pequeno (38 g),Pedaço/ Unidade/ Fatia (M) (30 g),Prato fundo (100 g),Prato raso (80 g),codigo_alimento,nome_alimento
+Energia,kJ,1592,79,748,604,477,1591,1273,BRC0101A,Nome não encontrado
+Energia,kcal,375,18,176,142,112,375,300,BRC0101A,Nome não encontrado
+Umidade,g,"4,18","0,21","1,96","1,59","1,25","4,18","3,34",BRC0101A,Nome não encontrado
+Carboidrato total,g,"87,5","4,38","41,1","33,3","26,3","87,5","70,0",BRC0101A,Nome não encontrado
+Carboidrato disponível,g,"85,5","4,27","40,2","32,5","25,6","85,5","68,4",BRC0101A,Nome não encontrado
+Proteína,g,"5,38","0,27","2,53","2,04","1,61","5,38","4,30",BRC0101A,Nome não encontrado
+Lipídios,g,"0,85","0,04","0,40","0,32","0,26","0,85","0,68",BRC0101A,Nome não encontrado
+Fibra alimentar,g,"1,98","0,10","0,93","0,75","0,59","1,98","1,58",BRC0101A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0101A,Nome não encontrado
+Cinzas,g,"2,06","0,10","0,97","0,78","0,62","2,06","1,65",BRC0101A,Nome não encontrado
+Colesterol,mg,,,,,,,,BRC0101A,Nome não encontrado
+Ácidos graxos saturados,g,"0,29","0,01","0,14","0,11","0,09","0,29","0,23",BRC0101A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,36","0,02","0,17","0,14","0,11","0,36","0,29",BRC0101A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,42","0,02","0,20","0,16","0,13","0,42","0,34",BRC0101A,Nome não encontrado
+Ácidos graxos trans,g,traços,traços,traços,traços,traços,traços,traços,BRC0101A,Nome não encontrado
+Cálcio,mg,"56,4","2,82","26,5","21,4","16,9","56,4","45,1",BRC0101A,Nome não encontrado
+Ferro,mg,"3,90","0,20","1,83","1,48","1,17","3,90","3,12",BRC0101A,Nome não encontrado
+Sódio,mg,405,"20,3",190,154,121,405,324,BRC0101A,Nome não encontrado
+Magnésio,mg,"7,94","0,40","3,73","3,02","2,38","7,94","6,35",BRC0101A,Nome não encontrado
+Fósforo,mg,"43,2","2,16","20,3","16,4","13,0","43,2","34,5",BRC0101A,Nome não encontrado
+Potássio,mg,"51,6","2,58","24,3","19,6","15,5","51,6","41,3",BRC0101A,Nome não encontrado
+Manganês,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0101A,Nome não encontrado
+Zinco,mg,"8,48","0,42","3,99","3,22","2,54","8,48","6,78",BRC0101A,Nome não encontrado
+Cobre,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0101A,Nome não encontrado
+Selênio,mcg,,,,,,,,BRC0101A,Nome não encontrado
+Vitamina A (RE),mcg,"30,9","1,55","14,5","11,7","9,28","30,9","24,7",BRC0101A,Nome não encontrado
+Vitamina A (RAE),mcg,"15,5","0,77","7,27","5,87","4,64","15,5","12,4",BRC0101A,Nome não encontrado
+Vitamina D,mcg,traços,traços,traços,traços,traços,traços,traços,BRC0101A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,63","0,03","0,30","0,24","0,19","0,63","0,50",BRC0101A,Nome não encontrado
+Tiamina,mg,"0,73","0,04","0,34","0,28","0,22","0,73","0,58",BRC0101A,Nome não encontrado
+Riboflavina,mg,"1,11","0,06","0,52","0,42","0,33","1,11","0,89",BRC0101A,Nome não encontrado
+Niacina,mg,"10,1","0,51","4,76","3,85","3,04","10,1","8,11",BRC0101A,Nome não encontrado
+Vitamina B6,mg,"0,79","0,04","0,37","0,30","0,24","0,79","0,63",BRC0101A,Nome não encontrado
+Vitamina B12,mcg,traços,traços,traços,traços,traços,traços,traços,BRC0101A,Nome não encontrado
+Vitamina C,mg,"14,6","0,73","6,84","5,53","4,37","14,6","11,6",BRC0101A,Nome não encontrado
+Equivalente de folato,mcg,372,"18,6",174,141,111,372,297,BRC0101A,Nome não encontrado
+Sal de adição,g,,,,,,,,BRC0101A,Nome não encontrado
+Açúcar de adição,g,,,,,,,,BRC0101A,Nome não encontrado
+Gordura de adição,g,,,,,,,,BRC0101A,Nome não encontrado
+Proteína vegetal,g,"5,38","0,27","2,53","2,04","1,61","5,38","4,30",BRC0101A,Nome não encontrado
+Proteína animal,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0101A,Nome não encontrado

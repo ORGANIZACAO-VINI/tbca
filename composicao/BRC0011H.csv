@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Copo americano duplo (240 mL),Copo americano pequeno (165 mL),Xícara chá (200 mL),codigo_alimento,nome_alimento
+Energia,kJ,13,30,21,25,BRC0011H,Nome não encontrado
+Energia,kcal,3,7,5,6,BRC0011H,Nome não encontrado
+Umidade,g,"99,3",238,163,198,BRC0011H,Nome não encontrado
+Carboidrato total,g,"0,64","1,54","1,06","1,29",BRC0011H,Nome não encontrado
+Carboidrato disponível,g,"0,64","1,54","1,06","1,29",BRC0011H,Nome não encontrado
+Proteína,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Lipídios,g,"0,05","0,12","0,09","0,10",BRC0011H,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Álcool,g,,,,,BRC0011H,Nome não encontrado
+Cinzas,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Ácidos graxos saturados,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Ácidos graxos trans,g,,,,,BRC0011H,Nome não encontrado
+Cálcio,mg,"0,65","1,55","1,06","1,29",BRC0011H,Nome não encontrado
+Ferro,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Sódio,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Magnésio,mg,"2,04","4,89","3,36","4,07",BRC0011H,Nome não encontrado
+Fósforo,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Potássio,mg,"5,34","12,8","8,80","10,7",BRC0011H,Nome não encontrado
+Manganês,mg,"0,27","0,66","0,45","0,55",BRC0011H,Nome não encontrado
+Zinco,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Cobre,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Selênio,mcg,,,,,BRC0011H,Nome não encontrado
+Vitamina A (RE),mcg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Tiamina,mg,"0,89","2,14","1,47","1,79",BRC0011H,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,,BRC0011H,Nome não encontrado
+Niacina,mg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Vitamina B6,mg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Equivalente de folato,mcg,"0,99","2,38","1,63","1,98",BRC0011H,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00",BRC0011H,Nome não encontrado
+Gordura de adição,g,-,-,-,-,BRC0011H,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,BRC0011H,Nome não encontrado
+Proteína animal,g,-,-,-,-,BRC0011H,Nome não encontrado

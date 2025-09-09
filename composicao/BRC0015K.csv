@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher café cheia (8 g),Colher chá cheia (12 g),Colher chá rasa (8 g),Colher sobremesa cheia (25 g),Colher sobremesa rasa (15 g),Colher sopa cheia (40 g),Colher sopa rasa (25 g),Copo americano duplo (270 g),Copo americano pequeno (220 g),codigo_alimento,nome_alimento
+Energia,kJ,1305,104,156,104,326,195,522,326,3524,2871,BRC0015K,Nome não encontrado
+Energia,kcal,309,24,37,24,77,46,123,77,834,679,BRC0015K,Nome não encontrado
+Umidade,g,"28,6","2,29","3,43","2,29","7,15","4,29","11,4","7,15","77,2","62,9",BRC0015K,Nome não encontrado
+Carboidrato total,g,"57,6","4,60","6,91","4,60","14,4","8,63","23,0","14,4",155,126,BRC0015K,Nome não encontrado
+Carboidrato disponível,g,"57,6","4,60","6,91","4,60","14,4","8,63","23,0","14,4",155,126,BRC0015K,Nome não encontrado
+Proteína,g,"6,40","0,51","0,77","0,51","1,60","0,96","2,56","1,60","17,3","14,1",BRC0015K,Nome não encontrado
+Lipídios,g,"5,90","0,47","0,71","0,47","1,48","0,89","2,36","1,48","15,9","13,0",BRC0015K,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0015K,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0015K,Nome não encontrado
+Cinzas,g,"1,55","0,12","0,19","0,12","0,39","0,23","0,62","0,39","4,19","3,41",BRC0015K,Nome não encontrado
+Colesterol,mg,"19,7","1,58","2,37","1,58","4,94","2,96","7,90","4,94","53,3","43,4",BRC0015K,Nome não encontrado
+Ácidos graxos saturados,g,"1,30","0,10","0,16","0,10","0,32","0,19","0,52","0,32","3,50","2,85",BRC0015K,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"3,80","0,30","0,46","0,30","0,95","0,57","1,52","0,95","10,3","8,36",BRC0015K,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,92","0,15","0,23","0,15","0,48","0,29","0,77","0,48","5,18","4,22",BRC0015K,Nome não encontrado
+Ácidos graxos trans,g,,,,,,,,,,,BRC0015K,Nome não encontrado
+Cálcio,mg,192,"15,4","23,1","15,4","48,0","28,8","76,9","48,0",518,422,BRC0015K,Nome não encontrado
+Ferro,mg,"0,07","0,01","0,01","0,01","0,02","0,01","0,03","0,02","0,18","0,14",BRC0015K,Nome não encontrado
+Sódio,mg,118,"9,46","14,2","9,46","29,6","17,7","47,3","29,6",319,260,BRC0015K,Nome não encontrado
+Magnésio,mg,"16,0","1,28","1,92","1,28","4,00","2,40","6,41","4,00","43,2","35,2",BRC0015K,Nome não encontrado
+Fósforo,mg,138,"11,1","16,6","11,1","34,7","20,8","55,5","34,7",374,305,BRC0015K,Nome não encontrado
+Potássio,mg,255,"20,4","30,7","20,4","63,9","38,3",102,"63,9",689,562,BRC0015K,Nome não encontrado
+Manganês,mg,"0,01","0,00","0,00","0,00","0,00","0,00","0,01","0,00","0,04","0,03",BRC0015K,Nome não encontrado
+Zinco,mg,"0,52","0,04","0,06","0,04","0,13","0,08","0,21","0,13","1,40","1,14",BRC0015K,Nome não encontrado
+Cobre,mg,"0,02","0,00","0,00","0,00","0,01","0,00","0,01","0,01","0,06","0,05",BRC0015K,Nome não encontrado
+Selênio,mcg,,,,,,,,,,,BRC0015K,Nome não encontrado
+Vitamina A (RE),mcg,,,,,,,,,,,BRC0015K,Nome não encontrado
+Vitamina A (RAE),mcg,,,,,,,,,,,BRC0015K,Nome não encontrado
+Vitamina D,mcg,"0,16","0,01","0,02","0,01","0,04","0,02","0,06","0,04","0,43","0,35",BRC0015K,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,16","0,01","0,02","0,01","0,04","0,02","0,06","0,04","0,43","0,35",BRC0015K,Nome não encontrado
+Tiamina,mg,"0,05","0,00","0,01","0,00","0,01","0,01","0,02","0,01","0,13","0,11",BRC0015K,Nome não encontrado
+Riboflavina,mg,"0,25","0,02","0,03","0,02","0,06","0,04","0,10","0,06","0,68","0,56",BRC0015K,Nome não encontrado
+Niacina,mg,traços,traços,traços,traços,traços,traços,traços,traços,traços,traços,BRC0015K,Nome não encontrado
+Vitamina B6,mg,traços,traços,traços,traços,traços,traços,traços,traços,traços,traços,BRC0015K,Nome não encontrado
+Vitamina B12,mcg,"0,31","0,02","0,04","0,02","0,08","0,05","0,12","0,08","0,84","0,68",BRC0015K,Nome não encontrado
+Vitamina C,mg,traços,traços,traços,traços,traços,traços,traços,traços,traços,traços,BRC0015K,Nome não encontrado
+Equivalente de folato,mcg,"11,0","0,88","1,32","0,88","2,75","1,65","4,41","2,75","29,7","24,2",BRC0015K,Nome não encontrado
+Sal de adição,g,,,,,,,,,,,BRC0015K,Nome não encontrado
+Açúcar de adição,g,,,,,,,,,,,BRC0015K,Nome não encontrado
+Gordura de adição,g,,,,,,,,,,,BRC0015K,Nome não encontrado
+Proteína vegetal,g,,,,,,,,,,,BRC0015K,Nome não encontrado
+Proteína animal,g,,,,,,,,,,,BRC0015K,Nome não encontrado

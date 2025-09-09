@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,525,BRC0210K,Nome não encontrado
+Energia,kcal,125,BRC0210K,Nome não encontrado
+Umidade,g,"73,9",BRC0210K,Nome não encontrado
+Carboidrato total,g,"17,3",BRC0210K,Nome não encontrado
+Carboidrato disponível,g,"17,0",BRC0210K,Nome não encontrado
+Proteína,g,"3,06",BRC0210K,Nome não encontrado
+Lipídios,g,"4,89",BRC0210K,Nome não encontrado
+Fibra alimentar,g,"0,30",BRC0210K,Nome não encontrado
+Álcool,g,"0,00",BRC0210K,Nome não encontrado
+Cinzas,g,"0,86",BRC0210K,Nome não encontrado
+Colesterol,mg,"11,5",BRC0210K,Nome não encontrado
+Ácidos graxos saturados,g,"2,73",BRC0210K,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,19",BRC0210K,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,16",BRC0210K,Nome não encontrado
+Ácidos graxos trans,g,"0,10",BRC0210K,Nome não encontrado
+Cálcio,mg,116,BRC0210K,Nome não encontrado
+Ferro,mg,"0,21",BRC0210K,Nome não encontrado
+Sódio,mg,"55,5",BRC0210K,Nome não encontrado
+Magnésio,mg,"13,5",BRC0210K,Nome não encontrado
+Fósforo,mg,"97,9",BRC0210K,Nome não encontrado
+Potássio,mg,172,BRC0210K,Nome não encontrado
+Manganês,mg,"0,40",BRC0210K,Nome não encontrado
+Zinco,mg,"0,40",BRC0210K,Nome não encontrado
+Cobre,mg,"0,05",BRC0210K,Nome não encontrado
+Selênio,mcg,"5,13",BRC0210K,Nome não encontrado
+Vitamina A (RE),mcg,"45,5",BRC0210K,Nome não encontrado
+Vitamina A (RAE),mcg,"44,4",BRC0210K,Nome não encontrado
+Vitamina D,mcg,"0,12",BRC0210K,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,12",BRC0210K,Nome não encontrado
+Tiamina,mg,"0,07",BRC0210K,Nome não encontrado
+Riboflavina,mg,"0,18",BRC0210K,Nome não encontrado
+Niacina,mg,"0,68",BRC0210K,Nome não encontrado
+Vitamina B6,mg,"0,10",BRC0210K,Nome não encontrado
+Vitamina B12,mcg,"0,26",BRC0210K,Nome não encontrado
+Vitamina C,mg,"15,6",BRC0210K,Nome não encontrado
+Equivalente de folato,mcg,"7,62",BRC0210K,Nome não encontrado
+Sal de adição,g,,BRC0210K,Nome não encontrado
+Açúcar de adição,g,,BRC0210K,Nome não encontrado
+Gordura de adição,g,-,BRC0210K,Nome não encontrado
+Proteína vegetal,g,-,BRC0210K,Nome não encontrado
+Proteína animal,g,-,BRC0210K,Nome não encontrado

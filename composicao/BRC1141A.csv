@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,1018,BRC1141A,Nome não encontrado
+Energia,kcal,243,BRC1141A,Nome não encontrado
+Umidade,g,"49,0",BRC1141A,Nome não encontrado
+Carboidrato total,g,"31,1",BRC1141A,Nome não encontrado
+Carboidrato disponível,g,"28,3",BRC1141A,Nome não encontrado
+Proteína,g,"7,85",BRC1141A,Nome não encontrado
+Lipídios,g,"10,3",BRC1141A,Nome não encontrado
+Fibra alimentar,g,"2,85",BRC1141A,Nome não encontrado
+Álcool,g,"0,00",BRC1141A,Nome não encontrado
+Cinzas,g,"1,78",BRC1141A,Nome não encontrado
+Colesterol,mg,"2,17",BRC1141A,Nome não encontrado
+Ácidos graxos saturados,g,"1,56",BRC1141A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,85",BRC1141A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,62",BRC1141A,Nome não encontrado
+Ácidos graxos trans,g,"0,03",BRC1141A,Nome não encontrado
+Cálcio,mg,"66,9",BRC1141A,Nome não encontrado
+Ferro,mg,"1,42",BRC1141A,Nome não encontrado
+Sódio,mg,391,BRC1141A,Nome não encontrado
+Magnésio,mg,"33,2",BRC1141A,Nome não encontrado
+Fósforo,mg,100,BRC1141A,Nome não encontrado
+Potássio,mg,169,BRC1141A,Nome não encontrado
+Manganês,mg,"0,14",BRC1141A,Nome não encontrado
+Zinco,mg,"0,83",BRC1141A,Nome não encontrado
+Cobre,mg,"0,07",BRC1141A,Nome não encontrado
+Selênio,mcg,"7,21",BRC1141A,Nome não encontrado
+Vitamina A (RE),mcg,"21,0",BRC1141A,Nome não encontrado
+Vitamina A (RAE),mcg,"13,9",BRC1141A,Nome não encontrado
+Vitamina D,mcg,"0,01",BRC1141A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,16",BRC1141A,Nome não encontrado
+Tiamina,mg,"0,34",BRC1141A,Nome não encontrado
+Riboflavina,mg,"0,04",BRC1141A,Nome não encontrado
+Niacina,mg,"2,42",BRC1141A,Nome não encontrado
+Vitamina B6,mg,"0,08",BRC1141A,Nome não encontrado
+Vitamina B12,mcg,"0,02",BRC1141A,Nome não encontrado
+Vitamina C,mg,"1,97",BRC1141A,Nome não encontrado
+Equivalente de folato,mcg,212,BRC1141A,Nome não encontrado
+Sal de adição,g,,BRC1141A,Nome não encontrado
+Açúcar de adição,g,,BRC1141A,Nome não encontrado
+Gordura de adição,g,-,BRC1141A,Nome não encontrado
+Proteína vegetal,g,-,BRC1141A,Nome não encontrado
+Proteína animal,g,-,BRC1141A,Nome não encontrado

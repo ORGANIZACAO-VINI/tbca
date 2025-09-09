@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (50 g),Colher servir rasa (25 g),Escumadeira cheia (110 g),Escumadeira rasa (90 g),codigo_alimento,nome_alimento
+Energia,kJ,417,208,104,459,375,BRC0941A,Nome não encontrado
+Energia,kcal,99,49,24,109,89,BRC0941A,Nome não encontrado
+Umidade,g,"76,7","38,4","19,2","84,4","69,1",BRC0941A,Nome não encontrado
+Carboidrato total,g,"16,9","8,47","4,23","18,6","15,2",BRC0941A,Nome não encontrado
+Carboidrato disponível,g,"15,6","7,82","3,91","17,2","14,1",BRC0941A,Nome não encontrado
+Proteína,g,"2,40","1,20","0,60","2,64","2,16",BRC0941A,Nome não encontrado
+Lipídios,g,"2,71","1,36","0,68","2,99","2,44",BRC0941A,Nome não encontrado
+Fibra alimentar,g,"1,48","0,74","0,37","1,63","1,33",BRC0941A,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00",BRC0941A,Nome não encontrado
+Cinzas,g,"1,03","0,51","0,26","1,13","0,92",BRC0941A,Nome não encontrado
+Colesterol,mg,"7,67","3,83","1,92","8,44","6,90",BRC0941A,Nome não encontrado
+Ácidos graxos saturados,g,"0,40","0,20","0,10","0,44","0,36",BRC0941A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,90","0,45","0,23","0,99","0,81",BRC0941A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,92","0,46","0,23","1,01","0,83",BRC0941A,Nome não encontrado
+Ácidos graxos trans,g,"0,01","0,00","0,00","0,01","0,01",BRC0941A,Nome não encontrado
+Cálcio,mg,"12,2","6,09","3,04","13,4","11,0",BRC0941A,Nome não encontrado
+Ferro,mg,"0,31","0,16","0,08","0,35","0,28",BRC0941A,Nome não encontrado
+Sódio,mg,264,132,"66,0",290,237,BRC0941A,Nome não encontrado
+Magnésio,mg,"6,38","3,19","1,59","7,01","5,74",BRC0941A,Nome não encontrado
+Fósforo,mg,"30,3","15,1","7,57","33,3","27,3",BRC0941A,Nome não encontrado
+Potássio,mg,"71,5","35,7","17,9","78,6","64,3",BRC0941A,Nome não encontrado
+Manganês,mg,"0,04","0,02","0,01","0,04","0,04",BRC0941A,Nome não encontrado
+Zinco,mg,"0,29","0,14","0,07","0,31","0,26",BRC0941A,Nome não encontrado
+Cobre,mg,"0,07","0,03","0,02","0,07","0,06",BRC0941A,Nome não encontrado
+Selênio,mcg,"3,66","1,83","0,92","4,03","3,30",BRC0941A,Nome não encontrado
+Vitamina A (RE),mcg,"65,7","32,9","16,4","72,3","59,2",BRC0941A,Nome não encontrado
+Vitamina A (RAE),mcg,"36,0","18,0","9,00","39,6","32,4",BRC0941A,Nome não encontrado
+Vitamina D,mcg,"0,05","0,02","0,01","0,05","0,04",BRC0941A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,33","0,17","0,08","0,36","0,30",BRC0941A,Nome não encontrado
+Tiamina,mg,"0,04","0,02","0,01","0,05","0,04",BRC0941A,Nome não encontrado
+Riboflavina,mg,"0,03","0,02","0,01","0,03","0,03",BRC0941A,Nome não encontrado
+Niacina,mg,"0,37","0,18","0,09","0,40","0,33",BRC0941A,Nome não encontrado
+Vitamina B6,mg,"0,03","0,02","0,01","0,03","0,03",BRC0941A,Nome não encontrado
+Vitamina B12,mcg,"0,02","0,01","0,00","0,02","0,02",BRC0941A,Nome não encontrado
+Vitamina C,mg,"9,39","4,70","2,35","10,3","8,45",BRC0941A,Nome não encontrado
+Equivalente de folato,mcg,"10,1","5,07","2,54","11,2","9,13",BRC0941A,Nome não encontrado
+Sal de adição,g,,traços,,,,BRC0941A,Nome não encontrado
+Açúcar de adição,g,,traços,,,,BRC0941A,Nome não encontrado
+Gordura de adição,g,-,-,-,-,-,BRC0941A,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,-,BRC0941A,Nome não encontrado
+Proteína animal,g,-,-,-,-,-,BRC0941A,Nome não encontrado

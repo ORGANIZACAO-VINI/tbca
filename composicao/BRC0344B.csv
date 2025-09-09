@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (62 g),Colher servir rasa (35 g),Colher sopa cheia (35 g),Colher sopa rasa (22 g),Escumadeira cheia (110 g),Escumadeira rasa (72 g),codigo_alimento,nome_alimento
+Energia,kJ,544,337,190,190,119,598,391,BRC0344B,Nome não encontrado
+Energia,kcal,130,80,45,45,28,142,93,BRC0344B,Nome não encontrado
+Umidade,g,"72,3","44,8","25,3","25,3","15,9","79,5","52,1",BRC0344B,Nome não encontrado
+Carboidrato total,g,"19,5","12,1","6,81","6,81","4,28","21,4","14,0",BRC0344B,Nome não encontrado
+Carboidrato disponível,g,"17,9","11,1","6,28","6,28","3,94","19,7","12,9",BRC0344B,Nome não encontrado
+Proteína,g,"2,18","1,35","0,76","0,76","0,48","2,40","1,57",BRC0344B,Nome não encontrado
+Lipídios,g,"5,13","3,18","1,80","1,80","1,13","5,65","3,70",BRC0344B,Nome não encontrado
+Fibra alimentar,g,"1,52","0,94","0,53","0,53","0,33","1,67","1,10",BRC0344B,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Cinzas,g,"0,93","0,58","0,32","0,32","0,20","1,02","0,67",BRC0344B,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Ácidos graxos saturados,g,"0,81","0,50","0,28","0,28","0,18","0,89","0,58",BRC0344B,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,17","0,72","0,41","0,41","0,26","1,28","0,84",BRC0344B,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,05","1,89","1,07","1,07","0,67","3,36","2,20",BRC0344B,Nome não encontrado
+Ácidos graxos trans,g,"0,03","0,02","0,01","0,01","0,01","0,03","0,02",BRC0344B,Nome não encontrado
+Cálcio,mg,"14,2","8,78","4,95","4,95","3,11","15,6","10,2",BRC0344B,Nome não encontrado
+Ferro,mg,"0,03","0,02","0,01","0,01","0,01","0,03","0,02",BRC0344B,Nome não encontrado
+Sódio,mg,traços,traços,traços,traços,traços,traços,traços,BRC0344B,Nome não encontrado
+Magnésio,mg,"16,2","10,1","5,69","5,69","3,57","17,9","11,7",BRC0344B,Nome não encontrado
+Fósforo,mg,"56,2","34,8","19,7","19,7","12,4","61,8","40,4",BRC0344B,Nome não encontrado
+Potássio,mg,220,136,"77,1","77,1","48,5",242,158,BRC0344B,Nome não encontrado
+Manganês,mg,"0,12","0,07","0,04","0,04","0,03","0,13","0,08",BRC0344B,Nome não encontrado
+Zinco,mg,"0,34","0,21","0,12","0,12","0,08","0,38","0,25",BRC0344B,Nome não encontrado
+Cobre,mg,"0,15","0,09","0,05","0,05","0,03","0,17","0,11",BRC0344B,Nome não encontrado
+Selênio,mcg,"0,78","0,48","0,27","0,27","0,17","0,85","0,56",BRC0344B,Nome não encontrado
+Vitamina A (RE),mcg,"4,53","2,81","1,59","1,59","1,00","4,99","3,26",BRC0344B,Nome não encontrado
+Vitamina A (RAE),mcg,"2,27","1,41","0,79","0,79","0,50","2,49","1,63",BRC0344B,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"2,21","1,37","0,77","0,77","0,49","2,43","1,59",BRC0344B,Nome não encontrado
+Tiamina,mg,"0,05","0,03","0,02","0,02","0,01","0,05","0,03",BRC0344B,Nome não encontrado
+Riboflavina,mg,traços,traços,traços,traços,traços,traços,traços,BRC0344B,Nome não encontrado
+Niacina,mg,traços,traços,traços,traços,traços,traços,traços,BRC0344B,Nome não encontrado
+Vitamina B6,mg,"0,06","0,04","0,02","0,02","0,01","0,07","0,05",BRC0344B,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Vitamina C,mg,"1,92","1,19","0,67","0,67","0,42","2,11","1,38",BRC0344B,Nome não encontrado
+Equivalente de folato,mcg,"8,52","5,28","2,98","2,98","1,87","9,37","6,13",BRC0344B,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0344B,Nome não encontrado
+Gordura de adição,g,-,-,-,-,-,-,-,BRC0344B,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,-,-,-,BRC0344B,Nome não encontrado
+Proteína animal,g,-,-,-,-,-,-,-,BRC0344B,Nome não encontrado

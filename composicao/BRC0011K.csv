@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher café cheia (2 g),Colher chá cheia (4 g),Colher chá rasa (2 g),Colher sobremesa cheia (10 g),Colher sobremesa rasa (7 g),Colher sopa cheia (15 g),Colher sopa rasa (10 g),codigo_alimento,nome_alimento
+Energia,kJ,1711,34,68,34,171,119,256,171,BRC0011K,Nome não encontrado
+Energia,kcal,404,8,16,8,40,28,60,40,BRC0011K,Nome não encontrado
+Umidade,g,"0,93","0,02","0,04","0,02","0,09","0,07","0,14","0,09",BRC0011K,Nome não encontrado
+Carboidrato total,g,"84,9","1,70","3,39","1,70","8,49","5,94","12,7","8,49",BRC0011K,Nome não encontrado
+Carboidrato disponível,g,"84,9","1,70","3,39","1,70","8,49","5,94","12,7","8,49",BRC0011K,Nome não encontrado
+Proteína,g,"8,20","0,16","0,33","0,16","0,82","0,57","1,23","0,82",BRC0011K,Nome não encontrado
+Lipídios,g,"3,50","0,07","0,14","0,07","0,35","0,25","0,53","0,35",BRC0011K,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Cinzas,g,"2,52","0,05","0,10","0,05","0,25","0,18","0,38","0,25",BRC0011K,Nome não encontrado
+Colesterol,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Ácidos graxos saturados,g,"2,06","0,04","0,08","0,04","0,21","0,14","0,31","0,21",BRC0011K,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,17","0,02","0,05","0,02","0,12","0,08","0,18","0,12",BRC0011K,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,11","0,00","0,00","0,00","0,01","0,01","0,02","0,01",BRC0011K,Nome não encontrado
+Ácidos graxos trans,g,,,,,,,,,BRC0011K,Nome não encontrado
+Cálcio,mg,130,"2,61","5,23","2,61","13,1","9,15","19,6","13,1",BRC0011K,Nome não encontrado
+Ferro,mg,"14,2","0,28","0,57","0,28","1,42","0,99","2,12","1,42",BRC0011K,Nome não encontrado
+Sódio,mg,"21,4","0,43","0,86","0,43","2,14","1,50","3,22","2,14",BRC0011K,Nome não encontrado
+Magnésio,mg,509,"10,2","20,4","10,2","51,0","35,7","76,4","51,0",BRC0011K,Nome não encontrado
+Fósforo,mg,749,"15,0","30,0","15,0","75,0","52,5",112,"75,0",BRC0011K,Nome não encontrado
+Potássio,mg,1556,"31,1","62,3","31,1",155,108,233,155,BRC0011K,Nome não encontrado
+Manganês,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Zinco,mg,"6,96","0,14","0,28","0,14","0,70","0,49","1,04","0,70",BRC0011K,Nome não encontrado
+Cobre,mg,,,,,,,,,BRC0011K,Nome não encontrado
+Selênio,mcg,,,,,,,,,BRC0011K,Nome não encontrado
+Vitamina A (RE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Vitamina D,mcg,"8,18","0,16","0,33","0,16","0,82","0,57","1,23","0,82",BRC0011K,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,03","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Tiamina,mg,"0,08","0,00","0,00","0,00","0,01","0,01","0,01","0,01",BRC0011K,Nome não encontrado
+Riboflavina,mg,"0,25","0,00","0,01","0,00","0,02","0,02","0,04","0,02",BRC0011K,Nome não encontrado
+Niacina,mg,"2,23","0,04","0,09","0,04","0,22","0,16","0,33","0,22",BRC0011K,Nome não encontrado
+Vitamina B6,mg,"0,12","0,00","0,00","0,00","0,01","0,01","0,02","0,01",BRC0011K,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Equivalente de folato,mcg,"32,7","0,65","1,31","0,65","3,27","2,29","4,90","3,27",BRC0011K,Nome não encontrado
+Sal de adição,g,,,,,,,,,BRC0011K,Nome não encontrado
+Açúcar de adição,g,,,,,,,,,BRC0011K,Nome não encontrado
+Gordura de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado
+Proteína vegetal,g,"8,20","0,16","0,33","0,16","0,82","0,57","1,23","0,82",BRC0011K,Nome não encontrado
+Proteína animal,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0011K,Nome não encontrado

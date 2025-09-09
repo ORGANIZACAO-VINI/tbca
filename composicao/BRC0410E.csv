@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher servir cheia (60 g),Colher servir rasa (45 g),Pedaço/ Unidade/ Fatia (M) (100 g),codigo_alimento,nome_alimento
+Energia,kJ,568,340,255,567,BRC0410E,Nome não encontrado
+Energia,kcal,136,81,60,135,BRC0410E,Nome não encontrado
+Umidade,g,"73,3","44,0","33,0","73,3",BRC0410E,Nome não encontrado
+Carboidrato total,g,"1,95","1,17","0,88","1,95",BRC0410E,Nome não encontrado
+Carboidrato disponível,g,"1,89","1,14","0,85","1,89",BRC0410E,Nome não encontrado
+Proteína,g,"16,8","10,1","7,54","16,8",BRC0410E,Nome não encontrado
+Lipídios,g,"6,76","4,05","3,04","6,76",BRC0410E,Nome não encontrado
+Fibra alimentar,g,"0,05","0,03","0,02","0,05",BRC0410E,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00",BRC0410E,Nome não encontrado
+Cinzas,g,"1,21","0,73","0,55","1,21",BRC0410E,Nome não encontrado
+Colesterol,mg,"52,6","31,6","23,7","52,6",BRC0410E,Nome não encontrado
+Ácidos graxos saturados,g,"1,79","1,08","0,81","1,79",BRC0410E,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,88","1,73","1,30","2,88",BRC0410E,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"1,44","0,86","0,65","1,44",BRC0410E,Nome não encontrado
+Ácidos graxos trans,g,"0,02","0,01","0,01","0,02",BRC0410E,Nome não encontrado
+Cálcio,mg,"47,6","28,6","21,4","47,6",BRC0410E,Nome não encontrado
+Ferro,mg,"0,27","0,16","0,12","0,27",BRC0410E,Nome não encontrado
+Sódio,mg,130,"78,4","58,8",130,BRC0410E,Nome não encontrado
+Magnésio,mg,"22,0","13,2","9,88","22,0",BRC0410E,Nome não encontrado
+Fósforo,mg,157,"94,7","71,0",157,BRC0410E,Nome não encontrado
+Potássio,mg,293,176,132,293,BRC0410E,Nome não encontrado
+Manganês,mg,"0,02","0,01","0,01","0,02",BRC0410E,Nome não encontrado
+Zinco,mg,"0,37","0,22","0,17","0,37",BRC0410E,Nome não encontrado
+Cobre,mg,"0,01","0,01","0,00","0,01",BRC0410E,Nome não encontrado
+Selênio,mcg,"33,6","20,2","15,1","33,6",BRC0410E,Nome não encontrado
+Vitamina A (RE),mcg,"22,1","13,3","9,94","22,1",BRC0410E,Nome não encontrado
+Vitamina A (RAE),mcg,"21,9","13,1","9,83","21,9",BRC0410E,Nome não encontrado
+Vitamina D,mcg,"4,26","2,55","1,92","4,26",BRC0410E,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"1,29","0,78","0,58","1,29",BRC0410E,Nome não encontrado
+Tiamina,mg,"0,02","0,01","0,01","0,02",BRC0410E,Nome não encontrado
+Riboflavina,mg,"0,11","0,06","0,05","0,11",BRC0410E,Nome não encontrado
+Niacina,mg,"1,00","0,60","0,45","1,00",BRC0410E,Nome não encontrado
+Vitamina B6,mg,"0,00","0,00","0,00","0,00",BRC0410E,Nome não encontrado
+Vitamina B12,mcg,"2,17","1,30","0,98","2,17",BRC0410E,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00",BRC0410E,Nome não encontrado
+Equivalente de folato,mcg,"16,2","9,71","7,28","16,2",BRC0410E,Nome não encontrado
+Sal de adição,g,"0,00","0,00","0,00","0,00",BRC0410E,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00",BRC0410E,Nome não encontrado
+Gordura de adição,g,-,-,-,-,BRC0410E,Nome não encontrado
+Proteína vegetal,g,-,-,-,-,BRC0410E,Nome não encontrado
+Proteína animal,g,-,-,-,-,BRC0410E,Nome não encontrado

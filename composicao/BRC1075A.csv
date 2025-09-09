@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (180 g),codigo_alimento,nome_alimento
+Energia,kJ,990,1782,BRC1075A,Nome não encontrado
+Energia,kcal,236,425,BRC1075A,Nome não encontrado
+Umidade,g,"50,4","90,8",BRC1075A,Nome não encontrado
+Carboidrato total,g,"32,3","58,2",BRC1075A,Nome não encontrado
+Carboidrato disponível,g,"28,5","51,4",BRC1075A,Nome não encontrado
+Proteína,g,"6,19","11,1",BRC1075A,Nome não encontrado
+Lipídios,g,"10,00","18,0",BRC1075A,Nome não encontrado
+Fibra alimentar,g,"3,80","6,85",BRC1075A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC1075A,Nome não encontrado
+Cinzas,g,"1,06","1,92",BRC1075A,Nome não encontrado
+Colesterol,mg,"0,00","0,00",BRC1075A,Nome não encontrado
+Ácidos graxos saturados,g,"1,36","2,45",BRC1075A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"3,19","5,73",BRC1075A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"5,16","9,29",BRC1075A,Nome não encontrado
+Ácidos graxos trans,g,"0,10","0,17",BRC1075A,Nome não encontrado
+Cálcio,mg,"19,6","35,2",BRC1075A,Nome não encontrado
+Ferro,mg,"2,69","4,83",BRC1075A,Nome não encontrado
+Sódio,mg,162,292,BRC1075A,Nome não encontrado
+Magnésio,mg,"26,3","47,3",BRC1075A,Nome não encontrado
+Fósforo,mg,"88,5",159,BRC1075A,Nome não encontrado
+Potássio,mg,195,351,BRC1075A,Nome não encontrado
+Manganês,mg,"0,68","1,22",BRC1075A,Nome não encontrado
+Zinco,mg,"1,11","2,00",BRC1075A,Nome não encontrado
+Cobre,mg,"0,24","0,44",BRC1075A,Nome não encontrado
+Selênio,mcg,"2,79","5,02",BRC1075A,Nome não encontrado
+Vitamina A (RE),mcg,"19,3","34,7",BRC1075A,Nome não encontrado
+Vitamina A (RAE),mcg,"9,63","17,3",BRC1075A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC1075A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,42","0,76",BRC1075A,Nome não encontrado
+Tiamina,mg,"0,13","0,23",BRC1075A,Nome não encontrado
+Riboflavina,mg,"0,01","0,02",BRC1075A,Nome não encontrado
+Niacina,mg,"0,29","0,51",BRC1075A,Nome não encontrado
+Vitamina B6,mg,"0,22","0,39",BRC1075A,Nome não encontrado
+Vitamina B12,mcg,"0,00","0,00",BRC1075A,Nome não encontrado
+Vitamina C,mg,"2,52","4,53",BRC1075A,Nome não encontrado
+Equivalente de folato,mcg,"55,5","99,8",BRC1075A,Nome não encontrado
+Sal de adição,g,,,BRC1075A,Nome não encontrado
+Açúcar de adição,g,,,BRC1075A,Nome não encontrado
+Gordura de adição,g,-,-,BRC1075A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC1075A,Nome não encontrado
+Proteína animal,g,-,-,BRC1075A,Nome não encontrado

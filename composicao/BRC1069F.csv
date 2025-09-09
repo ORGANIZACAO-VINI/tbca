@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,776,BRC1069F,Nome não encontrado
+Energia,kcal,183,BRC1069F,Nome não encontrado
+Umidade,g,"55,5",BRC1069F,Nome não encontrado
+Carboidrato total,g,"0,92",BRC1069F,Nome não encontrado
+Carboidrato disponível,g,"0,92",BRC1069F,Nome não encontrado
+Proteína,g,"39,0",BRC1069F,Nome não encontrado
+Lipídios,g,"2,60",BRC1069F,Nome não encontrado
+Fibra alimentar,g,"0,00",BRC1069F,Nome não encontrado
+Álcool,g,"0,00",BRC1069F,Nome não encontrado
+Cinzas,g,"1,98",BRC1069F,Nome não encontrado
+Colesterol,mg,"66,3",BRC1069F,Nome não encontrado
+Ácidos graxos saturados,g,"0,84",BRC1069F,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"1,07",BRC1069F,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,54",BRC1069F,Nome não encontrado
+Ácidos graxos trans,g,,BRC1069F,Nome não encontrado
+Cálcio,mg,"6,85",BRC1069F,Nome não encontrado
+Ferro,mg,"15,9",BRC1069F,Nome não encontrado
+Sódio,mg,131,BRC1069F,Nome não encontrado
+Magnésio,mg,"12,6",BRC1069F,Nome não encontrado
+Fósforo,mg,116,BRC1069F,Nome não encontrado
+Potássio,mg,161,BRC1069F,Nome não encontrado
+Manganês,mg,"0,14",BRC1069F,Nome não encontrado
+Zinco,mg,"15,8",BRC1069F,Nome não encontrado
+Cobre,mg,"0,66",BRC1069F,Nome não encontrado
+Selênio,mcg,"0,00",BRC1069F,Nome não encontrado
+Vitamina A (RE),mcg,"0,00",BRC1069F,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00",BRC1069F,Nome não encontrado
+Vitamina D,mcg,"0,00",BRC1069F,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,19",BRC1069F,Nome não encontrado
+Tiamina,mg,"0,37",BRC1069F,Nome não encontrado
+Riboflavina,mg,"0,54",BRC1069F,Nome não encontrado
+Niacina,mg,"8,84",BRC1069F,Nome não encontrado
+Vitamina B6,mg,"0,96",BRC1069F,Nome não encontrado
+Vitamina B12,mcg,"9,31",BRC1069F,Nome não encontrado
+Vitamina C,mg,"0,00",BRC1069F,Nome não encontrado
+Equivalente de folato,mcg,"15,5",BRC1069F,Nome não encontrado
+Sal de adição,g,"0,00",BRC1069F,Nome não encontrado
+Açúcar de adição,g,"0,00",BRC1069F,Nome não encontrado
+Gordura de adição,g,"0,00",BRC1069F,Nome não encontrado
+Proteína vegetal,g,"0,00",BRC1069F,Nome não encontrado
+Proteína animal,g,"39,0",BRC1069F,Nome não encontrado

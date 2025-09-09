@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Colher café cheia (3.5 g),Colher café rasa (2 g),Colher chá cheia (8 g),Colher chá rasa (3 g),Colher sobremesa cheia (21 g),Colher sobremesa rasa (11 g),Colher sopa cheia (22 g),Colher sopa rasa (17 g),codigo_alimento,nome_alimento
+Energia,kJ,940,32,18,75,28,197,103,206,159,BRC0034D,Nome não encontrado
+Energia,kcal,227,7,4,18,6,47,24,49,38,BRC0034D,Nome não encontrado
+Umidade,g,"65,8","2,30","1,32","5,26","1,97","13,8","7,23","14,5","11,2",BRC0034D,Nome não encontrado
+Carboidrato total,g,"2,85","0,10","0,06","0,23","0,09","0,60","0,31","0,63","0,48",BRC0034D,Nome não encontrado
+Carboidrato disponível,g,"2,85","0,10","0,06","0,23","0,09","0,60","0,31","0,63","0,48",BRC0034D,Nome não encontrado
+Proteína,g,"9,63","0,34","0,19","0,77","0,29","2,02","1,06","2,12","1,64",BRC0034D,Nome não encontrado
+Lipídios,g,"19,7","0,69","0,39","1,57","0,59","4,13","2,16","4,33","3,34",BRC0034D,Nome não encontrado
+Fibra alimentar,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Álcool,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Cinzas,g,"2,08","0,07","0,04","0,17","0,06","0,44","0,23","0,46","0,35",BRC0034D,Nome não encontrado
+Colesterol,mg,"46,9","1,64","0,94","3,75","1,41","9,84","5,15","10,3","7,97",BRC0034D,Nome não encontrado
+Ácidos graxos saturados,g,"6,40","0,22","0,13","0,51","0,19","1,34","0,70","1,41","1,09",BRC0034D,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"9,08","0,32","0,18","0,73","0,27","1,91","1,00","2,00","1,54",BRC0034D,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"3,41","0,12","0,07","0,27","0,10","0,72","0,37","0,75","0,58",BRC0034D,Nome não encontrado
+Ácidos graxos trans,g,,,,,,,,,,BRC0034D,Nome não encontrado
+Cálcio,mg,"7,32","0,26","0,15","0,59","0,22","1,54","0,81","1,61","1,24",BRC0034D,Nome não encontrado
+Ferro,mg,"0,54","0,02","0,01","0,04","0,02","0,11","0,06","0,12","0,09",BRC0034D,Nome não encontrado
+Sódio,mg,983,"34,4","19,7","78,7","29,5",206,108,216,167,BRC0034D,Nome não encontrado
+Magnésio,mg,"9,15","0,32","0,18","0,73","0,27","1,92","1,01","2,01","1,56",BRC0034D,Nome não encontrado
+Fósforo,mg,109,"3,84","2,20","8,79","3,29","23,1","12,1","24,2","18,7",BRC0034D,Nome não encontrado
+Potássio,mg,137,"4,81","2,75","11,0","4,12","28,8","15,1","30,2","23,3",BRC0034D,Nome não encontrado
+Manganês,mg,"0,01","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Zinco,mg,"1,01","0,04","0,02","0,08","0,03","0,21","0,11","0,22","0,17",BRC0034D,Nome não encontrado
+Cobre,mg,"0,06","0,00","0,00","0,01","0,00","0,01","0,01","0,01","0,01",BRC0034D,Nome não encontrado
+Selênio,mcg,"16,3","0,57","0,33","1,30","0,49","3,42","1,79","3,58","2,77",BRC0034D,Nome não encontrado
+Vitamina A (RE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Vitamina D,mcg,"0,89","0,03","0,02","0,07","0,03","0,19","0,10","0,20","0,15",BRC0034D,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"2,20","0,08","0,04","0,18","0,07","0,46","0,24","0,48","0,37",BRC0034D,Nome não encontrado
+Tiamina,mg,"0,40","0,01","0,01","0,03","0,01","0,08","0,04","0,09","0,07",BRC0034D,Nome não encontrado
+Riboflavina,mg,"0,11","0,00","0,00","0,01","0,00","0,02","0,01","0,02","0,02",BRC0034D,Nome não encontrado
+Niacina,mg,"1,92","0,07","0,04","0,15","0,06","0,40","0,21","0,42","0,33",BRC0034D,Nome não encontrado
+Vitamina B6,mg,"0,14","0,00","0,00","0,01","0,00","0,03","0,02","0,03","0,02",BRC0034D,Nome não encontrado
+Vitamina B12,mcg,"0,70","0,02","0,01","0,06","0,02","0,15","0,08","0,15","0,12",BRC0034D,Nome não encontrado
+Vitamina C,mg,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Equivalente de folato,mcg,"0,92","0,03","0,02","0,07","0,03","0,19","0,10","0,20","0,16",BRC0034D,Nome não encontrado
+Sal de adição,g,,,,,,,,,,BRC0034D,Nome não encontrado
+Açúcar de adição,g,"0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00","0,00",BRC0034D,Nome não encontrado
+Gordura de adição,g,,,,,,,,,,BRC0034D,Nome não encontrado
+Proteína vegetal,g,,,,,,,,,,BRC0034D,Nome não encontrado
+Proteína animal,g,,,,,,,,,,BRC0034D,Nome não encontrado

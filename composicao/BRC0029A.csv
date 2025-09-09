@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Pedaço/ Unidade/ Fatia (M) (6 g),codigo_alimento,nome_alimento
+Energia,kJ,1958,117,BRC0029A,Nome não encontrado
+Energia,kcal,466,27,BRC0029A,Nome não encontrado
+Umidade,g,"2,54","0,15",BRC0029A,Nome não encontrado
+Carboidrato total,g,"70,6","4,24",BRC0029A,Nome não encontrado
+Carboidrato disponível,g,"69,3","4,16",BRC0029A,Nome não encontrado
+Proteína,g,"8,78","0,53",BRC0029A,Nome não encontrado
+Lipídios,g,"16,7","1,00",BRC0029A,Nome não encontrado
+Fibra alimentar,g,"1,31","0,08",BRC0029A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0029A,Nome não encontrado
+Cinzas,g,"1,30","0,08",BRC0029A,Nome não encontrado
+Colesterol,mg,"23,2","1,39",BRC0029A,Nome não encontrado
+Ácidos graxos saturados,g,"9,84","0,59",BRC0029A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"4,92","0,30",BRC0029A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,88","0,05",BRC0029A,Nome não encontrado
+Ácidos graxos trans,g,"3,68","0,22",BRC0029A,Nome não encontrado
+Cálcio,mg,"29,6","1,78",BRC0029A,Nome não encontrado
+Ferro,mg,"0,30","0,02",BRC0029A,Nome não encontrado
+Sódio,mg,358,"21,5",BRC0029A,Nome não encontrado
+Magnésio,mg,"12,3","0,74",BRC0029A,Nome não encontrado
+Fósforo,mg,104,"6,25",BRC0029A,Nome não encontrado
+Potássio,mg,113,"6,80",BRC0029A,Nome não encontrado
+Manganês,mg,"0,78","0,05",BRC0029A,Nome não encontrado
+Zinco,mg,"0,39","0,02",BRC0029A,Nome não encontrado
+Cobre,mg,"0,17","0,01",BRC0029A,Nome não encontrado
+Selênio,mcg,,,BRC0029A,Nome não encontrado
+Vitamina A (RE),mcg,,,BRC0029A,Nome não encontrado
+Vitamina A (RAE),mcg,142,"8,55",BRC0029A,Nome não encontrado
+Vitamina D,mcg,"0,00","0,00",BRC0029A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,,,BRC0029A,Nome não encontrado
+Tiamina,mg,"0,67","0,04",BRC0029A,Nome não encontrado
+Riboflavina,mg,"0,07","0,00",BRC0029A,Nome não encontrado
+Niacina,mg,"0,33","0,02",BRC0029A,Nome não encontrado
+Vitamina B6,mg,"0,04","0,00",BRC0029A,Nome não encontrado
+Vitamina B12,mcg,"0,37","0,02",BRC0029A,Nome não encontrado
+Vitamina C,mg,"0,00","0,00",BRC0029A,Nome não encontrado
+Equivalente de folato,mcg,"0,00","0,00",BRC0029A,Nome não encontrado
+Sal de adição,g,,,BRC0029A,Nome não encontrado
+Açúcar de adição,g,,,BRC0029A,Nome não encontrado
+Gordura de adição,g,,,BRC0029A,Nome não encontrado
+Proteína vegetal,g,,,BRC0029A,Nome não encontrado
+Proteína animal,g,,,BRC0029A,Nome não encontrado

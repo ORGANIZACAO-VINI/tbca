@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,codigo_alimento,nome_alimento
+Energia,kJ,1825,BRC0402A,Nome não encontrado
+Energia,kcal,443,BRC0402A,Nome não encontrado
+Umidade,g,"5,80",BRC0402A,Nome não encontrado
+Carboidrato total,g,"42,1",BRC0402A,Nome não encontrado
+Carboidrato disponível,g,"7,72",BRC0402A,Nome não encontrado
+Proteína,g,"16,5",BRC0402A,Nome não encontrado
+Lipídios,g,"30,7",BRC0402A,Nome não encontrado
+Fibra alimentar,g,"34,4",BRC0402A,Nome não encontrado
+Álcool,g,"0,00",BRC0402A,Nome não encontrado
+Cinzas,g,"4,80",BRC0402A,Nome não encontrado
+Colesterol,mg,"0,00",BRC0402A,Nome não encontrado
+Ácidos graxos saturados,g,"3,33",BRC0402A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"2,31",BRC0402A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"23,7",BRC0402A,Nome não encontrado
+Ácidos graxos trans,g,,BRC0402A,Nome não encontrado
+Cálcio,mg,631,BRC0402A,Nome não encontrado
+Ferro,mg,"7,72",BRC0402A,Nome não encontrado
+Sódio,mg,"16,0",BRC0402A,Nome não encontrado
+Magnésio,mg,335,BRC0402A,Nome não encontrado
+Fósforo,mg,860,BRC0402A,Nome não encontrado
+Potássio,mg,407,BRC0402A,Nome não encontrado
+Manganês,mg,"2,72",BRC0402A,Nome não encontrado
+Zinco,mg,"4,58",BRC0402A,Nome não encontrado
+Cobre,mg,"0,92",BRC0402A,Nome não encontrado
+Selênio,mcg,"55,2",BRC0402A,Nome não encontrado
+Vitamina A (RE),mcg,"0,00",BRC0402A,Nome não encontrado
+Vitamina A (RAE),mcg,"0,00",BRC0402A,Nome não encontrado
+Vitamina D,mcg,"0,00",BRC0402A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,50",BRC0402A,Nome não encontrado
+Tiamina,mg,"0,62",BRC0402A,Nome não encontrado
+Riboflavina,mg,"0,17",BRC0402A,Nome não encontrado
+Niacina,mg,"8,83",BRC0402A,Nome não encontrado
+Vitamina B6,mg,"0,00",BRC0402A,Nome não encontrado
+Vitamina B12,mcg,"0,00",BRC0402A,Nome não encontrado
+Vitamina C,mg,"1,60",BRC0402A,Nome não encontrado
+Equivalente de folato,mcg,"0,00",BRC0402A,Nome não encontrado
+Sal de adição,g,"0,00",BRC0402A,Nome não encontrado
+Açúcar de adição,g,"0,00",BRC0402A,Nome não encontrado
+Gordura de adição,g,"0,00",BRC0402A,Nome não encontrado
+Proteína vegetal,g,"16,5",BRC0402A,Nome não encontrado
+Proteína animal,g,"0,00",BRC0402A,Nome não encontrado

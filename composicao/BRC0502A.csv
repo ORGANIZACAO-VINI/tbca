@@ -1,0 +1,42 @@
+componente,unidade,Valor por 100g,Porção Média (140 g),codigo_alimento,nome_alimento
+Energia,kJ,536,750,BRC0502A,Nome não encontrado
+Energia,kcal,128,178,BRC0502A,Nome não encontrado
+Umidade,g,"70,1","98,2",BRC0502A,Nome não encontrado
+Carboidrato total,g,"19,8","27,7",BRC0502A,Nome não encontrado
+Carboidrato disponível,g,"16,8","23,6",BRC0502A,Nome não encontrado
+Proteína,g,"5,20","7,28",BRC0502A,Nome não encontrado
+Lipídios,g,"3,73","5,22",BRC0502A,Nome não encontrado
+Fibra alimentar,g,"2,93","4,10",BRC0502A,Nome não encontrado
+Álcool,g,"0,00","0,00",BRC0502A,Nome não encontrado
+Cinzas,g,"1,19","1,67",BRC0502A,Nome não encontrado
+Colesterol,mg,"8,73","12,2",BRC0502A,Nome não encontrado
+Ácidos graxos saturados,g,"1,94","2,72",BRC0502A,Nome não encontrado
+Ácidos graxos monoinsaturados,g,"0,98","1,37",BRC0502A,Nome não encontrado
+Ácidos graxos poliinsaturados,g,"0,39","0,55",BRC0502A,Nome não encontrado
+Ácidos graxos trans,g,"0,07","0,09",BRC0502A,Nome não encontrado
+Cálcio,mg,"58,9","82,5",BRC0502A,Nome não encontrado
+Ferro,mg,"1,28","1,79",BRC0502A,Nome não encontrado
+Sódio,mg,215,301,BRC0502A,Nome não encontrado
+Magnésio,mg,"27,7","38,8",BRC0502A,Nome não encontrado
+Fósforo,mg,"87,4",122,BRC0502A,Nome não encontrado
+Potássio,mg,180,252,BRC0502A,Nome não encontrado
+Manganês,mg,"0,60","0,84",BRC0502A,Nome não encontrado
+Zinco,mg,"0,68","0,95",BRC0502A,Nome não encontrado
+Cobre,mg,"0,08","0,11",BRC0502A,Nome não encontrado
+Selênio,mcg,"2,25","3,15",BRC0502A,Nome não encontrado
+Vitamina A (RE),mcg,"78,8",110,BRC0502A,Nome não encontrado
+Vitamina A (RAE),mcg,"55,5","77,6",BRC0502A,Nome não encontrado
+Vitamina D,mcg,"0,05","0,07",BRC0502A,Nome não encontrado
+Alfa-tocoferol (Vitamina E),mg,"0,95","1,33",BRC0502A,Nome não encontrado
+Tiamina,mg,"0,06","0,08",BRC0502A,Nome não encontrado
+Riboflavina,mg,"0,06","0,08",BRC0502A,Nome não encontrado
+Niacina,mg,"0,17","0,24",BRC0502A,Nome não encontrado
+Vitamina B6,mg,"0,07","0,10",BRC0502A,Nome não encontrado
+Vitamina B12,mcg,"0,04","0,06",BRC0502A,Nome não encontrado
+Vitamina C,mg,"25,2","35,2",BRC0502A,Nome não encontrado
+Equivalente de folato,mcg,"45,8","64,1",BRC0502A,Nome não encontrado
+Sal de adição,g,,,BRC0502A,Nome não encontrado
+Açúcar de adição,g,,,BRC0502A,Nome não encontrado
+Gordura de adição,g,-,-,BRC0502A,Nome não encontrado
+Proteína vegetal,g,-,-,BRC0502A,Nome não encontrado
+Proteína animal,g,-,-,BRC0502A,Nome não encontrado
